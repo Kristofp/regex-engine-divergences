@@ -54,12 +54,12 @@ Of the 539 test patterns, **534 ran on more than one engine** — the other
 Every figure in this section and in `DIVERGENCES.md` is out of 534,
 never 539.
 
-| Outcome                          |   Count | What that means for you                                  |
-| -------------------------------- | ------: | -------------------------------------------------------- |
-| Everyone agrees                  |     270 | Same matches in every language. All good.                |
-| **Different answers, silently**  |  **21** | Two languages both "work" — and return different matches. |
-| **Nothing matches, silently**    | **160** | A valid pattern finds nothing somewhere. No error.       |
-| Rejected, loudly                 |      83 | At least one language refuses the pattern with an error. |
+| Outcome                         |   Count | What that means for you                                   |
+| ------------------------------- | ------: | --------------------------------------------------------- |
+| Everyone agrees                 |     270 | Same matches in every language. All good.                 |
+| **Different answers, silently** |  **21** | Two languages both "work" — and return different matches. |
+| **Nothing matches, silently**   | **160** | A valid pattern finds nothing somewhere. No error.        |
+| Rejected, loudly                |      83 | At least one language refuses the pattern with an error.  |
 
 (In `DIVERGENCES.md` these are Class A, Class B and Class C.)
 
@@ -157,6 +157,12 @@ comparable across languages. The matched text is.
 **One engine's data was dropped** — a stale `re2.json` with no runner in
 the current generator. Go covers the same RE2 engine and is reproducible.
 
+**Version drift is re-checked opportunistically.** Most recently
+(2026-08-19): all 273 recorded Ruby answers were re-run on system Ruby
+4.0.6 and came back byte-identical — matches, indices and error messages.
+If a newer engine version changes a recorded answer, that is exactly the
+kind of finding this corpus exists to capture; please open an issue.
+
 ## Reproducing
 
 ```bash
@@ -199,7 +205,7 @@ This repository is a **published snapshot**. The canonical copy of
 `constructs.json`, `ground-truth/` and `runners/` lives in RegexPilot's
 own test suite, where it is executed by CI on every change.
 
-Snapshot taken from commit `252fe43f` (`252fe43f5e380d8faac7ad619020dd16dc74c7e9`).
+Snapshot taken from commit `c748f760` (`c748f760d5afc2b4dea33ef85a6d4b5b71d87e43`).
 
 Updates land here as new snapshots rather than as edits, so a figure quoted
 from this repo always has a commit behind it. Corrections are still very
