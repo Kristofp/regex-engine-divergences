@@ -1,0 +1,3 @@
+# Generated output - reproduced byte-for-byte by generate-divergences.mjs.
+# A formatter rewriting this file makes it stop matching its own generator.
+DIVERGENCES.md
