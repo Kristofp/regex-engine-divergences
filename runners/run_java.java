@@ -11,6 +11,45 @@ import java.nio.charset.StandardCharsets;
  */
 public class run_java {
 
+    // Per-entry budget, the same 5 s `run_perl.pl` gives each pattern via
+    // `alarm 5`. java.util.regex has no step limit and no interrupt check,
+    // so without this one catastrophic pattern stalls the WHOLE batch and
+    // the generator sees `spawnSync docker ETIMEDOUT` after 600 s with no
+    // results at all. Measured 2026-09-10 on the fuzz corpus: seeds 0-99
+    // ran in under a second; five of the ten 100-seed chunks never
+    // finished in 60 s. A timed-out entry is recorded as an `error`, which
+    // the fuzz test already treats as "reference engine errored — skip".
+    private static final long PER_ENTRY_TIMEOUT_NANOS = 5_000_000_000L;
+
+    // The text handed to the Matcher, with a deadline in every `charAt`.
+    //
+    // This is the standard way to bound java.util.regex: the matcher reads
+    // the subject through CharSequence on every step, backtracking included,
+    // so a check here fires inside the stalled match and unwinds it on the
+    // matcher's own thread. No worker thread, no leaked thread the JVM
+    // would then have to be forced past at exit. The clock starts when the
+    // wrapper is built, i.e. per entry, not per `find()`, so a text that
+    // yields thousands of cheap matches and one slow one is still bounded
+    // as a whole.
+    private static final class DeadlineText implements CharSequence {
+        private final String text;
+        private final long deadline;
+        DeadlineText(String text, long budgetNanos) {
+            this.text = text;
+            this.deadline = System.nanoTime() + budgetNanos;
+        }
+        @Override public int length() { return text.length(); }
+        @Override public char charAt(int i) {
+            if (System.nanoTime() > deadline) {
+                throw new RuntimeException("timeout: entry exceeded "
+                    + (PER_ENTRY_TIMEOUT_NANOS / 1_000_000_000L) + "s");
+            }
+            return text.charAt(i);
+        }
+        @Override public CharSequence subSequence(int s, int e) { return text.subSequence(s, e); }
+        @Override public String toString() { return text; }
+    }
+
     // Minimal JSON string escaper
     private static String jsonEscape(String s) {
         if (s == null) return "null";
@@ -74,14 +113,31 @@ public class run_java {
         return sb.toString();
     }
 
-    // Split top-level JSON array into individual object strings
+    // Split top-level JSON array into individual object strings.
+    //
+    // Braces are only structural OUTSIDE a string literal. Inside one they
+    // are data — `{2,4}` in a pattern, or a stray `{` in a random test
+    // string — and counting them breaks the split whenever they are
+    // unbalanced within a single entry. The construct corpus never tripped
+    // this because its brace-bearing patterns (`a{2,4}`, `\p{L}`) are all
+    // balanced; the fuzz corpus's random witness strings are not. Measured
+    // 2026-09-10: 7,000 fuzz entries came back as 14 keys, one of them the
+    // empty id "", and every JVM flavor's fuzz oracle was that file.
     private static List<String> splitJsonArray(String json) {
         List<String> items = new ArrayList<>();
         int depth = 0;
         int start = -1;
+        boolean inString = false;
         for (int i = 0; i < json.length(); i++) {
             char c = json.charAt(i);
-            if (c == '{') {
+            if (inString) {
+                if (c == '\\') { i++; }          // skip the escaped char, whatever it is
+                else if (c == '"') { inString = false; }
+                continue;
+            }
+            if (c == '"') {
+                inString = true;
+            } else if (c == '{') {
                 if (depth == 0) start = i;
                 depth++;
             } else if (c == '}') {
@@ -125,7 +181,7 @@ public class run_java {
                 if (flags.contains("x")) opts |= Pattern.COMMENTS;
 
                 Pattern rx = Pattern.compile(pattern, opts);
-                Matcher matcher = rx.matcher(testText);
+                Matcher matcher = rx.matcher(new DeadlineText(testText, PER_ENTRY_TIMEOUT_NANOS));
 
                 // Always emit all matches regardless of 'g' flag — see docs/v1-corpus-fix-spec.md
                 // and matches the bridge's behavior.

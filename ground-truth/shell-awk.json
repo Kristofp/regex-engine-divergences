@@ -1,0 +1,1817 @@
+{
+  "anchor-boundary-nonword": {
+    "matches": [],
+    "error": null
+  },
+  "anchor-boundary-word": {
+    "matches": [],
+    "error": null
+  },
+  "anchor-end": {
+    "matches": [
+      {
+        "match": "world",
+        "index": -1
+      },
+      {
+        "match": "world",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "anchor-end-string": {
+    "matches": [],
+    "error": null
+  },
+  "anchor-end-string-only": {
+    "matches": [],
+    "error": null
+  },
+  "anchor-match-reset": {
+    "matches": [],
+    "error": null
+  },
+  "anchor-match-start": {
+    "matches": [],
+    "error": null
+  },
+  "anchor-start": {
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "hello",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "anchor-start-string": {
+    "matches": [],
+    "error": null
+  },
+  "backref-named": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<ch>a|b)\\k<ch> at <ch>a|b)\\k<ch>\n input record number 1, file \n source line number N"
+  },
+  "backref-numbered": {
+    "matches": [],
+    "error": null
+  },
+  "char-class-negated": {
+    "matches": [
+      {
+        "match": "abc",
+        "index": -1
+      },
+      {
+        "match": "def",
+        "index": -1
+      },
+      {
+        "match": "ghi",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "char-class-range": {
+    "matches": [
+      {
+        "match": "ello",
+        "index": -1
+      },
+      {
+        "match": "orld",
+        "index": -1
+      },
+      {
+        "match": "foo",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "char-dot": {
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "hallo",
+        "index": -1
+      },
+      {
+        "match": "hxllo",
+        "index": -1
+      },
+      {
+        "match": "h llo",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "char-escape-D": {
+    "matches": [],
+    "error": null
+  },
+  "char-escape-R": {
+    "matches": [],
+    "error": null
+  },
+  "char-escape-S": {
+    "matches": [],
+    "error": null
+  },
+  "char-escape-W": {
+    "matches": [],
+    "error": null
+  },
+  "char-escape-X": {
+    "matches": [],
+    "error": null
+  },
+  "char-escape-d": {
+    "matches": [
+      {
+        "match": "d",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "char-escape-s": {
+    "matches": [],
+    "error": null
+  },
+  "char-escape-w": {
+    "matches": [
+      {
+        "match": "w",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "char-literal": {
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "hello",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "char-unicode-prop": {
+    "matches": [],
+    "error": null
+  },
+  "char-unicode-prop-neg": {
+    "matches": [],
+    "error": null
+  },
+  "choice-simple": {
+    "matches": [
+      {
+        "match": "cat",
+        "index": -1
+      },
+      {
+        "match": "dog",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "choice-triple": {
+    "matches": [
+      {
+        "match": "red",
+        "index": -1
+      },
+      {
+        "match": "blue",
+        "index": -1
+      },
+      {
+        "match": "green",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "group-atomic": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?>ab|a)b at >ab|a)b\n input record number 1, file \n source line number N"
+  },
+  "group-capturing": {
+    "matches": [
+      {
+        "match": "foobar",
+        "index": -1
+      },
+      {
+        "match": "foobar",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "group-named": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<word>\\w+) at <word>\\w+)\n input record number 1, file \n source line number N"
+  },
+  "group-noncapturing": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:foo|bar)baz at :foo|bar)baz\n input record number 1, file \n source line number N"
+  },
+  "group-scoped-flags": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?i:hello) world at i:hello) world\n input record number 1, file \n source line number N"
+  },
+  "l2-alternation-capture-star": {
+    "matches": [],
+    "error": null
+  },
+  "l2-alternation-different-lengths": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:January|Feb|March|Apr) at :January|Feb|March|Apr)\n input record number 1, file \n source line number N"
+  },
+  "l2-alternation-in-group": {
+    "matches": [],
+    "error": null
+  },
+  "l2-alternation-in-lookbehind": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<=cat|dog)\\w+ at <=cat|dog)\\w+\n input record number 1, file \n source line number N"
+  },
+  "l2-anchor-alternation": {
+    "matches": [
+      {
+        "match": "foo",
+        "index": -1
+      },
+      {
+        "match": "bar",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-anchor-backref": {
+    "matches": [],
+    "error": null
+  },
+  "l2-anchor-class-quantifier": {
+    "matches": [
+      {
+        "match": "Hello",
+        "index": -1
+      },
+      {
+        "match": "Test",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-anchor-group": {
+    "matches": [],
+    "error": null
+  },
+  "l2-anchor-lookahead": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression ^(?=.*\\d)(\\w+) at =.*\\d)(\\w+)\n input record number 1, file \n source line number N"
+  },
+  "l2-anchor-lookbehind": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<=\\d)\\w*$ at <=\\d)\\w*$\n input record number 1, file \n source line number N"
+  },
+  "l2-anchor-neg-lookahead": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression ^(?!#)(.+)$ at !#)(.+)$\n input record number 1, file \n source line number N"
+  },
+  "l2-atomic-quantifier": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?>a+)b at >a+)b\n input record number 1, file \n source line number N"
+  },
+  "l2-backref-alternation-group": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (\\w)(?:\\1{2}|\\w{2}) at :\\1{2}|\\w{2})\n input record number 1, file \n source line number N"
+  },
+  "l2-backref-in-alternation": {
+    "matches": [],
+    "error": null
+  },
+  "l2-backref-in-quantified-group": {
+    "matches": [],
+    "error": null
+  },
+  "l2-boundary-alternation-capture": {
+    "matches": [],
+    "error": null
+  },
+  "l2-boundary-capture-quantifier": {
+    "matches": [],
+    "error": null
+  },
+  "l2-boundary-neg-lookahead": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression \\b(?!the\\b)\\w+\\b at !the\\b)\\w+\\b\n input record number 1, file \n source line number N"
+  },
+  "l2-capture-class-range-lazy": {
+    "matches": [
+      {
+        "match": "abcde",
+        "index": -1
+      },
+      {
+        "match": "ghij",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-capture-lazy-range": {
+    "matches": [],
+    "error": null
+  },
+  "l2-capture-unicode-named": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<letters>\\p{L}+)(?<digits>\\p{N}+) at <letters>\\p{L}+)(?<digits>\\p{N}+)\n input record number 1, file \n source line number N"
+  },
+  "l2-capturing-alternation-backref": {
+    "matches": [],
+    "error": null
+  },
+  "l2-capturing-optional": {
+    "matches": [],
+    "error": null
+  },
+  "l2-capturing-star": {
+    "matches": [
+      {
+        "match": "c",
+        "index": -1
+      },
+      {
+        "match": "abc",
+        "index": -1
+      },
+      {
+        "match": "ababc",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-class-dot-alternation-quantifier": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:[a-z]+\\.)+(?:com|org|net) at :[a-z]+\\.)+(?:com|org|net)\n input record number 1, file \n source line number N"
+  },
+  "l2-class-escape-in-class": {
+    "matches": [
+      {
+        "match": "d",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-class-literal-special": {
+    "matches": [
+      {
+        "match": "]--^",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-class-negated-quantifier-anchor": {
+    "matches": [
+      {
+        "match": "code line",
+        "index": -1
+      },
+      {
+        "match": "more code",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-class-special-chars": {
+    "matches": [],
+    "error": null
+  },
+  "l2-class-union": {
+    "matches": [
+      {
+        "match": "deadBEEF",
+        "index": -1
+      },
+      {
+        "match": "0",
+        "index": -1
+      },
+      {
+        "match": "1A3F",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-complex-email": {
+    "matches": [],
+    "error": "BWK awk has no case-insensitive facility (IGNORECASE is a gawk extension and a measured no-op here); the i flag cannot be honoured"
+  },
+  "l2-csv-field": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:\"([^\"]*)\"|([^,]+)) at :\"([^\"]*)\"|([^,]+))\n input record number 1, file \n source line number N"
+  },
+  "l2-digit-boundary": {
+    "matches": [],
+    "error": null
+  },
+  "l2-digit-boundary-group": {
+    "matches": [],
+    "error": null
+  },
+  "l2-digit-class-quantifier-group": {
+    "matches": [],
+    "error": null
+  },
+  "l2-dot-class-alternation": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:.+@[\\w.]+|\\bN/A\\b) at :.+@[\\w.]+|\\bN/A\\b)\n input record number 1, file \n source line number N"
+  },
+  "l2-dot-greedy": {
+    "matches": [
+      {
+        "match": "axyzb axxb ab",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-dot-lazy": {
+    "matches": [
+      {
+        "match": "axbyzb axxb",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-dot-star-group-anchor": {
+    "matches": [],
+    "error": null
+  },
+  "l2-dotall-multiline": {
+    "matches": [
+      {
+        "match": "line1",
+        "index": -1
+      },
+      {
+        "match": "line2",
+        "index": -1
+      },
+      {
+        "match": "line3",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-double-lookahead": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?=.*[A-Z])(?=.*\\d)\\w+ at =.*[A-Z])(?=.*\\d)\\w+\n input record number 1, file \n source line number N"
+  },
+  "l2-double-negated-class": {
+    "matches": [
+      {
+        "match": "hello world! 123",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-escape-sequence-in-class": {
+    "matches": [
+      {
+        "match": "w",
+        "index": -1
+      },
+      {
+        "match": "d",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-escaped-special": {
+    "matches": [],
+    "error": null
+  },
+  "l2-flag-combo-im": {
+    "matches": [],
+    "error": "BWK awk has no case-insensitive facility (IGNORECASE is a gawk extension and a measured no-op here); the i flag cannot be honoured"
+  },
+  "l2-flag-combo-is": {
+    "matches": [],
+    "error": "BWK awk has no case-insensitive facility (IGNORECASE is a gawk extension and a measured no-op here); the i flag cannot be honoured"
+  },
+  "l2-greedy-vs-lazy-star": {
+    "matches": [
+      {
+        "match": "<div class=\"x\"> <span> </div>",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-group-alternation-quantifier": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:ab|cd){2} at :ab|cd){2}\n input record number 1, file \n source line number N"
+  },
+  "l2-group-backref": {
+    "matches": [],
+    "error": null
+  },
+  "l2-group-backref-named": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<quote>['\"]).*?\\k<quote> at <quote>['\"]).*?\\k<quote>\n input record number 1, file \n source line number N"
+  },
+  "l2-group-star-anchor-end": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:\\d+\\.)+\\d+$ at :\\d+\\.)+\\d+$\n input record number 1, file \n source line number N"
+  },
+  "l2-hex-color": {
+    "matches": [],
+    "error": "BWK awk has no case-insensitive facility (IGNORECASE is a gawk extension and a measured no-op here); the i flag cannot be honoured"
+  },
+  "l2-html-tag-pair": {
+    "matches": [],
+    "error": null
+  },
+  "l2-log-line": {
+    "matches": [],
+    "error": null
+  },
+  "l2-lookahead-alternation": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?=foo|bar)\\w+ at =foo|bar)\\w+\n input record number 1, file \n source line number N"
+  },
+  "l2-lookahead-anchor-end": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression \\w+(?!\\.)$ at !\\.)$\n input record number 1, file \n source line number N"
+  },
+  "l2-lookahead-backref": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?=(\\w+)).*\\1 at =(\\w+)).*\\1\n input record number 1, file \n source line number N"
+  },
+  "l2-lookahead-boundary": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression \\b(?=\\w{5,})(\\w+)\\b at =\\w{5,})(\\w+)\\b\n input record number 1, file \n source line number N"
+  },
+  "l2-lookahead-capture": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (\\w+)(?=\\s) at =\\s)\n input record number 1, file \n source line number N"
+  },
+  "l2-lookahead-capture-backref": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?=(\\w{3}))\\w at =(\\w{3}))\\w\n input record number 1, file \n source line number N"
+  },
+  "l2-lookahead-class-quantifier": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?=.*\\d)[\\w]{8,} at =.*\\d)[\\w]{8,}\n input record number 1, file \n source line number N"
+  },
+  "l2-lookahead-lookahead": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?=.*[a-z])(?=.*[A-Z])(?=.*\\d).{6,} at =.*[a-z])(?=.*[A-Z])(?=.*\\d).{6,}\n input record number 1, file \n source line number N"
+  },
+  "l2-lookahead-optional-capture": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?=(\\d+)?)\\w+ at =(\\d+)?)\\w+\n input record number 1, file \n source line number N"
+  },
+  "l2-lookahead-quantified-group": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?=\\d)(?:\\d{3}-?){2}\\d{4} at =\\d)(?:\\d{3}-?){2}\\d{4}\n input record number 1, file \n source line number N"
+  },
+  "l2-lookbehind-alternation": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<=Mr\\.|Mrs\\.)\\s*\\w+ at <=Mr\\.|Mrs\\.)\\s*\\w+\n input record number 1, file \n source line number N"
+  },
+  "l2-lookbehind-anchor-start": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression ^(?<=^)(\\w+) at <=^)(\\w+)\n input record number 1, file \n source line number N"
+  },
+  "l2-lookbehind-capture": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<=\\s)(\\w+) at <=\\s)(\\w+)\n input record number 1, file \n source line number N"
+  },
+  "l2-lookbehind-class": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<=[A-Z])\\w+ at <=[A-Z])\\w+\n input record number 1, file \n source line number N"
+  },
+  "l2-lookbehind-lookahead": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<=\\[)\\w+(?=\\]) at <=\\[)\\w+(?=\\])\n input record number 1, file \n source line number N"
+  },
+  "l2-lookbehind-neg-class": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<=[a-z])[^a-z]+ at <=[a-z])[^a-z]+\n input record number 1, file \n source line number N"
+  },
+  "l2-lookbehind-quantifier": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<=\\d{2})\\w+ at <=\\d{2})\\w+\n input record number 1, file \n source line number N"
+  },
+  "l2-match-reset-capture": {
+    "matches": [],
+    "error": null
+  },
+  "l2-multiline-anchor-group": {
+    "matches": [],
+    "error": null
+  },
+  "l2-multiple-backrefs": {
+    "matches": [],
+    "error": null
+  },
+  "l2-multiple-captures": {
+    "matches": [],
+    "error": null
+  },
+  "l2-multiple-flag-scopes": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?i:hello)\\s+(?i:world) at i:hello)\\s+(?i:world)\n input record number 1, file \n source line number N"
+  },
+  "l2-multiple-named-groups": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<first>\\w+)\\s+(?<last>\\w+) at <first>\\w+)\\s+(?<last>\\w+)\n input record number 1, file \n source line number N"
+  },
+  "l2-named-group-alternation-backref": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<delim>[|/])\\w+\\k<delim> at <delim>[|/])\\w+\\k<delim>\n input record number 1, file \n source line number N"
+  },
+  "l2-named-group-quantifier": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<hex>[0-9a-f]){2,4} at <hex>[0-9a-f]){2,4}\n input record number 1, file \n source line number N"
+  },
+  "l2-named-group-star": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<seg>[a-z]+\\.)*(?<tld>[a-z]+) at <seg>[a-z]+\\.)*(?<tld>[a-z]+)\n input record number 1, file \n source line number N"
+  },
+  "l2-named-groups-alternation": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:(?<year>\\d{4})-(?<month>\\d{2})|(?<month2>\\d{2})/(?<year2>\\d{4})) at :(?<year>\\d{4})-(?<month>\\d{2})|(?<month2>\\d{2})/(?<year2>\\d{4}))\n input record number 1, file \n source line number N"
+  },
+  "l2-neg-lookahead-class": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression \\d+(?![\\d.]) at ![\\d.])\n input record number 1, file \n source line number N"
+  },
+  "l2-neg-lookahead-neg-lookbehind": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<!\\d)\\w+(?!\\d) at <!\\d)\\w+(?!\\d)\n input record number 1, file \n source line number N"
+  },
+  "l2-neg-lookbehind-capture": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<!\\d)(\\w+) at <!\\d)(\\w+)\n input record number 1, file \n source line number N"
+  },
+  "l2-negated-class-quantifier": {
+    "matches": [
+      {
+        "match": "h",
+        "index": -1
+      },
+      {
+        "match": "ll",
+        "index": -1
+      },
+      {
+        "match": " w",
+        "index": -1
+      },
+      {
+        "match": "rld",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-nested-alternation": {
+    "matches": [
+      {
+        "match": "ae",
+        "index": -1
+      },
+      {
+        "match": "bce",
+        "index": -1
+      },
+      {
+        "match": "bde",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-nested-groups": {
+    "matches": [
+      {
+        "match": "abc",
+        "index": -1
+      },
+      {
+        "match": "abc",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-nested-lookaround": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?=.*(?<=\\d))\\w+ at =.*(?<=\\d))\\w+\n input record number 1, file \n source line number N"
+  },
+  "l2-nested-named-groups": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<outer>(?<inner>\\d+)\\w+) at <outer>(?<inner>\\d+)\\w+)\n input record number 1, file \n source line number N"
+  },
+  "l2-nested-quantifier-class": {
+    "matches": [],
+    "error": null
+  },
+  "l2-nested-quantifiers": {
+    "matches": [
+      {
+        "match": "aab",
+        "index": -1
+      },
+      {
+        "match": "ab",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-nested-three-groups": {
+    "matches": [
+      {
+        "match": "abc",
+        "index": -1
+      },
+      {
+        "match": "abc",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-non-backtracking-group": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?>\\d+)\\. at >\\d+)\\.\n input record number 1, file \n source line number N"
+  },
+  "l2-noncapturing-exact": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:ha){3} at :ha){3}\n input record number 1, file \n source line number N"
+  },
+  "l2-noncapturing-lazy": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:ab)+?x at :ab)+?x\n input record number 1, file \n source line number N"
+  },
+  "l2-noncapturing-nested-alternation": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:(?:un|re)(?:do|make)) at :(?:un|re)(?:do|make))\n input record number 1, file \n source line number N"
+  },
+  "l2-noncapturing-optional": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression https?://(?:www\\.)?\\w+\\.\\w+ at :www\\.)?\\w+\\.\\w+\n input record number 1, file \n source line number N"
+  },
+  "l2-noncapturing-plus": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:ab)+ at :ab)+\n input record number 1, file \n source line number N"
+  },
+  "l2-noncapturing-range": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:ab){2,4} at :ab){2,4}\n input record number 1, file \n source line number N"
+  },
+  "l2-nongreedy-in-group": {
+    "matches": [
+      {
+        "match": "<a> and <br> and <div>",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-optional-capture-in-sequence": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (\\w+)\\s*(=)\\s*(\\w+)(?:\\s*;)? at :\\s*;)?\n input record number 1, file \n source line number N"
+  },
+  "l2-possessive-class": {
+    "matches": [],
+    "error": null
+  },
+  "l2-possessive-group-class": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?>\\w+)\\s at >\\w+)\\s\n input record number 1, file \n source line number N"
+  },
+  "l2-possessive-in-group": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?>a+)b at >a+)b\n input record number 1, file \n source line number N"
+  },
+  "l2-quantified-class": {
+    "matches": [
+      {
+        "match": "abc",
+        "index": -1
+      },
+      {
+        "match": "abcde",
+        "index": -1
+      },
+      {
+        "match": "abcde",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-quantified-group": {
+    "matches": [
+      {
+        "match": "abcabc",
+        "index": -1
+      },
+      {
+        "match": "abcabcabc",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-quantifier-zero-max": {
+    "matches": [
+      {
+        "match": "b",
+        "index": -1
+      },
+      {
+        "match": "ab",
+        "index": -1
+      },
+      {
+        "match": "aab",
+        "index": -1
+      },
+      {
+        "match": "aaab",
+        "index": -1
+      },
+      {
+        "match": "aaab",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-scoped-flag-i-alternation": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?i:yes|no|maybe) at i:yes|no|maybe)\n input record number 1, file \n source line number N"
+  },
+  "l2-scoped-flags-class": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?i:[a-z])+ at i:[a-z])+\n input record number 1, file \n source line number N"
+  },
+  "l2-scoped-flags-dot": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?s:a.b) at s:a.b)\n input record number 1, file \n source line number N"
+  },
+  "l2-space-boundary-class": {
+    "matches": [],
+    "error": null
+  },
+  "l2-time-pattern": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (\\d{1,2}):(\\d{2})(?::(\\d{2}))? at ::(\\d{2}))?\n input record number 1, file \n source line number N"
+  },
+  "l2-triple-capture-backref": {
+    "matches": [],
+    "error": null
+  },
+  "l2-unicode-case-insensitive": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?i)\\p{L}+ at i)\\p{L}+\n input record number 1, file \n source line number N"
+  },
+  "l2-unicode-category-number": {
+    "matches": [],
+    "error": null
+  },
+  "l2-unicode-digit-boundary": {
+    "matches": [],
+    "error": null
+  },
+  "l2-unicode-group": {
+    "matches": [],
+    "error": null
+  },
+  "l2-unicode-group-boundary": {
+    "matches": [],
+    "error": null
+  },
+  "l2-unicode-prop-anchor": {
+    "matches": [],
+    "error": null
+  },
+  "l2-unicode-prop-quantifier": {
+    "matches": [],
+    "error": null
+  },
+  "l2-unicode-script": {
+    "matches": [],
+    "error": null
+  },
+  "l2-url-parts": {
+    "matches": [
+      {
+        "match": "https://www.",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-version-number": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (\\d+)\\.(\\d+)(?:\\.(\\d+))? at :\\.(\\d+))?\n input record number 1, file \n source line number N"
+  },
+  "l2-word-boundary-group": {
+    "matches": [],
+    "error": null
+  },
+  "l2-word-nonword-alternation": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:\\w+|\\W+) at :\\w+|\\W+)\n input record number 1, file \n source line number N"
+  },
+  "l3-alternation-anchor-escape": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:^\\d+$|^\\w+\\s\\w+$) at :^\\d+$|^\\w+\\s\\w+$)\n input record number 1, file \n source line number N"
+  },
+  "l3-alternation-backref-lazy": {
+    "matches": [],
+    "error": null
+  },
+  "l3-atomic-alternation-quantifier": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?>(?:ab|cd)+)ef at >(?:ab|cd)+)ef\n input record number 1, file \n source line number N"
+  },
+  "l3-atomic-backref-anchor": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression ^(?>(.))\\1$ at >(.))\\1$\n input record number 1, file \n source line number N"
+  },
+  "l3-backref-alternation-anchor": {
+    "matches": [],
+    "error": null
+  },
+  "l3-capture-inside-lookahead-reuse": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?=(cat|dog))\\w+s at =(cat|dog))\\w+s\n input record number 1, file \n source line number N"
+  },
+  "l3-capture-lazy-alternation": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression ((?:foo|bar)+?)(baz) at :foo|bar)+?)(baz)\n input record number 1, file \n source line number N"
+  },
+  "l3-capture-nested-quantifiers": {
+    "matches": [
+      {
+        "match": "w",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-class-boundary-group-quantifier": {
+    "matches": [],
+    "error": null
+  },
+  "l3-conditional-named-group-quant": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<tag><)?\\w+(?(tag)>) at <tag><)?\\w+(?(tag)>)\n input record number 1, file \n source line number N"
+  },
+  "l3-dot-flag-group-quant": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?s:(.{3,5})\\s) at s:(.{3,5})\\s)\n input record number 1, file \n source line number N"
+  },
+  "l3-edge-K-with-captures": {
+    "matches": [],
+    "error": null
+  },
+  "l3-edge-alternation-capture-counts": {
+    "matches": [
+      {
+        "match": "ab",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-edge-atomic-no-backtrack": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?>a+)ab at >a+)ab\n input record number 1, file \n source line number N"
+  },
+  "l3-edge-backref-in-class-literal": {
+    "matches": [
+      {
+        "match": "\u0001",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-edge-backref-nonparticipating": {
+    "matches": [],
+    "error": null
+  },
+  "l3-edge-case-folding-eszett": {
+    "matches": [],
+    "error": "BWK awk has no case-insensitive facility (IGNORECASE is a gawk extension and a measured no-op here); the i flag cannot be honoured"
+  },
+  "l3-edge-catastrophic-avoided": {
+    "matches": [
+      {
+        "match": "xxxy",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-edge-empty-capture-backref": {
+    "matches": [],
+    "error": null
+  },
+  "l3-edge-greedy-vs-lazy-capture": {
+    "matches": [
+      {
+        "match": "\"first\" and \"second\"",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-edge-lookahead-at-end": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression \\w+(?=\\s*$) at =\\s*$)\n input record number 1, file \n source line number N"
+  },
+  "l3-edge-multiline-first-line": {
+    "matches": [
+      {
+        "match": "w",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-edge-nested-class-escape": {
+    "matches": [
+      {
+        "match": "]",
+        "index": -1
+      },
+      {
+        "match": "[",
+        "index": -1
+      },
+      {
+        "match": "^",
+        "index": -1
+      },
+      {
+        "match": "-",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-edge-nested-quantifier": {
+    "matches": [
+      {
+        "match": "aab",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-edge-overlapping-capture": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?=(a+))\\1b at =(a+))\\1b\n input record number 1, file \n source line number N"
+  },
+  "l3-edge-possessive-no-backtrack": {
+    "matches": [
+      {
+        "match": "\"hello\"x",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-edge-unicode-boundary": {
+    "matches": [],
+    "error": null
+  },
+  "l3-edge-variable-lookbehind": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<=\\w{1,10})x at <=\\w{1,10})x\n input record number 1, file \n source line number N"
+  },
+  "l3-edge-zero-width-quantified": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:(?=\\d))+\\d+ at :(?=\\d))+\\d+\n input record number 1, file \n source line number N"
+  },
+  "l3-escape-quant-group-anchor": {
+    "matches": [],
+    "error": null
+  },
+  "l3-flag-multiline-lookahead": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression ^(?=\\S)\\w+ at =\\S)\\w+\n input record number 1, file \n source line number N"
+  },
+  "l3-flag-x-comment-group": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?x: (\\d+) \\s+ (\\w+) ) at x: (\\d+) \\s+ (\\w+) )\n input record number 1, file \n source line number N"
+  },
+  "l3-group-alternation-escape": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<sep>\\t|\\s)\\w+\\k<sep> at <sep>\\t|\\s)\\w+\\k<sep>\n input record number 1, file \n source line number N"
+  },
+  "l3-lookahead-backref-group": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?=(\\w+))\\1\\s(\\w+) at =(\\w+))\\1\\s(\\w+)\n input record number 1, file \n source line number N"
+  },
+  "l3-lookahead-boundary-quantifier": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression \\b(?=[A-Z])\\w{3,}\\b at =[A-Z])\\w{3,}\\b\n input record number 1, file \n source line number N"
+  },
+  "l3-lookahead-capture-quantified": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?=(\\d{2,4}))\\d+ at =(\\d{2,4}))\\d+\n input record number 1, file \n source line number N"
+  },
+  "l3-lookahead-lazy-quant-class": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?=[A-Z])\\w+?\\d at =[A-Z])\\w+?\\d\n input record number 1, file \n source line number N"
+  },
+  "l3-lookahead-lookbehind-capture": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<=\\()([^)]+)(?=\\)) at <=\\()([^)]+)(?=\\))\n input record number 1, file \n source line number N"
+  },
+  "l3-lookahead-negated-class-escape": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?=.*\\d)[^\\s]+ at =.*\\d)[^\\s]+\n input record number 1, file \n source line number N"
+  },
+  "l3-lookbehind-dot-quantifier": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<=\\.).{1,5}(?=\\.) at <=\\.).{1,5}(?=\\.)\n input record number 1, file \n source line number N"
+  },
+  "l3-lookbehind-negated-class-anchor": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<=@)[^.]+$ at <=@)[^.]+$\n input record number 1, file \n source line number N"
+  },
+  "l3-lookbehind-unicode-capture": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<=\\p{Lu})(\\p{Ll}+) at <=\\p{Lu})(\\p{Ll}+)\n input record number 1, file \n source line number N"
+  },
+  "l3-multiple-lookaround": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<=\\d)(?=\\w)(?!_)\\w+ at <=\\d)(?=\\w)(?!_)\\w+\n input record number 1, file \n source line number N"
+  },
+  "l3-multiple-named-groups-backref": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<first>\\w+):(?<second>\\w+)=\\k<first>-\\k<second> at <first>\\w+):(?<second>\\w+)=\\k<first>-\\k<second>\n input record number 1, file \n source line number N"
+  },
+  "l3-named-alt-quantifier-anchor": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression ^(?<proto>https?|ftp)://\\S+$ at <proto>https?|ftp)://\\S+$\n input record number 1, file \n source line number N"
+  },
+  "l3-named-group-flag-backref": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<w>(?i:\\w+))\\s+\\k<w> at <w>(?i:\\w+))\\s+\\k<w>\n input record number 1, file \n source line number N"
+  },
+  "l3-negated-lookahead-class-quant": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression \\b(?!un)[a-z]+ed\\b at !un)[a-z]+ed\\b\n input record number 1, file \n source line number N"
+  },
+  "l3-negated-lookbehind-class-boundary": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<!\\d)[a-z]+\\b at <!\\d)[a-z]+\\b\n input record number 1, file \n source line number N"
+  },
+  "l3-nested-groups-multi-capture": {
+    "matches": [],
+    "error": null
+  },
+  "l3-nested-lookaround-capture": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<=(?=\\d)\\w)x at <=(?=\\d)\\w)x\n input record number 1, file \n source line number N"
+  },
+  "l3-nested-noncap-quant-lazy": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:(?:\\w+?)\\s){2,3} at :(?:\\w+?)\\s){2,3}\n input record number 1, file \n source line number N"
+  },
+  "l3-nested-quantifiers-group": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression ^(?:\\w+\\s?)+$ at :\\w+\\s?)+$\n input record number 1, file \n source line number N"
+  },
+  "l3-noncap-nested-alternation": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:(?:(?:a|b)c|de)f|gh) at :(?:(?:a|b)c|de)f|gh)\n input record number 1, file \n source line number N"
+  },
+  "l3-possessive-class-anchor": {
+    "matches": [],
+    "error": null
+  },
+  "l3-quantified-alt-lookbehind": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<=(?:Mr|Mrs|Dr)\\.\\s)\\w+ at <=(?:Mr|Mrs|Dr)\\.\\s)\\w+\n input record number 1, file \n source line number N"
+  },
+  "l3-real-camel-to-words": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<=[a-z])(?=[A-Z]) at <=[a-z])(?=[A-Z])\n input record number 1, file \n source line number N"
+  },
+  "l3-real-content-type": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (\\w+/\\w+)(?:;\\s*charset=([\\w-]+))? at :;\\s*charset=([\\w-]+))?\n input record number 1, file \n source line number N"
+  },
+  "l3-real-css-color": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression #(?:[0-9a-fA-F]{3}){1,2}\\b at :[0-9a-fA-F]{3}){1,2}\\b\n input record number 1, file \n source line number N"
+  },
+  "l3-real-csv-quoted": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:\"(?:[^\"]|\"\")*\"|[^,\"\\r\\n]*) at :\"(?:[^\"]|\"\")*\"|[^,\"\\r\\n]*)\n input record number 1, file \n source line number N"
+  },
+  "l3-real-date-validation": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:0[1-9]|[12]\\d|3[01])[-/](?:0[1-9]|1[0-2])[-/](?:19|20)\\d{2} at :0[1-9]|[12]\\d|3[01])[-/](?:0[1-9]|1[0-2])[-/](?:19|20)\\d{2}\n input record number 1, file \n source line number N"
+  },
+  "l3-real-duplicate-words": {
+    "matches": [],
+    "error": "BWK awk has no case-insensitive facility (IGNORECASE is a gawk extension and a measured no-op here); the i flag cannot be honoured"
+  },
+  "l3-real-email-lookahead": {
+    "matches": [],
+    "error": "BWK awk has no case-insensitive facility (IGNORECASE is a gawk extension and a measured no-op here); the i flag cannot be honoured"
+  },
+  "l3-real-hex-color-named": {
+    "matches": [],
+    "error": "BWK awk has no case-insensitive facility (IGNORECASE is a gawk extension and a measured no-op here); the i flag cannot be honoured"
+  },
+  "l3-real-html-attr": {
+    "matches": [],
+    "error": null
+  },
+  "l3-real-ipv4-octet": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:(?:25[0-5]|2[0-4]\\d|[01]?\\d?\\d)\\.){3}(?:25[0-5]|2[0-4]\\d|[01]?\\d?\\d) at :(?:25[0-5]|2[0-4]\\d|[01]?\\d?\\d)\\.){3}(?:25[0-5]|2[0-4]\\d|[01]?\\d?\\d)\n input record number 1, file \n source line number N"
+  },
+  "l3-real-json-string": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression \"(?:[^\"\\\\]|\\\\.)*\" at :[^\"\\\\]|\\\\.)*\"\n input record number 1, file \n source line number N"
+  },
+  "l3-real-log-named-groups": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<ts>\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2})\\s+(?<level>INFO|WARN|ERROR)\\s+(?<msg>.+) at <ts>\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2})\\s+(?<level>INFO|WARN|ERROR)\\s+(?<msg>.+)\n input record number 1, file \n source line number N"
+  },
+  "l3-real-markdown-link": {
+    "matches": [
+      {
+        "match": "[click](http://x.co)",
+        "index": -1
+      },
+      {
+        "match": "[go](y.io)",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-real-password-strength": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?=.*[A-Z])(?=.*[a-z])(?=.*\\d)(?=.*[!@#$%]).{8,} at =.*[A-Z])(?=.*[a-z])(?=.*\\d)(?=.*[!@#$%]).{8,}\n input record number 1, file \n source line number N"
+  },
+  "l3-real-phone-intl": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:\\+\\d{1,3}[-.\\s]?)?(?:\\(\\d{1,4}\\)[-.\\s]?)?\\d{3,4}[-.\\s]?\\d{3,4} at :\\+\\d{1,3}[-.\\s]?)?(?:\\(\\d{1,4}\\)[-.\\s]?)?\\d{3,4}[-.\\s]?\\d{3,4}\n input record number 1, file \n source line number N"
+  },
+  "l3-real-semver": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (\\d+)\\.(\\d+)\\.(\\d+)(?:-(\\w+(?:\\.\\w+)*))?(?:\\+(\\w+(?:\\.\\w+)*))? at :-(\\w+(?:\\.\\w+)*))?(?:\\+(\\w+(?:\\.\\w+)*))?\n input record number 1, file \n source line number N"
+  },
+  "l3-real-time-12h": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:0?[1-9]|1[0-2]):[0-5]\\d\\s?(?:AM|PM|am|pm) at :0?[1-9]|1[0-2]):[0-5]\\d\\s?(?:AM|PM|am|pm)\n input record number 1, file \n source line number N"
+  },
+  "l3-real-url-optional": {
+    "matches": [],
+    "error": "BWK awk has no case-insensitive facility (IGNORECASE is a gawk extension and a measured no-op here); the i flag cannot be honoured"
+  },
+  "l3-real-uuid": {
+    "matches": [],
+    "error": "BWK awk has no case-insensitive facility (IGNORECASE is a gawk extension and a measured no-op here); the i flag cannot be honoured"
+  },
+  "l3-real-xml-tag": {
+    "matches": [],
+    "error": null
+  },
+  "l3-scoped-flag-lookahead-class": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?i:(?=[a-z])\\w+) at i:(?=[a-z])\\w+)\n input record number 1, file \n source line number N"
+  },
+  "l3-unicode-prop-lookaround-quantifier": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<=\\p{L})\\d+(?=\\p{L}) at <=\\p{L})\\d+(?=\\p{L})\n input record number 1, file \n source line number N"
+  },
+  "l3-unicode-script-lookahead-quant": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression \\p{Script=Latin}+(?=\\s) at =\\s)\n input record number 1, file \n source line number N"
+  },
+  "l3-word-boundary-class-backref": {
+    "matches": [],
+    "error": "BWK awk has no case-insensitive facility (IGNORECASE is a gawk extension and a measured no-op here); the i flag cannot be honoured"
+  },
+  "lib-ansi-escape-code": {
+    "matches": [
+      {
+        "match": "\u001b[31m",
+        "index": -1
+      },
+      {
+        "match": "\u001b[0m",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-apache-nginx-common-log-line-split": {
+    "matches": [],
+    "error": null
+  },
+  "lib-awk-field-separator-csv-field-no-embedded-commas": {
+    "matches": [
+      {
+        "match": "alice",
+        "index": -1
+      },
+      {
+        "match": "30",
+        "index": -1
+      },
+      {
+        "match": "engineer",
+        "index": -1
+      },
+      {
+        "match": "bob",
+        "index": -1
+      },
+      {
+        "match": "25",
+        "index": -1
+      },
+      {
+        "match": "designer",
+        "index": -1
+      },
+      {
+        "match": "charlie",
+        "index": -1
+      },
+      {
+        "match": "40",
+        "index": -1
+      },
+      {
+        "match": "manager",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-base64-string": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:[A-Za-z0-9+/]{4})+(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)? at :[A-Za-z0-9+/]{4})+(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?\n input record number 1, file \n source line number N"
+  },
+  "lib-blank-or-whitespace-line": {
+    "matches": [
+      {
+        "match": "   ",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-bre-backslash-grouping-extract-filename": {
+    "matches": [],
+    "error": null
+  },
+  "lib-cron-expression": {
+    "matches": [],
+    "error": null
+  },
+  "lib-data-uri": {
+    "matches": [],
+    "error": null
+  },
+  "lib-file-extension": {
+    "matches": [
+      {
+        "match": ".gz",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-find-compatible-hidden-file-filter-ere": {
+    "matches": [
+      {
+        "match": "/.bashrc",
+        "index": -1
+      },
+      {
+        "match": ".gitignore",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-git-commit-sha": {
+    "matches": [],
+    "error": null
+  },
+  "lib-gnu-and-word-boundaries-grep-extension": {
+    "matches": [],
+    "error": null
+  },
+  "lib-hashtag-and-mention": {
+    "matches": [
+      {
+        "match": "@alice",
+        "index": -1
+      },
+      {
+        "match": "#regex",
+        "index": -1
+      },
+      {
+        "match": "#dev_tools",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-html-comment": {
+    "matches": [],
+    "error": null
+  },
+  "lib-iban": {
+    "matches": [],
+    "error": null
+  },
+  "lib-isbn-13": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression 97[89](?:-?\\d){10} at :-?\\d){10}\n input record number 1, file \n source line number N"
+  },
+  "lib-jwt-token": {
+    "matches": [
+      {
+        "match": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIn0.dBjftJeZ4CVP",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-line-comment-double-slash": {
+    "matches": [
+      {
+        "match": "// set x",
+        "index": -1
+      },
+      {
+        "match": "// and y",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-mac-address": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?:[0-9A-Fa-f]{2}[:-]){5}[0-9A-Fa-f]{2} at :[0-9A-Fa-f]{2}[:-]){5}[0-9A-Fa-f]{2}\n input record number 1, file \n source line number N"
+  },
+  "lib-port-number": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression :(?:6553[0-5]|655[0-2]\\d|65[0-4]\\d{2}|6[0-4]\\d{3}|[1-5]\\d{4}|[1-9]\\d{0,3})\\b at :6553[0-5]|655[0-2]\\d|65[0-4]\\d{2}|6[0-4]\\d{3}|[1-5]\\d{4}|[1-9]\\d{0,3})\\b\n input record number 1, file \n source line number N"
+  },
+  "lib-query-string-param": {
+    "matches": [
+      {
+        "match": "?q=regex",
+        "index": -1
+      },
+      {
+        "match": "&page=2",
+        "index": -1
+      },
+      {
+        "match": "&sort=desc",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-quoted-string-sed-replace-swap-single-double-quotes": {
+    "matches": [],
+    "error": null
+  },
+  "lib-scientific-notation": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression -?\\d+(?:\\.\\d+)?[eE][+-]?\\d+ at :\\.\\d+)?[eE][+-]?\\d+\n input record number 1, file \n source line number N"
+  },
+  "lib-snake-case-identifier": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression \\b[a-z]+(?:_[a-z0-9]+)+\\b at :_[a-z0-9]+)+\\b\n input record number 1, file \n source line number N"
+  },
+  "lib-trailing-whitespace": {
+    "matches": [
+      {
+        "match": "   ",
+        "index": -1
+      },
+      {
+        "match": "\t",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-uk-postcode": {
+    "matches": [],
+    "error": null
+  },
+  "lib-unix-file-path": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression /(?:[\\w.-]+/)*[\\w.-]+ at :[\\w.-]+/)*[\\w.-]+\n input record number 1, file \n source line number N"
+  },
+  "lib-url-slug": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression ^[a-z0-9]+(?:-[a-z0-9]+)*$ at :-[a-z0-9]+)*$\n input record number 1, file \n source line number N"
+  },
+  "lib-us-zip-code": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression \\b\\d{5}(?:-\\d{4})?\\b at :-\\d{4})?\\b\n input record number 1, file \n source line number N"
+  },
+  "lib-windows-path": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression [A-Za-z]:\\\\(?:[^\\\\/:*?\"<>|\\r\\n]+\\\\)*[^\\\\/:*?\"<>|\\r\\n]* at :[^\\\\/:*?\"<>|\\r\\n]+\\\\)*[^\\\\/:*?\"<>|\\r\\n]*\n input record number 1, file \n source line number N"
+  },
+  "lookahead-negative": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression foo(?!bar) at !bar)\n input record number 1, file \n source line number N"
+  },
+  "lookahead-positive": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression foo(?=bar) at =bar)\n input record number 1, file \n source line number N"
+  },
+  "lookbehind-negative": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<!foo)bar at <!foo)bar\n input record number 1, file \n source line number N"
+  },
+  "lookbehind-positive": {
+    "matches": [],
+    "error": "/usr/bin/awk: illegal primary in regular expression (?<=foo)bar at <=foo)bar\n input record number 1, file \n source line number N"
+  },
+  "quant-exact": {
+    "matches": [
+      {
+        "match": "aaa",
+        "index": -1
+      },
+      {
+        "match": "aaa",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "quant-lazy": {
+    "matches": [
+      {
+        "match": "aaa",
+        "index": -1
+      },
+      {
+        "match": "aa",
+        "index": -1
+      },
+      {
+        "match": "a",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "quant-min": {
+    "matches": [
+      {
+        "match": "aa",
+        "index": -1
+      },
+      {
+        "match": "aaa",
+        "index": -1
+      },
+      {
+        "match": "aaaa",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "quant-optional": {
+    "matches": [
+      {
+        "match": "color",
+        "index": -1
+      },
+      {
+        "match": "colour",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "quant-plus": {
+    "matches": [
+      {
+        "match": "a",
+        "index": -1
+      },
+      {
+        "match": "aa",
+        "index": -1
+      },
+      {
+        "match": "aaa",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "quant-possessive": {
+    "matches": [
+      {
+        "match": "aab",
+        "index": -1
+      },
+      {
+        "match": "ab",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "quant-range": {
+    "matches": [
+      {
+        "match": "aa",
+        "index": -1
+      },
+      {
+        "match": "aaa",
+        "index": -1
+      },
+      {
+        "match": "aaaa",
+        "index": -1
+      },
+      {
+        "match": "aaaa",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "quant-star": {
+    "matches": [
+      {
+        "match": "b",
+        "index": -1
+      },
+      {
+        "match": "ba",
+        "index": -1
+      },
+      {
+        "match": "baa",
+        "index": -1
+      },
+      {
+        "match": "baaa",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "shell-01-bre-grouping": {
+    "matches": [],
+    "error": null
+  },
+  "shell-02-bre-quantifier-range": {
+    "matches": [],
+    "error": null
+  },
+  "shell-03-bre-plus": {
+    "matches": [],
+    "error": null
+  },
+  "shell-04-bre-optional": {
+    "matches": [],
+    "error": null
+  },
+  "shell-05-bre-alternation": {
+    "matches": [],
+    "error": null
+  },
+  "shell-06-posix-classes": {
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "world",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "shell-07-anchored-line": {
+    "matches": [],
+    "error": null
+  },
+  "shell-08-sed-match-basic": {
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "shell-09-awk-digits": {
+    "matches": [
+      {
+        "match": "123",
+        "index": -1
+      },
+      {
+        "match": "456",
+        "index": -1
+      },
+      {
+        "match": "789",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "shell-10-csv-split": {
+    "matches": [
+      {
+        "match": "field1",
+        "index": -1
+      },
+      {
+        "match": "field2",
+        "index": -1
+      },
+      {
+        "match": "field3",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "shell-11-log-level": {
+    "matches": [],
+    "error": null
+  },
+  "shell-12-gnu-word-boundary": {
+    "matches": [],
+    "error": null
+  }
+}

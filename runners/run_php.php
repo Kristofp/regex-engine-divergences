@@ -1,8 +1,24 @@
 <?php
-// Suppress warnings to stdout — preg_* functions emit E_WARNING on
-// invalid patterns, which corrupts the JSON output the orchestrator
-// expects. Errors are caught via preg_last_error() instead.
-error_reporting(0);
+// preg_* emits E_WARNING on an invalid pattern, and that warning carries the
+// ONLY specific description of what was wrong — `preg_last_error()` returns
+// PREG_INTERNAL_ERROR for every compile failure alike.
+//
+// This used to be `error_reporting(0)`, which kept the warning off stdout (it
+// would corrupt the JSON the orchestrator parses) but also THREW AWAY the
+// reason. Measured 2026-09-11: 2,821 of the php column's 7,000 entries — 40%
+// — were recorded as the single string "PCRE internal error", which says only
+// "something was wrong" about 2,821 different things.
+//
+// A handler captures the warning text instead of printing it: stdout stays
+// clean AND the reason survives. Returning true tells PHP the warning is
+// handled, so nothing reaches the output stream.
+$lastWarning = null;
+set_error_handler(function ($severity, $message) use (&$lastWarning) {
+    // `preg_match_all(): ` prefixes every one of these and adds nothing.
+    $lastWarning = preg_replace('/^preg_[a-z_]+\(\): /', '', $message);
+    return true;
+});
+error_reporting(E_ALL);
 $input = file_get_contents('php://stdin');
 $entries = json_decode($input, true);
 $results = [];
@@ -30,10 +46,21 @@ foreach ($entries as $e) {
         // Always emit all matches regardless of 'g' flag — see docs/v1-corpus-fix-spec.md
         // and matches the bridge's behavior.
         $matches = [];
-        $ret = @preg_match_all($pattern, $e['testText'], $m, PREG_OFFSET_CAPTURE);
+        // NOT `@preg_match_all`: the `@` operator suppresses the warning before
+        // the handler above can see it, which would put the reason back in the
+        // bin. The handler is what keeps stdout clean.
+        $lastWarning = null;
+        $ret = preg_match_all($pattern, $e['testText'], $m, PREG_OFFSET_CAPTURE);
         $err = preg_last_error();
         if ($err !== PREG_NO_ERROR) {
-            $results[$e['id']] = ['matches' => [], 'error' => $errorNames[$err] ?? "PCRE error $err"];
+            // Prefer the warning's own words; fall back to the generic name so a
+            // runtime limit (backtrack/recursion, which carries no warning) is
+            // still reported rather than swallowed.
+            $generic = $errorNames[$err] ?? "PCRE error $err";
+            $results[$e['id']] = [
+                'matches' => [],
+                'error' => $lastWarning !== null ? $lastWarning : $generic,
+            ];
             continue;
         }
         if ($ret !== false) {
@@ -43,7 +70,10 @@ foreach ($entries as $e) {
         }
         // Check for compile errors (preg_match returns false on invalid pattern)
         if ($ret === false && preg_last_error() === PREG_NO_ERROR) {
-            $results[$e['id']] = ['matches' => [], 'error' => 'Pattern compilation failed'];
+            $results[$e['id']] = [
+                'matches' => [],
+                'error' => $lastWarning !== null ? $lastWarning : 'Pattern compilation failed',
+            ];
             continue;
         }
         $results[$e['id']] = ['matches' => $matches, 'error' => null];

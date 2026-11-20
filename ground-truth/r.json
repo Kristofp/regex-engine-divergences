@@ -2687,8 +2687,17 @@
     "error": "invalid regular expression '\\b+\\w+'"
   },
   "l3-edge-variable-lookbehind": {
-    "matches": [],
-    "error": "invalid regular expression '(?<=\\w{1,10})x'"
+    "matches": [
+      {
+        "match": "x",
+        "index": 3
+      },
+      {
+        "match": "x",
+        "index": 11
+      }
+    ],
+    "error": null
   },
   "l3-edge-zero-width-quantified": {
     "matches": [
@@ -3036,8 +3045,21 @@
     "error": null
   },
   "l3-quantified-alt-lookbehind": {
-    "matches": [],
-    "error": "invalid regular expression '(?<=(?:Mr|Mrs|Dr)\\.\\s)\\w+'"
+    "matches": [
+      {
+        "match": "Smith",
+        "index": 4
+      },
+      {
+        "match": "Jones",
+        "index": 15
+      },
+      {
+        "match": "Who",
+        "index": 25
+      }
+    ],
+    "error": null
   },
   "l3-real-camel-to-words": {
     "matches": [
@@ -3386,6 +3408,302 @@
       {
         "match": "fox fox",
         "index": 20
+      }
+    ],
+    "error": null
+  },
+  "lib-ansi-escape-code": {
+    "matches": [
+      {
+        "match": "\u001b[31m",
+        "index": 0
+      },
+      {
+        "match": "\u001b[0m",
+        "index": 8
+      }
+    ],
+    "error": null
+  },
+  "lib-base64-string": {
+    "matches": [
+      {
+        "match": "SGVsbG8gV29ybGQ=",
+        "index": 0
+      },
+      {
+        "match": "plus",
+        "index": 17
+      }
+    ],
+    "error": null
+  },
+  "lib-blank-or-whitespace-line": {
+    "matches": [
+      {
+        "match": "",
+        "index": 4
+      },
+      {
+        "match": "   ",
+        "index": 5
+      }
+    ],
+    "error": null
+  },
+  "lib-cron-expression": {
+    "matches": [
+      {
+        "match": "*/5 0 * * 1-5",
+        "index": 0
+      }
+    ],
+    "error": null
+  },
+  "lib-data-uri": {
+    "matches": [
+      {
+        "match": "data:image/png;base64,iVBORw0KGgo=",
+        "index": 5
+      }
+    ],
+    "error": null
+  },
+  "lib-file-extension": {
+    "matches": [
+      {
+        "match": ".gz",
+        "index": 11
+      }
+    ],
+    "error": null
+  },
+  "lib-git-commit-sha": {
+    "matches": [
+      {
+        "match": "5aead204",
+        "index": 7
+      },
+      {
+        "match": "c58b423f1efc9d2a4b7e",
+        "index": 20
+      }
+    ],
+    "error": null
+  },
+  "lib-hashtag-and-mention": {
+    "matches": [
+      {
+        "match": "@alice",
+        "index": 3
+      },
+      {
+        "match": "#regex",
+        "index": 16
+      },
+      {
+        "match": "#dev_tools",
+        "index": 27
+      }
+    ],
+    "error": null
+  },
+  "lib-html-comment": {
+    "matches": [
+      {
+        "match": "<!-- hidden -->",
+        "index": 2
+      },
+      {
+        "match": "<!-- two -->",
+        "index": 20
+      }
+    ],
+    "error": null
+  },
+  "lib-iban": {
+    "matches": [
+      {
+        "match": "BE68539007547034",
+        "index": 0
+      },
+      {
+        "match": "DE89370400440532013000",
+        "index": 21
+      }
+    ],
+    "error": null
+  },
+  "lib-isbn-13": {
+    "matches": [
+      {
+        "match": "978-0-13-235088-4",
+        "index": 0
+      },
+      {
+        "match": "9780132350884",
+        "index": 22
+      }
+    ],
+    "error": null
+  },
+  "lib-jwt-token": {
+    "matches": [
+      {
+        "match": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIn0.dBjftJeZ4CVP",
+        "index": 6
+      }
+    ],
+    "error": null
+  },
+  "lib-line-comment-double-slash": {
+    "matches": [
+      {
+        "match": "// set x",
+        "index": 11
+      },
+      {
+        "match": "// and y",
+        "index": 31
+      }
+    ],
+    "error": null
+  },
+  "lib-mac-address": {
+    "matches": [
+      {
+        "match": "00:1B:44:11:3A:B7",
+        "index": 0
+      },
+      {
+        "match": "3D-F2-C9-A6-B3-4F",
+        "index": 22
+      }
+    ],
+    "error": null
+  },
+  "lib-port-number": {
+    "matches": [
+      {
+        "match": ":8080",
+        "index": 9
+      },
+      {
+        "match": ":5432",
+        "index": 17
+      }
+    ],
+    "error": null
+  },
+  "lib-query-string-param": {
+    "matches": [
+      {
+        "match": "?q=regex",
+        "index": 2
+      },
+      {
+        "match": "&page=2",
+        "index": 10
+      },
+      {
+        "match": "&sort=desc",
+        "index": 17
+      }
+    ],
+    "error": null
+  },
+  "lib-scientific-notation": {
+    "matches": [
+      {
+        "match": "6.022e23",
+        "index": 0
+      },
+      {
+        "match": "-1.6E-19",
+        "index": 13
+      }
+    ],
+    "error": null
+  },
+  "lib-snake-case-identifier": {
+    "matches": [
+      {
+        "match": "user_id",
+        "index": 0
+      },
+      {
+        "match": "total_count_2",
+        "index": 12
+      }
+    ],
+    "error": null
+  },
+  "lib-trailing-whitespace": {
+    "matches": [
+      {
+        "match": "   ",
+        "index": 8
+      },
+      {
+        "match": "\t",
+        "index": 20
+      }
+    ],
+    "error": null
+  },
+  "lib-uk-postcode": {
+    "matches": [
+      {
+        "match": "SW1A 1AA",
+        "index": 0
+      },
+      {
+        "match": "EC1A1BB",
+        "index": 13
+      }
+    ],
+    "error": null
+  },
+  "lib-unix-file-path": {
+    "matches": [
+      {
+        "match": "/usr/local/bin/tool",
+        "index": 4
+      },
+      {
+        "match": "/etc/hosts",
+        "index": 28
+      }
+    ],
+    "error": null
+  },
+  "lib-url-slug": {
+    "matches": [
+      {
+        "match": "my-first-blog-post",
+        "index": 0
+      }
+    ],
+    "error": null
+  },
+  "lib-us-zip-code": {
+    "matches": [
+      {
+        "match": "90210",
+        "index": 0
+      },
+      {
+        "match": "12345-6789",
+        "index": 10
+      }
+    ],
+    "error": null
+  },
+  "lib-windows-path": {
+    "matches": [
+      {
+        "match": "C:\\Users\\kris\\notes.txt now",
+        "index": 5
       }
     ],
     "error": null

@@ -1,0 +1,1421 @@
+{
+  "anchor-boundary-nonword": {
+    "matches": [
+      {
+        "match": "word",
+        "index": -1
+      },
+      {
+        "match": "word",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "anchor-boundary-word": {
+    "matches": [
+      {
+        "match": "word",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "anchor-end": {
+    "matches": [
+      {
+        "match": "world",
+        "index": -1
+      },
+      {
+        "match": "world",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "anchor-end-string": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before Z"
+  },
+  "anchor-end-string-only": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before z"
+  },
+  "anchor-match-reset": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before K"
+  },
+  "anchor-match-start": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before G"
+  },
+  "anchor-start": {
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "hello",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "anchor-start-string": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before A"
+  },
+  "backref-named": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before k"
+  },
+  "backref-numbered": {
+    "matches": [],
+    "error": "grep: Invalid back reference"
+  },
+  "char-class-negated": {
+    "matches": [],
+    "error": null
+  },
+  "char-class-range": {
+    "matches": [],
+    "error": null
+  },
+  "char-dot": {
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "hallo",
+        "index": -1
+      },
+      {
+        "match": "hxllo",
+        "index": -1
+      },
+      {
+        "match": "h llo",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "char-escape-D": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before D"
+  },
+  "char-escape-R": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before R"
+  },
+  "char-escape-S": {
+    "matches": [],
+    "error": null
+  },
+  "char-escape-W": {
+    "matches": [],
+    "error": null
+  },
+  "char-escape-X": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before X"
+  },
+  "char-escape-d": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "char-escape-s": {
+    "matches": [],
+    "error": null
+  },
+  "char-escape-w": {
+    "matches": [],
+    "error": null
+  },
+  "char-literal": {
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "hello",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "char-unicode-prop": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before p"
+  },
+  "char-unicode-prop-neg": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before P"
+  },
+  "choice-simple": {
+    "matches": [],
+    "error": null
+  },
+  "choice-triple": {
+    "matches": [],
+    "error": null
+  },
+  "group-atomic": {
+    "matches": [],
+    "error": null
+  },
+  "group-capturing": {
+    "matches": [],
+    "error": null
+  },
+  "group-named": {
+    "matches": [],
+    "error": null
+  },
+  "group-noncapturing": {
+    "matches": [],
+    "error": null
+  },
+  "group-scoped-flags": {
+    "matches": [],
+    "error": null
+  },
+  "l2-alternation-capture-star": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "l2-alternation-different-lengths": {
+    "matches": [],
+    "error": null
+  },
+  "l2-alternation-in-group": {
+    "matches": [],
+    "error": null
+  },
+  "l2-alternation-in-lookbehind": {
+    "matches": [],
+    "error": null
+  },
+  "l2-anchor-alternation": {
+    "matches": [],
+    "error": null
+  },
+  "l2-anchor-backref": {
+    "matches": [],
+    "error": "grep: Invalid back reference"
+  },
+  "l2-anchor-class-quantifier": {
+    "matches": [],
+    "error": null
+  },
+  "l2-anchor-group": {
+    "matches": [],
+    "error": null
+  },
+  "l2-anchor-lookahead": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l2-anchor-lookbehind": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l2-anchor-neg-lookahead": {
+    "matches": [],
+    "error": null
+  },
+  "l2-atomic-quantifier": {
+    "matches": [],
+    "error": null
+  },
+  "l2-backref-alternation-group": {
+    "matches": [],
+    "error": "grep: Invalid back reference"
+  },
+  "l2-backref-in-alternation": {
+    "matches": [],
+    "error": "grep: Invalid back reference"
+  },
+  "l2-backref-in-quantified-group": {
+    "matches": [],
+    "error": "grep: Invalid back reference"
+  },
+  "l2-boundary-alternation-capture": {
+    "matches": [],
+    "error": null
+  },
+  "l2-boundary-capture-quantifier": {
+    "matches": [],
+    "error": null
+  },
+  "l2-boundary-neg-lookahead": {
+    "matches": [],
+    "error": null
+  },
+  "l2-capture-class-range-lazy": {
+    "matches": [],
+    "error": null
+  },
+  "l2-capture-lazy-range": {
+    "matches": [],
+    "error": null
+  },
+  "l2-capture-unicode-named": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before p\ngrep: warning: stray \\ before p"
+  },
+  "l2-capturing-alternation-backref": {
+    "matches": [],
+    "error": "grep: Invalid back reference"
+  },
+  "l2-capturing-optional": {
+    "matches": [],
+    "error": null
+  },
+  "l2-capturing-star": {
+    "matches": [],
+    "error": null
+  },
+  "l2-class-dot-alternation-quantifier": {
+    "matches": [],
+    "error": null
+  },
+  "l2-class-escape-in-class": {
+    "matches": [],
+    "error": null
+  },
+  "l2-class-literal-special": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before -"
+  },
+  "l2-class-negated-quantifier-anchor": {
+    "matches": [],
+    "error": null
+  },
+  "l2-class-special-chars": {
+    "matches": [],
+    "error": null
+  },
+  "l2-class-union": {
+    "matches": [],
+    "error": null
+  },
+  "l2-complex-email": {
+    "matches": [],
+    "error": null
+  },
+  "l2-csv-field": {
+    "matches": [],
+    "error": null
+  },
+  "l2-digit-boundary": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l2-digit-boundary-group": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l2-digit-class-quantifier-group": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "l2-dot-class-alternation": {
+    "matches": [],
+    "error": null
+  },
+  "l2-dot-greedy": {
+    "matches": [],
+    "error": null
+  },
+  "l2-dot-lazy": {
+    "matches": [],
+    "error": null
+  },
+  "l2-dot-star-group-anchor": {
+    "matches": [],
+    "error": null
+  },
+  "l2-dotall-multiline": {
+    "matches": [],
+    "error": null
+  },
+  "l2-double-lookahead": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l2-double-negated-class": {
+    "matches": [],
+    "error": null
+  },
+  "l2-escape-sequence-in-class": {
+    "matches": [],
+    "error": null
+  },
+  "l2-escaped-special": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "l2-flag-combo-im": {
+    "matches": [
+      {
+        "match": "HELLO",
+        "index": -1
+      },
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "HeLLo",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-flag-combo-is": {
+    "matches": [],
+    "error": null
+  },
+  "l2-greedy-vs-lazy-star": {
+    "matches": [],
+    "error": null
+  },
+  "l2-group-alternation-quantifier": {
+    "matches": [],
+    "error": null
+  },
+  "l2-group-backref": {
+    "matches": [],
+    "error": "grep: Invalid back reference"
+  },
+  "l2-group-backref-named": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before k"
+  },
+  "l2-group-star-anchor-end": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "l2-hex-color": {
+    "matches": [],
+    "error": null
+  },
+  "l2-html-tag-pair": {
+    "matches": [],
+    "error": "grep: Invalid back reference"
+  },
+  "l2-log-line": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "l2-lookahead-alternation": {
+    "matches": [],
+    "error": null
+  },
+  "l2-lookahead-anchor-end": {
+    "matches": [],
+    "error": null
+  },
+  "l2-lookahead-backref": {
+    "matches": [],
+    "error": "grep: Invalid back reference"
+  },
+  "l2-lookahead-boundary": {
+    "matches": [],
+    "error": null
+  },
+  "l2-lookahead-capture": {
+    "matches": [],
+    "error": null
+  },
+  "l2-lookahead-capture-backref": {
+    "matches": [],
+    "error": null
+  },
+  "l2-lookahead-class-quantifier": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l2-lookahead-lookahead": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l2-lookahead-optional-capture": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l2-lookahead-quantified-group": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "l2-lookbehind-alternation": {
+    "matches": [],
+    "error": null
+  },
+  "l2-lookbehind-anchor-start": {
+    "matches": [],
+    "error": null
+  },
+  "l2-lookbehind-capture": {
+    "matches": [],
+    "error": null
+  },
+  "l2-lookbehind-class": {
+    "matches": [],
+    "error": null
+  },
+  "l2-lookbehind-lookahead": {
+    "matches": [],
+    "error": null
+  },
+  "l2-lookbehind-neg-class": {
+    "matches": [],
+    "error": null
+  },
+  "l2-lookbehind-quantifier": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l2-match-reset-capture": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before K"
+  },
+  "l2-multiline-anchor-group": {
+    "matches": [],
+    "error": null
+  },
+  "l2-multiple-backrefs": {
+    "matches": [],
+    "error": "grep: Invalid back reference"
+  },
+  "l2-multiple-captures": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "l2-multiple-flag-scopes": {
+    "matches": [],
+    "error": null
+  },
+  "l2-multiple-named-groups": {
+    "matches": [],
+    "error": null
+  },
+  "l2-named-group-alternation-backref": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before k"
+  },
+  "l2-named-group-quantifier": {
+    "matches": [],
+    "error": null
+  },
+  "l2-named-group-star": {
+    "matches": [],
+    "error": null
+  },
+  "l2-named-groups-alternation": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "l2-neg-lookahead-class": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l2-neg-lookahead-neg-lookbehind": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "l2-neg-lookbehind-capture": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l2-negated-class-quantifier": {
+    "matches": [],
+    "error": null
+  },
+  "l2-nested-alternation": {
+    "matches": [],
+    "error": null
+  },
+  "l2-nested-groups": {
+    "matches": [],
+    "error": null
+  },
+  "l2-nested-lookaround": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l2-nested-named-groups": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l2-nested-quantifier-class": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l2-nested-quantifiers": {
+    "matches": [],
+    "error": null
+  },
+  "l2-nested-three-groups": {
+    "matches": [],
+    "error": null
+  },
+  "l2-non-backtracking-group": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l2-noncapturing-exact": {
+    "matches": [],
+    "error": null
+  },
+  "l2-noncapturing-lazy": {
+    "matches": [],
+    "error": null
+  },
+  "l2-noncapturing-nested-alternation": {
+    "matches": [],
+    "error": null
+  },
+  "l2-noncapturing-optional": {
+    "matches": [],
+    "error": null
+  },
+  "l2-noncapturing-plus": {
+    "matches": [],
+    "error": null
+  },
+  "l2-noncapturing-range": {
+    "matches": [],
+    "error": null
+  },
+  "l2-nongreedy-in-group": {
+    "matches": [],
+    "error": null
+  },
+  "l2-optional-capture-in-sequence": {
+    "matches": [],
+    "error": null
+  },
+  "l2-possessive-class": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l2-possessive-group-class": {
+    "matches": [],
+    "error": null
+  },
+  "l2-possessive-in-group": {
+    "matches": [],
+    "error": null
+  },
+  "l2-quantified-class": {
+    "matches": [],
+    "error": null
+  },
+  "l2-quantified-group": {
+    "matches": [],
+    "error": null
+  },
+  "l2-quantifier-zero-max": {
+    "matches": [],
+    "error": null
+  },
+  "l2-scoped-flag-i-alternation": {
+    "matches": [],
+    "error": null
+  },
+  "l2-scoped-flags-class": {
+    "matches": [],
+    "error": null
+  },
+  "l2-scoped-flags-dot": {
+    "matches": [],
+    "error": null
+  },
+  "l2-space-boundary-class": {
+    "matches": [],
+    "error": null
+  },
+  "l2-time-pattern": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "l2-triple-capture-backref": {
+    "matches": [],
+    "error": "grep: Invalid back reference"
+  },
+  "l2-unicode-case-insensitive": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before p"
+  },
+  "l2-unicode-category-number": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before p"
+  },
+  "l2-unicode-digit-boundary": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before p"
+  },
+  "l2-unicode-group": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before p\ngrep: warning: stray \\ before p"
+  },
+  "l2-unicode-group-boundary": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before p"
+  },
+  "l2-unicode-prop-anchor": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before p"
+  },
+  "l2-unicode-prop-quantifier": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before p"
+  },
+  "l2-unicode-script": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before p"
+  },
+  "l2-url-parts": {
+    "matches": [],
+    "error": null
+  },
+  "l2-version-number": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "l2-word-boundary-group": {
+    "matches": [],
+    "error": null
+  },
+  "l2-word-nonword-alternation": {
+    "matches": [],
+    "error": null
+  },
+  "l3-alternation-anchor-escape": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l3-alternation-backref-lazy": {
+    "matches": [],
+    "error": "grep: Invalid back reference"
+  },
+  "l3-atomic-alternation-quantifier": {
+    "matches": [],
+    "error": null
+  },
+  "l3-atomic-backref-anchor": {
+    "matches": [],
+    "error": "grep: Invalid back reference"
+  },
+  "l3-backref-alternation-anchor": {
+    "matches": [],
+    "error": "grep: Invalid back reference"
+  },
+  "l3-capture-inside-lookahead-reuse": {
+    "matches": [],
+    "error": null
+  },
+  "l3-capture-lazy-alternation": {
+    "matches": [],
+    "error": null
+  },
+  "l3-capture-nested-quantifiers": {
+    "matches": [],
+    "error": null
+  },
+  "l3-class-boundary-group-quantifier": {
+    "matches": [],
+    "error": null
+  },
+  "l3-conditional-named-group-quant": {
+    "matches": [],
+    "error": null
+  },
+  "l3-dot-flag-group-quant": {
+    "matches": [],
+    "error": null
+  },
+  "l3-edge-K-with-captures": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before K"
+  },
+  "l3-edge-alternation-capture-counts": {
+    "matches": [],
+    "error": null
+  },
+  "l3-edge-atomic-no-backtrack": {
+    "matches": [],
+    "error": null
+  },
+  "l3-edge-backref-in-class-literal": {
+    "matches": [
+      {
+        "match": "1",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-edge-backref-nonparticipating": {
+    "matches": [],
+    "error": "grep: Invalid back reference"
+  },
+  "l3-edge-case-folding-eszett": {
+    "matches": [],
+    "error": null
+  },
+  "l3-edge-catastrophic-avoided": {
+    "matches": [],
+    "error": null
+  },
+  "l3-edge-empty-capture-backref": {
+    "matches": [],
+    "error": "grep: Invalid back reference"
+  },
+  "l3-edge-greedy-vs-lazy-capture": {
+    "matches": [],
+    "error": null
+  },
+  "l3-edge-lookahead-at-end": {
+    "matches": [],
+    "error": null
+  },
+  "l3-edge-multiline-first-line": {
+    "matches": [],
+    "error": null
+  },
+  "l3-edge-nested-class-escape": {
+    "matches": [],
+    "error": null
+  },
+  "l3-edge-nested-quantifier": {
+    "matches": [],
+    "error": null
+  },
+  "l3-edge-overlapping-capture": {
+    "matches": [],
+    "error": "grep: Invalid back reference"
+  },
+  "l3-edge-possessive-no-backtrack": {
+    "matches": [],
+    "error": null
+  },
+  "l3-edge-unicode-boundary": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before p"
+  },
+  "l3-edge-variable-lookbehind": {
+    "matches": [],
+    "error": null
+  },
+  "l3-edge-zero-width-quantified": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "l3-escape-quant-group-anchor": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "l3-flag-multiline-lookahead": {
+    "matches": [],
+    "error": null
+  },
+  "l3-flag-x-comment-group": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l3-group-alternation-escape": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before t\ngrep: warning: stray \\ before k"
+  },
+  "l3-lookahead-backref-group": {
+    "matches": [],
+    "error": "grep: Invalid back reference"
+  },
+  "l3-lookahead-boundary-quantifier": {
+    "matches": [],
+    "error": null
+  },
+  "l3-lookahead-capture-quantified": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "l3-lookahead-lazy-quant-class": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l3-lookahead-lookbehind-capture": {
+    "matches": [],
+    "error": null
+  },
+  "l3-lookahead-negated-class-escape": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l3-lookbehind-dot-quantifier": {
+    "matches": [],
+    "error": null
+  },
+  "l3-lookbehind-negated-class-anchor": {
+    "matches": [],
+    "error": null
+  },
+  "l3-lookbehind-unicode-capture": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before p\ngrep: warning: stray \\ before p"
+  },
+  "l3-multiple-lookaround": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l3-multiple-named-groups-backref": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before k\ngrep: warning: stray \\ before k"
+  },
+  "l3-named-alt-quantifier-anchor": {
+    "matches": [],
+    "error": null
+  },
+  "l3-named-group-flag-backref": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before k"
+  },
+  "l3-negated-lookahead-class-quant": {
+    "matches": [],
+    "error": null
+  },
+  "l3-negated-lookbehind-class-boundary": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l3-nested-groups-multi-capture": {
+    "matches": [],
+    "error": "grep: Invalid back reference"
+  },
+  "l3-nested-lookaround-capture": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l3-nested-noncap-quant-lazy": {
+    "matches": [],
+    "error": null
+  },
+  "l3-nested-quantifiers-group": {
+    "matches": [],
+    "error": null
+  },
+  "l3-noncap-nested-alternation": {
+    "matches": [],
+    "error": null
+  },
+  "l3-possessive-class-anchor": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l3-quantified-alt-lookbehind": {
+    "matches": [],
+    "error": null
+  },
+  "l3-real-camel-to-words": {
+    "matches": [],
+    "error": null
+  },
+  "l3-real-content-type": {
+    "matches": [],
+    "error": null
+  },
+  "l3-real-css-color": {
+    "matches": [],
+    "error": null
+  },
+  "l3-real-csv-quoted": {
+    "matches": [],
+    "error": null
+  },
+  "l3-real-date-validation": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "l3-real-duplicate-words": {
+    "matches": [],
+    "error": "grep: Invalid back reference"
+  },
+  "l3-real-email-lookahead": {
+    "matches": [],
+    "error": null
+  },
+  "l3-real-hex-color-named": {
+    "matches": [],
+    "error": null
+  },
+  "l3-real-html-attr": {
+    "matches": [],
+    "error": null
+  },
+  "l3-real-ipv4-octet": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "l3-real-json-string": {
+    "matches": [],
+    "error": null
+  },
+  "l3-real-log-named-groups": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "l3-real-markdown-link": {
+    "matches": [],
+    "error": null
+  },
+  "l3-real-password-strength": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l3-real-phone-intl": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "l3-real-semver": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "l3-real-time-12h": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "l3-real-url-optional": {
+    "matches": [],
+    "error": null
+  },
+  "l3-real-uuid": {
+    "matches": [],
+    "error": null
+  },
+  "l3-real-xml-tag": {
+    "matches": [],
+    "error": null
+  },
+  "l3-scoped-flag-lookahead-class": {
+    "matches": [],
+    "error": null
+  },
+  "l3-unicode-prop-lookaround-quantifier": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before p\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before p"
+  },
+  "l3-unicode-script-lookahead-quant": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before p"
+  },
+  "l3-word-boundary-class-backref": {
+    "matches": [],
+    "error": "grep: Invalid back reference"
+  },
+  "lib-ansi-escape-code": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before x"
+  },
+  "lib-apache-nginx-common-log-line-split": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "lib-awk-field-separator-csv-field-no-embedded-commas": {
+    "matches": [
+      {
+        "match": "alice",
+        "index": -1
+      },
+      {
+        "match": "30",
+        "index": -1
+      },
+      {
+        "match": "engineer",
+        "index": -1
+      },
+      {
+        "match": "bob",
+        "index": -1
+      },
+      {
+        "match": "25",
+        "index": -1
+      },
+      {
+        "match": "designer",
+        "index": -1
+      },
+      {
+        "match": "charlie",
+        "index": -1
+      },
+      {
+        "match": "40",
+        "index": -1
+      },
+      {
+        "match": "manager",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-base64-string": {
+    "matches": [],
+    "error": null
+  },
+  "lib-blank-or-whitespace-line": {
+    "matches": [
+      {
+        "match": "   ",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-bre-backslash-grouping-extract-filename": {
+    "matches": [
+      {
+        "match": "readme.txt",
+        "index": -1
+      },
+      {
+        "match": "log.txt",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-cron-expression": {
+    "matches": [],
+    "error": null
+  },
+  "lib-data-uri": {
+    "matches": [],
+    "error": null
+  },
+  "lib-file-extension": {
+    "matches": [],
+    "error": null
+  },
+  "lib-find-compatible-hidden-file-filter-ere": {
+    "matches": [
+      {
+        "match": "/.bashrc",
+        "index": -1
+      },
+      {
+        "match": ".gitignore",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-git-commit-sha": {
+    "matches": [],
+    "error": null
+  },
+  "lib-gnu-and-word-boundaries-grep-extension": {
+    "matches": [
+      {
+        "match": "error",
+        "index": -1
+      },
+      {
+        "match": "error",
+        "index": -1
+      },
+      {
+        "match": "error",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-hashtag-and-mention": {
+    "matches": [],
+    "error": null
+  },
+  "lib-html-comment": {
+    "matches": [],
+    "error": null
+  },
+  "lib-iban": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "lib-isbn-13": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d"
+  },
+  "lib-jwt-token": {
+    "matches": [],
+    "error": null
+  },
+  "lib-line-comment-double-slash": {
+    "matches": [
+      {
+        "match": "// set x",
+        "index": -1
+      },
+      {
+        "match": "// a",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-mac-address": {
+    "matches": [],
+    "error": null
+  },
+  "lib-port-number": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "lib-query-string-param": {
+    "matches": [],
+    "error": null
+  },
+  "lib-quoted-string-sed-replace-swap-single-double-quotes": {
+    "matches": [
+      {
+        "match": "'alice'",
+        "index": -1
+      },
+      {
+        "match": "'hi there'",
+        "index": -1
+      },
+      {
+        "match": "''",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-scientific-notation": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "lib-snake-case-identifier": {
+    "matches": [],
+    "error": null
+  },
+  "lib-trailing-whitespace": {
+    "matches": [],
+    "error": null
+  },
+  "lib-uk-postcode": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "lib-unix-file-path": {
+    "matches": [],
+    "error": null
+  },
+  "lib-url-slug": {
+    "matches": [],
+    "error": null
+  },
+  "lib-us-zip-code": {
+    "matches": [],
+    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+  },
+  "lib-windows-path": {
+    "matches": [],
+    "error": null
+  },
+  "lookahead-negative": {
+    "matches": [],
+    "error": null
+  },
+  "lookahead-positive": {
+    "matches": [],
+    "error": null
+  },
+  "lookbehind-negative": {
+    "matches": [],
+    "error": null
+  },
+  "lookbehind-positive": {
+    "matches": [],
+    "error": null
+  },
+  "quant-exact": {
+    "matches": [],
+    "error": null
+  },
+  "quant-lazy": {
+    "matches": [],
+    "error": null
+  },
+  "quant-min": {
+    "matches": [],
+    "error": null
+  },
+  "quant-optional": {
+    "matches": [],
+    "error": null
+  },
+  "quant-plus": {
+    "matches": [],
+    "error": null
+  },
+  "quant-possessive": {
+    "matches": [],
+    "error": null
+  },
+  "quant-range": {
+    "matches": [],
+    "error": null
+  },
+  "quant-star": {
+    "matches": [
+      {
+        "match": "b",
+        "index": -1
+      },
+      {
+        "match": "ba",
+        "index": -1
+      },
+      {
+        "match": "baa",
+        "index": -1
+      },
+      {
+        "match": "baaa",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "shell-01-bre-grouping": {
+    "matches": [
+      {
+        "match": "foobaz",
+        "index": -1
+      },
+      {
+        "match": "barbaz",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "shell-02-bre-quantifier-range": {
+    "matches": [
+      {
+        "match": "aa",
+        "index": -1
+      },
+      {
+        "match": "aaa",
+        "index": -1
+      },
+      {
+        "match": "aaaa",
+        "index": -1
+      },
+      {
+        "match": "aaaa",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "shell-03-bre-plus": {
+    "matches": [
+      {
+        "match": "a",
+        "index": -1
+      },
+      {
+        "match": "aa",
+        "index": -1
+      },
+      {
+        "match": "aaa",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "shell-04-bre-optional": {
+    "matches": [
+      {
+        "match": "color",
+        "index": -1
+      },
+      {
+        "match": "colour",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "shell-05-bre-alternation": {
+    "matches": [
+      {
+        "match": "cat",
+        "index": -1
+      },
+      {
+        "match": "dog",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "shell-06-posix-classes": {
+    "matches": [],
+    "error": null
+  },
+  "shell-07-anchored-line": {
+    "matches": [],
+    "error": null
+  },
+  "shell-08-sed-match-basic": {
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "shell-09-awk-digits": {
+    "matches": [],
+    "error": null
+  },
+  "shell-10-csv-split": {
+    "matches": [],
+    "error": null
+  },
+  "shell-11-log-level": {
+    "matches": [],
+    "error": null
+  },
+  "shell-12-gnu-word-boundary": {
+    "matches": [
+      {
+        "match": "word",
+        "index": -1
+      },
+      {
+        "match": "word",
+        "index": -1
+      }
+    ],
+    "error": null
+  }
+}

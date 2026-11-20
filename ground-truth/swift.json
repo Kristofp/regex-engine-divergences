@@ -9,7 +9,8 @@
         "match": "word",
         "index": 9
       }
-    ]
+    ],
+    "error": null
   },
   "anchor-boundary-word": {
     "matches": [
@@ -17,7 +18,8 @@
         "match": "word",
         "index": 2
       }
-    ]
+    ],
+    "error": null
   },
   "anchor-end": {
     "matches": [
@@ -29,7 +31,8 @@
         "match": "world",
         "index": 20
       }
-    ]
+    ],
+    "error": null
   },
   "anchor-end-string": {
     "matches": [
@@ -37,7 +40,8 @@
         "match": "end",
         "index": 4
       }
-    ]
+    ],
+    "error": null
   },
   "anchor-end-string-only": {
     "matches": [
@@ -45,10 +49,12 @@
         "match": "end",
         "index": 4
       }
-    ]
+    ],
+    "error": null
   },
   "anchor-match-reset": {
-    "matches": []
+    "matches": [],
+    "error": null
   },
   "anchor-match-start": {
     "matches": [
@@ -56,7 +62,8 @@
         "match": "abc",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "anchor-start": {
     "matches": [
@@ -68,7 +75,8 @@
         "match": "hello",
         "index": 12
       }
-    ]
+    ],
+    "error": null
   },
   "anchor-start-string": {
     "matches": [
@@ -76,7 +84,8 @@
         "match": "hello",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "backref-named": {
     "matches": [
@@ -88,7 +97,8 @@
         "match": "bb",
         "index": 3
       }
-    ]
+    ],
+    "error": null
   },
   "backref-numbered": {
     "matches": [
@@ -100,7 +110,8 @@
         "match": "bb",
         "index": 3
       }
-    ]
+    ],
+    "error": null
   },
   "char-class-negated": {
     "matches": [
@@ -116,7 +127,8 @@
         "match": "ghi",
         "index": 12
       }
-    ]
+    ],
+    "error": null
   },
   "char-class-range": {
     "matches": [
@@ -132,7 +144,8 @@
         "match": "foo",
         "index": 16
       }
-    ]
+    ],
+    "error": null
   },
   "char-dot": {
     "matches": [
@@ -152,7 +165,8 @@
         "match": "h llo",
         "index": 18
       }
-    ]
+    ],
+    "error": null
   },
   "char-escape-D": {
     "matches": [
@@ -164,7 +178,8 @@
         "match": "def",
         "index": 6
       }
-    ]
+    ],
+    "error": null
   },
   "char-escape-R": {
     "matches": [
@@ -176,7 +191,8 @@
         "match": "\n",
         "index": 12
       }
-    ]
+    ],
+    "error": null
   },
   "char-escape-S": {
     "matches": [
@@ -192,7 +208,8 @@
         "match": "123",
         "index": 12
       }
-    ]
+    ],
+    "error": null
   },
   "char-escape-W": {
     "matches": [
@@ -204,7 +221,8 @@
         "match": "! ",
         "index": 11
       }
-    ]
+    ],
+    "error": null
   },
   "char-escape-X": {
     "matches": [
@@ -232,7 +250,8 @@
         "match": "o",
         "index": 7
       }
-    ]
+    ],
+    "error": null
   },
   "char-escape-d": {
     "matches": [
@@ -244,7 +263,8 @@
         "match": "456",
         "index": 9
       }
-    ]
+    ],
+    "error": null
   },
   "char-escape-s": {
     "matches": [
@@ -256,7 +276,8 @@
         "match": "\t",
         "index": 11
       }
-    ]
+    ],
+    "error": null
   },
   "char-escape-w": {
     "matches": [
@@ -272,7 +293,8 @@
         "match": "123",
         "index": 13
       }
-    ]
+    ],
+    "error": null
   },
   "char-literal": {
     "matches": [
@@ -284,7 +306,8 @@
         "match": "hello",
         "index": 24
       }
-    ]
+    ],
+    "error": null
   },
   "char-unicode-prop": {
     "matches": [
@@ -300,7 +323,8 @@
         "match": "café",
         "index": 13
       }
-    ]
+    ],
+    "error": null
   },
   "char-unicode-prop-neg": {
     "matches": [
@@ -312,7 +336,8 @@
         "match": " 123 ",
         "index": 8
       }
-    ]
+    ],
+    "error": null
   },
   "choice-simple": {
     "matches": [
@@ -324,7 +349,8 @@
         "match": "dog",
         "index": 19
       }
-    ]
+    ],
+    "error": null
   },
   "choice-triple": {
     "matches": [
@@ -340,7 +366,8 @@
         "match": "green",
         "index": 17
       }
-    ]
+    ],
+    "error": null
   },
   "class-difference": {
     "matches": [
@@ -348,7 +375,8 @@
         "match": "bcd",
         "index": 1
       }
-    ]
+    ],
+    "error": null
   },
   "class-intersection-icu": {
     "matches": [
@@ -380,7 +408,8 @@
         "match": "x",
         "index": 16
       }
-    ]
+    ],
+    "error": null
   },
   "group-atomic": {
     "matches": [
@@ -388,7 +417,8 @@
         "match": "abb",
         "index": 3
       }
-    ]
+    ],
+    "error": null
   },
   "group-capturing": {
     "matches": [
@@ -400,7 +430,8 @@
         "match": "foobar",
         "index": 7
       }
-    ]
+    ],
+    "error": null
   },
   "group-named": {
     "matches": [
@@ -412,7 +443,8 @@
         "match": "world",
         "index": 6
       }
-    ]
+    ],
+    "error": null
   },
   "group-noncapturing": {
     "matches": [
@@ -424,7 +456,8 @@
         "match": "barbaz",
         "index": 7
       }
-    ]
+    ],
+    "error": null
   },
   "group-scoped-flags": {
     "matches": [
@@ -436,7 +469,8 @@
         "match": "Hello world",
         "index": 12
       }
-    ]
+    ],
+    "error": null
   },
   "l2-alternation-capture-star": {
     "matches": [
@@ -452,7 +486,8 @@
         "match": "999.999.999.999",
         "index": 23
       }
-    ]
+    ],
+    "error": null
   },
   "l2-alternation-different-lengths": {
     "matches": [
@@ -472,7 +507,8 @@
         "match": "Apr",
         "index": 18
       }
-    ]
+    ],
+    "error": null
   },
   "l2-alternation-in-group": {
     "matches": [
@@ -484,7 +520,8 @@
         "match": "dog food",
         "index": 9
       }
-    ]
+    ],
+    "error": null
   },
   "l2-alternation-in-lookbehind": {
     "matches": [
@@ -496,7 +533,8 @@
         "match": "wood",
         "index": 11
       }
-    ]
+    ],
+    "error": null
   },
   "l2-anchor-alternation": {
     "matches": [
@@ -508,7 +546,8 @@
         "match": "bar",
         "index": 10
       }
-    ]
+    ],
+    "error": null
   },
   "l2-anchor-backref": {
     "matches": [
@@ -520,7 +559,8 @@
         "match": "xyzzx",
         "index": 6
       }
-    ]
+    ],
+    "error": null
   },
   "l2-anchor-class-quantifier": {
     "matches": [
@@ -532,7 +572,8 @@
         "match": "Test",
         "index": 12
       }
-    ]
+    ],
+    "error": null
   },
   "l2-anchor-group": {
     "matches": [
@@ -548,7 +589,8 @@
         "match": "baz",
         "index": 20
       }
-    ]
+    ],
+    "error": null
   },
   "l2-anchor-lookahead": {
     "matches": [
@@ -560,7 +602,8 @@
         "match": "test456",
         "index": 13
       }
-    ]
+    ],
+    "error": null
   },
   "l2-anchor-lookbehind": {
     "matches": [
@@ -572,7 +615,8 @@
         "match": "end",
         "index": 16
       }
-    ]
+    ],
+    "error": null
   },
   "l2-anchor-neg-lookahead": {
     "matches": [
@@ -584,7 +628,8 @@
         "match": "more code",
         "index": 30
       }
-    ]
+    ],
+    "error": null
   },
   "l2-atomic-quantifier": {
     "matches": [
@@ -596,7 +641,8 @@
         "match": "ab",
         "index": 4
       }
-    ]
+    ],
+    "error": null
   },
   "l2-backref-alternation-group": {
     "matches": [
@@ -616,7 +662,8 @@
         "match": "xyz",
         "index": 12
       }
-    ]
+    ],
+    "error": null
   },
   "l2-backref-in-alternation": {
     "matches": [
@@ -628,7 +675,8 @@
         "match": "bb",
         "index": 3
       }
-    ]
+    ],
+    "error": null
   },
   "l2-backref-in-quantified-group": {
     "matches": [
@@ -640,7 +688,8 @@
         "match": "\"world\"",
         "index": 8
       }
-    ]
+    ],
+    "error": null
   },
   "l2-boundary-alternation-capture": {
     "matches": [
@@ -656,7 +705,8 @@
         "match": "bird",
         "index": 20
       }
-    ]
+    ],
+    "error": null
   },
   "l2-boundary-capture-quantifier": {
     "matches": [
@@ -676,7 +726,8 @@
         "match": "tests",
         "index": 17
       }
-    ]
+    ],
+    "error": null
   },
   "l2-boundary-neg-lookahead": {
     "matches": [
@@ -708,7 +759,8 @@
         "match": "dog",
         "index": 40
       }
-    ]
+    ],
+    "error": null
   },
   "l2-capture-class-range-lazy": {
     "matches": [
@@ -732,7 +784,8 @@
         "match": "ij",
         "index": 9
       }
-    ]
+    ],
+    "error": null
   },
   "l2-capture-dot-star-lazy-anchor": {
     "matches": [
@@ -748,7 +801,8 @@
         "match": "  test  ",
         "index": 14
       }
-    ]
+    ],
+    "error": null
   },
   "l2-capture-lazy-range": {
     "matches": [
@@ -764,7 +818,8 @@
         "match": "<a>",
         "index": 13
       }
-    ]
+    ],
+    "error": null
   },
   "l2-capture-unicode-named": {
     "matches": [
@@ -776,7 +831,8 @@
         "match": "hello456",
         "index": 7
       }
-    ]
+    ],
+    "error": null
   },
   "l2-capturing-alternation-backref": {
     "matches": [
@@ -792,7 +848,8 @@
         "match": "fox fox",
         "index": 20
       }
-    ]
+    ],
+    "error": null
   },
   "l2-capturing-optional": {
     "matches": [
@@ -812,7 +869,8 @@
         "match": " Alice",
         "index": 20
       }
-    ]
+    ],
+    "error": null
   },
   "l2-capturing-star": {
     "matches": [
@@ -828,7 +886,8 @@
         "match": "ababc",
         "index": 6
       }
-    ]
+    ],
+    "error": null
   },
   "l2-class-dot-alternation-quantifier": {
     "matches": [
@@ -844,7 +903,8 @@
         "match": "test.net",
         "index": 28
       }
-    ]
+    ],
+    "error": null
   },
   "l2-class-escape-in-class": {
     "matches": [
@@ -856,7 +916,8 @@
         "match": " 456",
         "index": 11
       }
-    ]
+    ],
+    "error": null
   },
   "l2-class-literal-special": {
     "matches": [
@@ -864,7 +925,8 @@
         "match": "]--^",
         "index": 3
       }
-    ]
+    ],
+    "error": null
   },
   "l2-class-negated-quantifier-anchor": {
     "matches": [
@@ -876,7 +938,8 @@
         "match": "more code",
         "index": 20
       }
-    ]
+    ],
+    "error": null
   },
   "l2-class-special-chars": {
     "matches": [
@@ -888,7 +951,8 @@
         "match": "test@foo.bar.org",
         "index": 17
       }
-    ]
+    ],
+    "error": null
   },
   "l2-class-union": {
     "matches": [
@@ -904,7 +968,8 @@
         "match": "1A3F",
         "index": 11
       }
-    ]
+    ],
+    "error": null
   },
   "l2-complex-email": {
     "matches": [
@@ -916,7 +981,8 @@
         "match": "test+tag@foo.org",
         "index": 17
       }
-    ]
+    ],
+    "error": null
   },
   "l2-csv-field": {
     "matches": [
@@ -936,7 +1002,8 @@
         "match": "baz",
         "index": 24
       }
-    ]
+    ],
+    "error": null
   },
   "l2-digit-boundary": {
     "matches": [
@@ -948,7 +1015,8 @@
         "match": "456",
         "index": 12
       }
-    ]
+    ],
+    "error": null
   },
   "l2-digit-boundary-group": {
     "matches": [
@@ -964,7 +1032,8 @@
         "match": "50",
         "index": 30
       }
-    ]
+    ],
+    "error": null
   },
   "l2-digit-class-quantifier-group": {
     "matches": [
@@ -980,7 +1049,8 @@
         "match": "555 111 2222",
         "index": 26
       }
-    ]
+    ],
+    "error": null
   },
   "l2-dot-class-alternation": {
     "matches": [
@@ -988,7 +1058,8 @@
         "match": "user@test.com N/A foo@bar.org",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l2-dot-greedy": {
     "matches": [
@@ -996,7 +1067,8 @@
         "match": "axyzb axxb ab",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l2-dot-lazy": {
     "matches": [
@@ -1008,7 +1080,8 @@
         "match": "axxb",
         "index": 7
       }
-    ]
+    ],
+    "error": null
   },
   "l2-dot-star-group-anchor": {
     "matches": [
@@ -1020,7 +1093,8 @@
         "match": "foo bar",
         "index": 12
       }
-    ]
+    ],
+    "error": null
   },
   "l2-dotall-multiline": {
     "matches": [
@@ -1028,7 +1102,8 @@
         "match": "line1\nline2\nline3",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l2-double-lookahead": {
     "matches": [
@@ -1048,7 +1123,8 @@
         "match": "A1b",
         "index": 17
       }
-    ]
+    ],
+    "error": null
   },
   "l2-double-negated-class": {
     "matches": [
@@ -1064,7 +1140,8 @@
         "match": "123",
         "index": 13
       }
-    ]
+    ],
+    "error": null
   },
   "l2-escape-sequence-in-class": {
     "matches": [
@@ -1076,7 +1153,8 @@
         "match": " foo",
         "index": 18
       }
-    ]
+    ],
+    "error": null
   },
   "l2-escaped-special": {
     "matches": [
@@ -1088,7 +1166,8 @@
         "match": "$100.00",
         "index": 7
       }
-    ]
+    ],
+    "error": null
   },
   "l2-flag-combo-im": {
     "matches": [
@@ -1104,7 +1183,8 @@
         "match": "HeLLo",
         "index": 24
       }
-    ]
+    ],
+    "error": null
   },
   "l2-flag-combo-is": {
     "matches": [
@@ -1116,7 +1196,8 @@
         "match": "HELLO\nWORLD",
         "index": 12
       }
-    ]
+    ],
+    "error": null
   },
   "l2-greedy-vs-lazy-star": {
     "matches": [
@@ -1132,7 +1213,8 @@
         "match": "</div>",
         "index": 23
       }
-    ]
+    ],
+    "error": null
   },
   "l2-group-alternation-quantifier": {
     "matches": [
@@ -1152,7 +1234,8 @@
         "match": "cdab",
         "index": 15
       }
-    ]
+    ],
+    "error": null
   },
   "l2-group-backref": {
     "matches": [
@@ -1164,7 +1247,8 @@
         "match": "bbb",
         "index": 4
       }
-    ]
+    ],
+    "error": null
   },
   "l2-group-backref-named": {
     "matches": [
@@ -1176,7 +1260,8 @@
         "match": "\"world\"",
         "index": 8
       }
-    ]
+    ],
+    "error": null
   },
   "l2-group-star-anchor-end": {
     "matches": [
@@ -1188,7 +1273,8 @@
         "match": "10.20.30",
         "index": 8
       }
-    ]
+    ],
+    "error": null
   },
   "l2-hex-color": {
     "matches": [
@@ -1204,7 +1290,8 @@
         "match": "#123",
         "index": 13
       }
-    ]
+    ],
+    "error": null
   },
   "l2-html-tag-pair": {
     "matches": [
@@ -1216,7 +1303,8 @@
         "match": "<span>world</span>",
         "index": 17
       }
-    ]
+    ],
+    "error": null
   },
   "l2-log-line": {
     "matches": [
@@ -1228,7 +1316,8 @@
         "match": "2026-04-12 ERROR Something failed",
         "index": 28
       }
-    ]
+    ],
+    "error": null
   },
   "l2-lookahead-alternation": {
     "matches": [
@@ -1240,7 +1329,8 @@
         "match": "barfoo",
         "index": 7
       }
-    ]
+    ],
+    "error": null
   },
   "l2-lookahead-anchor-end": {
     "matches": [
@@ -1248,7 +1338,8 @@
         "match": "world",
         "index": 7
       }
-    ]
+    ],
+    "error": null
   },
   "l2-lookahead-backref": {
     "matches": [
@@ -1256,7 +1347,8 @@
         "match": "abc abc",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l2-lookahead-boundary": {
     "matches": [
@@ -1268,7 +1360,8 @@
         "match": "brown",
         "index": 15
       }
-    ]
+    ],
+    "error": null
   },
   "l2-lookahead-capture": {
     "matches": [
@@ -1280,7 +1373,8 @@
         "match": "world",
         "index": 6
       }
-    ]
+    ],
+    "error": null
   },
   "l2-lookahead-capture-backref": {
     "matches": [
@@ -1300,7 +1394,8 @@
         "match": "d",
         "index": 3
       }
-    ]
+    ],
+    "error": null
   },
   "l2-lookahead-class-quantifier": {
     "matches": [
@@ -1316,7 +1411,8 @@
         "match": "abc12345",
         "index": 27
       }
-    ]
+    ],
+    "error": null
   },
   "l2-lookahead-lookahead": {
     "matches": [
@@ -1324,7 +1420,8 @@
         "match": "Hello1 HELLO hello Hello12",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l2-lookahead-optional-capture": {
     "matches": [
@@ -1340,7 +1437,8 @@
         "match": "def456",
         "index": 8
       }
-    ]
+    ],
+    "error": null
   },
   "l2-lookahead-quantified-group": {
     "matches": [
@@ -1352,7 +1450,8 @@
         "match": "5551234567",
         "index": 21
       }
-    ]
+    ],
+    "error": null
   },
   "l2-lookbehind-alternation": {
     "matches": [
@@ -1364,7 +1463,8 @@
         "match": " Jones",
         "index": 18
       }
-    ]
+    ],
+    "error": null
   },
   "l2-lookbehind-anchor-start": {
     "matches": [
@@ -1376,7 +1476,8 @@
         "match": "world",
         "index": 6
       }
-    ]
+    ],
+    "error": null
   },
   "l2-lookbehind-capture": {
     "matches": [
@@ -1388,7 +1489,8 @@
         "match": "test",
         "index": 12
       }
-    ]
+    ],
+    "error": null
   },
   "l2-lookbehind-class": {
     "matches": [
@@ -1404,7 +1506,8 @@
         "match": "BC",
         "index": 18
       }
-    ]
+    ],
+    "error": null
   },
   "l2-lookbehind-lookahead": {
     "matches": [
@@ -1420,7 +1523,8 @@
         "match": "foo",
         "index": 24
       }
-    ]
+    ],
+    "error": null
   },
   "l2-lookbehind-neg-class": {
     "matches": [
@@ -1432,7 +1536,8 @@
         "match": " 456",
         "index": 15
       }
-    ]
+    ],
+    "error": null
   },
   "l2-lookbehind-quantifier": {
     "matches": [
@@ -1444,10 +1549,12 @@
         "match": "xyz",
         "index": 13
       }
-    ]
+    ],
+    "error": null
   },
   "l2-match-reset-capture": {
-    "matches": []
+    "matches": [],
+    "error": null
   },
   "l2-multiline-anchor-group": {
     "matches": [
@@ -1463,7 +1570,8 @@
         "match": "key3=value3",
         "index": 28
       }
-    ]
+    ],
+    "error": null
   },
   "l2-multiple-backrefs": {
     "matches": [
@@ -1479,7 +1587,8 @@
         "match": "noon",
         "index": 10
       }
-    ]
+    ],
+    "error": null
   },
   "l2-multiple-captures": {
     "matches": [
@@ -1491,7 +1600,8 @@
         "match": "12-31-1999",
         "index": 11
       }
-    ]
+    ],
+    "error": null
   },
   "l2-multiple-flag-scopes": {
     "matches": [
@@ -1507,7 +1617,8 @@
         "match": "HeLLo WoRLd",
         "index": 24
       }
-    ]
+    ],
+    "error": null
   },
   "l2-multiple-named-groups": {
     "matches": [
@@ -1519,7 +1630,8 @@
         "match": "Jane Doe",
         "index": 11
       }
-    ]
+    ],
+    "error": null
   },
   "l2-named-group-alternation-backref": {
     "matches": [
@@ -1531,7 +1643,8 @@
         "match": "/world/",
         "index": 8
       }
-    ]
+    ],
+    "error": null
   },
   "l2-named-group-quantifier": {
     "matches": [
@@ -1551,7 +1664,8 @@
         "match": "ef",
         "index": 14
       }
-    ]
+    ],
+    "error": null
   },
   "l2-named-group-star": {
     "matches": [
@@ -1567,7 +1681,8 @@
         "match": "test",
         "index": 28
       }
-    ]
+    ],
+    "error": null
   },
   "l2-named-groups-alternation": {
     "matches": [
@@ -1579,7 +1694,8 @@
         "match": "04/2026",
         "index": 8
       }
-    ]
+    ],
+    "error": null
   },
   "l2-neg-lookahead-class": {
     "matches": [
@@ -1599,7 +1715,8 @@
         "match": "7",
         "index": 14
       }
-    ]
+    ],
+    "error": null
   },
   "l2-neg-lookahead-neg-lookbehind": {
     "matches": [
@@ -1619,7 +1736,8 @@
         "match": "ghi",
         "index": 14
       }
-    ]
+    ],
+    "error": null
   },
   "l2-neg-lookbehind-capture": {
     "matches": [
@@ -1643,7 +1761,8 @@
         "match": "jkl",
         "index": 18
       }
-    ]
+    ],
+    "error": null
   },
   "l2-negated-class-quantifier": {
     "matches": [
@@ -1663,7 +1782,8 @@
         "match": "rld",
         "index": 8
       }
-    ]
+    ],
+    "error": null
   },
   "l2-nested-alternation": {
     "matches": [
@@ -1679,7 +1799,8 @@
         "match": "bde",
         "index": 7
       }
-    ]
+    ],
+    "error": null
   },
   "l2-nested-groups": {
     "matches": [
@@ -1691,7 +1812,8 @@
         "match": "abc",
         "index": 5
       }
-    ]
+    ],
+    "error": null
   },
   "l2-nested-lookaround": {
     "matches": [
@@ -1699,7 +1821,8 @@
         "match": "abc1",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l2-nested-named-groups": {
     "matches": [
@@ -1711,7 +1834,8 @@
         "match": "456def",
         "index": 7
       }
-    ]
+    ],
+    "error": null
   },
   "l2-nested-quantifier-class": {
     "matches": [
@@ -1723,7 +1847,8 @@
         "match": "xyz789",
         "index": 13
       }
-    ]
+    ],
+    "error": null
   },
   "l2-nested-quantifiers": {
     "matches": [
@@ -1735,7 +1860,8 @@
         "match": "ab",
         "index": 4
       }
-    ]
+    ],
+    "error": null
   },
   "l2-nested-three-groups": {
     "matches": [
@@ -1747,7 +1873,8 @@
         "match": "abc",
         "index": 5
       }
-    ]
+    ],
+    "error": null
   },
   "l2-non-backtracking-group": {
     "matches": [
@@ -1759,7 +1886,8 @@
         "match": "456.",
         "index": 5
       }
-    ]
+    ],
+    "error": null
   },
   "l2-noncapturing-exact": {
     "matches": [
@@ -1767,7 +1895,8 @@
         "match": "hahaha",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l2-noncapturing-lazy": {
     "matches": [
@@ -1783,7 +1912,8 @@
         "match": "abababx",
         "index": 10
       }
-    ]
+    ],
+    "error": null
   },
   "l2-noncapturing-nested-alternation": {
     "matches": [
@@ -1803,7 +1933,8 @@
         "match": "remake",
         "index": 17
       }
-    ]
+    ],
+    "error": null
   },
   "l2-noncapturing-optional": {
     "matches": [
@@ -1815,7 +1946,8 @@
         "match": "https://www.test.org",
         "index": 19
       }
-    ]
+    ],
+    "error": null
   },
   "l2-noncapturing-plus": {
     "matches": [
@@ -1831,7 +1963,8 @@
         "match": "ababab",
         "index": 8
       }
-    ]
+    ],
+    "error": null
   },
   "l2-noncapturing-range": {
     "matches": [
@@ -1847,7 +1980,8 @@
         "match": "abababab",
         "index": 15
       }
-    ]
+    ],
+    "error": null
   },
   "l2-nongreedy-in-group": {
     "matches": [
@@ -1863,7 +1997,8 @@
         "match": "<div>",
         "index": 17
       }
-    ]
+    ],
+    "error": null
   },
   "l2-optional-capture-in-sequence": {
     "matches": [
@@ -1879,7 +2014,8 @@
         "match": "z = 15",
         "index": 15
       }
-    ]
+    ],
+    "error": null
   },
   "l2-possessive-class": {
     "matches": [
@@ -1891,7 +2027,8 @@
         "match": "xyz2",
         "index": 5
       }
-    ]
+    ],
+    "error": null
   },
   "l2-possessive-group-class": {
     "matches": [
@@ -1907,7 +2044,8 @@
         "match": "foo ",
         "index": 12
       }
-    ]
+    ],
+    "error": null
   },
   "l2-possessive-in-group": {
     "matches": [
@@ -1919,7 +2057,8 @@
         "match": "ab",
         "index": 4
       }
-    ]
+    ],
+    "error": null
   },
   "l2-quantified-class": {
     "matches": [
@@ -1935,7 +2074,8 @@
         "match": "abcde",
         "index": 13
       }
-    ]
+    ],
+    "error": null
   },
   "l2-quantified-group": {
     "matches": [
@@ -1947,7 +2087,8 @@
         "match": "abcabcabc",
         "index": 7
       }
-    ]
+    ],
+    "error": null
   },
   "l2-quantifier-zero-max": {
     "matches": [
@@ -1971,7 +2112,8 @@
         "match": "aaab",
         "index": 15
       }
-    ]
+    ],
+    "error": null
   },
   "l2-scoped-flag-i-alternation": {
     "matches": [
@@ -1987,7 +2129,8 @@
         "match": "MAYBE",
         "index": 7
       }
-    ]
+    ],
+    "error": null
   },
   "l2-scoped-flags-class": {
     "matches": [
@@ -1999,7 +2142,8 @@
         "match": "WORLD",
         "index": 6
       }
-    ]
+    ],
+    "error": null
   },
   "l2-scoped-flags-dot": {
     "matches": [
@@ -2011,7 +2155,8 @@
         "match": "axb",
         "index": 4
       }
-    ]
+    ],
+    "error": null
   },
   "l2-space-boundary-class": {
     "matches": [
@@ -2023,7 +2168,8 @@
         "match": "foo bar",
         "index": 12
       }
-    ]
+    ],
+    "error": null
   },
   "l2-time-pattern": {
     "matches": [
@@ -2039,7 +2185,8 @@
         "match": "7:45:01",
         "index": 14
       }
-    ]
+    ],
+    "error": null
   },
   "l2-triple-capture-backref": {
     "matches": [
@@ -2051,7 +2198,8 @@
         "match": "deed",
         "index": 10
       }
-    ]
+    ],
+    "error": null
   },
   "l2-unicode-case-insensitive": {
     "matches": [
@@ -2067,7 +2215,8 @@
         "match": "café",
         "index": 12
       }
-    ]
+    ],
+    "error": null
   },
   "l2-unicode-category-number": {
     "matches": [
@@ -2079,7 +2228,8 @@
         "match": "٤٥٦",
         "index": 8
       }
-    ]
+    ],
+    "error": null
   },
   "l2-unicode-group": {
     "matches": [
@@ -2091,7 +2241,8 @@
         "match": "世界 456",
         "index": 10
       }
-    ]
+    ],
+    "error": null
   },
   "l2-unicode-prop-anchor": {
     "matches": [
@@ -2103,7 +2254,8 @@
         "match": "W",
         "index": 6
       }
-    ]
+    ],
+    "error": null
   },
   "l2-unicode-prop-quantifier": {
     "matches": [
@@ -2119,7 +2271,8 @@
         "match": "café",
         "index": 9
       }
-    ]
+    ],
+    "error": null
   },
   "l2-unicode-script": {
     "matches": [
@@ -2131,7 +2284,8 @@
         "match": "Привет",
         "index": 16
       }
-    ]
+    ],
+    "error": null
   },
   "l2-url-parts": {
     "matches": [
@@ -2143,7 +2297,8 @@
         "match": "https://www.test.org",
         "index": 24
       }
-    ]
+    ],
+    "error": null
   },
   "l2-version-number": {
     "matches": [
@@ -2163,7 +2318,8 @@
         "match": "1.2",
         "index": 20
       }
-    ]
+    ],
+    "error": null
   },
   "l2-word-boundary-group": {
     "matches": [
@@ -2179,7 +2335,8 @@
         "match": "dogs",
         "index": 36
       }
-    ]
+    ],
+    "error": null
   },
   "l2-word-nonword-alternation": {
     "matches": [
@@ -2203,7 +2360,8 @@
         "match": "foo",
         "index": 18
       }
-    ]
+    ],
+    "error": null
   },
   "l3-alternation-anchor-escape": {
     "matches": [
@@ -2211,7 +2369,8 @@
         "match": "12345",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l3-alternation-backref-lazy": {
     "matches": [
@@ -2227,7 +2386,8 @@
         "match": "bxxb",
         "index": 10
       }
-    ]
+    ],
+    "error": null
   },
   "l3-atomic-alternation-quantifier": {
     "matches": [
@@ -2243,7 +2403,8 @@
         "match": "abef",
         "index": 14
       }
-    ]
+    ],
+    "error": null
   },
   "l3-atomic-backref-anchor": {
     "matches": [
@@ -2251,7 +2412,8 @@
         "match": "aa",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l3-backref-alternation-anchor": {
     "matches": [
@@ -2259,7 +2421,8 @@
         "match": "aa",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l3-capture-inside-lookahead-reuse": {
     "matches": [
@@ -2271,7 +2434,8 @@
         "match": "dogs",
         "index": 5
       }
-    ]
+    ],
+    "error": null
   },
   "l3-capture-lazy-alternation": {
     "matches": [
@@ -2283,7 +2447,8 @@
         "match": "foobaz",
         "index": 10
       }
-    ]
+    ],
+    "error": null
   },
   "l3-capture-nested-quantifiers": {
     "matches": [
@@ -2291,7 +2456,8 @@
         "match": "hello world foo",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l3-class-boundary-group-quantifier": {
     "matches": [
@@ -2307,7 +2473,8 @@
         "match": "FooBarBaz",
         "index": 22
       }
-    ]
+    ],
+    "error": null
   },
   "l3-conditional-named-group-quant": {
     "matches": [],
@@ -2323,10 +2490,12 @@
         "match": "efgh\n",
         "index": 6
       }
-    ]
+    ],
+    "error": null
   },
   "l3-edge-K-with-captures": {
-    "matches": []
+    "matches": [],
+    "error": null
   },
   "l3-edge-alternation-capture-counts": {
     "matches": [
@@ -2334,10 +2503,12 @@
         "match": "ab",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l3-edge-atomic-no-backtrack": {
-    "matches": []
+    "matches": [],
+    "error": null
   },
   "l3-edge-backref-in-class-literal": {
     "matches": [
@@ -2345,7 +2516,8 @@
         "match": "1",
         "index": 2
       }
-    ]
+    ],
+    "error": null
   },
   "l3-edge-backref-nonparticipating": {
     "matches": [
@@ -2353,7 +2525,8 @@
         "match": "aba",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l3-edge-case-folding-eszett": {
     "matches": [
@@ -2365,7 +2538,8 @@
         "match": "straße",
         "index": 8
       }
-    ]
+    ],
+    "error": null
   },
   "l3-edge-catastrophic-avoided": {
     "matches": [
@@ -2373,7 +2547,8 @@
         "match": "xxxy",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l3-edge-empty-alternation": {
     "matches": [
@@ -2389,7 +2564,8 @@
         "match": "",
         "index": 2
       }
-    ]
+    ],
+    "error": null
   },
   "l3-edge-empty-capture-backref": {
     "matches": [
@@ -2405,7 +2581,8 @@
         "match": "aba",
         "index": 5
       }
-    ]
+    ],
+    "error": null
   },
   "l3-edge-greedy-vs-lazy-capture": {
     "matches": [
@@ -2413,7 +2590,8 @@
         "match": "\"first\" and \"second\"",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l3-edge-lookahead-at-end": {
     "matches": [
@@ -2421,7 +2599,8 @@
         "match": "world",
         "index": 6
       }
-    ]
+    ],
+    "error": null
   },
   "l3-edge-multiline-first-line": {
     "matches": [
@@ -2437,7 +2616,8 @@
         "match": "foo",
         "index": 12
       }
-    ]
+    ],
+    "error": null
   },
   "l3-edge-nested-class-escape": {
     "matches": [
@@ -2457,7 +2637,8 @@
         "match": "-",
         "index": 7
       }
-    ]
+    ],
+    "error": null
   },
   "l3-edge-nested-quantifier": {
     "matches": [
@@ -2465,7 +2646,8 @@
         "match": "aab",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l3-edge-null-in-class": {
     "matches": [
@@ -2473,10 +2655,12 @@
         "match": "\u0000\u0001\u0002",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l3-edge-overlapping-capture": {
-    "matches": []
+    "matches": [],
+    "error": null
   },
   "l3-edge-possessive-no-backtrack": {
     "matches": [
@@ -2484,7 +2668,8 @@
         "match": "\"hello\"x",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l3-edge-quantifier-on-anchor": {
     "matches": [],
@@ -2500,7 +2685,8 @@
         "match": "x",
         "index": 11
       }
-    ]
+    ],
+    "error": null
   },
   "l3-edge-zero-width-quantified": {
     "matches": [
@@ -2512,7 +2698,8 @@
         "match": "456",
         "index": 8
       }
-    ]
+    ],
+    "error": null
   },
   "l3-escape-quant-group-anchor": {
     "matches": [
@@ -2520,7 +2707,8 @@
         "match": "192.168.1.1",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l3-flag-multiline-lookahead": {
     "matches": [
@@ -2532,7 +2720,8 @@
         "match": "foo",
         "index": 13
       }
-    ]
+    ],
+    "error": null
   },
   "l3-flag-x-comment-group": {
     "matches": [
@@ -2544,7 +2733,8 @@
         "match": "7 lucky",
         "index": 10
       }
-    ]
+    ],
+    "error": null
   },
   "l3-group-alternation-escape": {
     "matches": [
@@ -2556,7 +2746,8 @@
         "match": "\tworld\t",
         "index": 7
       }
-    ]
+    ],
+    "error": null
   },
   "l3-lookahead-backref-group": {
     "matches": [
@@ -2564,7 +2755,8 @@
         "match": "world foo",
         "index": 6
       }
-    ]
+    ],
+    "error": null
   },
   "l3-lookahead-boundary-quantifier": {
     "matches": [
@@ -2580,7 +2772,8 @@
         "match": "JavaScript",
         "index": 18
       }
-    ]
+    ],
+    "error": null
   },
   "l3-lookahead-capture-quantified": {
     "matches": [
@@ -2596,7 +2789,8 @@
         "match": "890",
         "index": 9
       }
-    ]
+    ],
+    "error": null
   },
   "l3-lookahead-lazy-quant-class": {
     "matches": [
@@ -2608,7 +2802,8 @@
         "match": "X9",
         "index": 13
       }
-    ]
+    ],
+    "error": null
   },
   "l3-lookahead-lookbehind-capture": {
     "matches": [
@@ -2620,7 +2815,8 @@
         "match": "world",
         "index": 9
       }
-    ]
+    ],
+    "error": null
   },
   "l3-lookahead-negated-class-escape": {
     "matches": [
@@ -2636,7 +2832,8 @@
         "match": "foo3",
         "index": 8
       }
-    ]
+    ],
+    "error": null
   },
   "l3-lookbehind-dot-quantifier": {
     "matches": [
@@ -2648,7 +2845,8 @@
         "match": "b.xy",
         "index": 8
       }
-    ]
+    ],
+    "error": null
   },
   "l3-lookbehind-negated-class-anchor": {
     "matches": [
@@ -2656,7 +2854,8 @@
         "match": "domain",
         "index": 5
       }
-    ]
+    ],
+    "error": null
   },
   "l3-lookbehind-unicode-capture": {
     "matches": [
@@ -2672,7 +2871,8 @@
         "match": "afé",
         "index": 13
       }
-    ]
+    ],
+    "error": null
   },
   "l3-multiple-lookaround": {
     "matches": [
@@ -2684,7 +2884,8 @@
         "match": "def",
         "index": 11
       }
-    ]
+    ],
+    "error": null
   },
   "l3-multiple-named-groups-backref": {
     "matches": [
@@ -2696,7 +2897,8 @@
         "match": "xy:zz=xy-zz",
         "index": 12
       }
-    ]
+    ],
+    "error": null
   },
   "l3-named-alt-quantifier-anchor": {
     "matches": [
@@ -2704,7 +2906,8 @@
         "match": "https://example.com",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l3-named-group-flag-backref": {
     "matches": [
@@ -2716,7 +2919,8 @@
         "match": "world world",
         "index": 12
       }
-    ]
+    ],
+    "error": null
   },
   "l3-negated-lookahead-class-quant": {
     "matches": [
@@ -2732,7 +2936,8 @@
         "match": "coded",
         "index": 27
       }
-    ]
+    ],
+    "error": null
   },
   "l3-negated-lookbehind-class-boundary": {
     "matches": [
@@ -2756,10 +2961,12 @@
         "match": "mno",
         "index": 18
       }
-    ]
+    ],
+    "error": null
   },
   "l3-nested-groups-multi-capture": {
-    "matches": []
+    "matches": [],
+    "error": null
   },
   "l3-nested-lookaround-capture": {
     "matches": [
@@ -2771,7 +2978,8 @@
         "match": "x",
         "index": 4
       }
-    ]
+    ],
+    "error": null
   },
   "l3-nested-noncap-quant-lazy": {
     "matches": [
@@ -2779,7 +2987,8 @@
         "match": "a bb ccc ",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l3-nested-quantifiers-group": {
     "matches": [
@@ -2787,7 +2996,8 @@
         "match": "hello world foo",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l3-noncap-nested-alternation": {
     "matches": [
@@ -2807,7 +3017,8 @@
         "match": "gh",
         "index": 12
       }
-    ]
+    ],
+    "error": null
   },
   "l3-possessive-class-anchor": {
     "matches": [
@@ -2815,7 +3026,8 @@
         "match": "abc3",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l3-quantified-alt-lookbehind": {
     "matches": [
@@ -2831,7 +3043,8 @@
         "match": "Who",
         "index": 25
       }
-    ]
+    ],
+    "error": null
   },
   "l3-real-camel-to-words": {
     "matches": [
@@ -2847,7 +3060,8 @@
         "match": "",
         "index": 18
       }
-    ]
+    ],
+    "error": null
   },
   "l3-real-content-type": {
     "matches": [
@@ -2859,7 +3073,8 @@
         "match": "app/json",
         "index": 25
       }
-    ]
+    ],
+    "error": null
   },
   "l3-real-css-color": {
     "matches": [
@@ -2879,7 +3094,8 @@
         "match": "#DEAD00",
         "index": 18
       }
-    ]
+    ],
+    "error": null
   },
   "l3-real-csv-quoted": {
     "matches": [
@@ -2907,7 +3123,8 @@
         "match": "",
         "index": 27
       }
-    ]
+    ],
+    "error": null
   },
   "l3-real-date-validation": {
     "matches": [
@@ -2923,7 +3140,8 @@
         "match": "31/06/2025",
         "index": 22
       }
-    ]
+    ],
+    "error": null
   },
   "l3-real-duplicate-words": {
     "matches": [
@@ -2935,7 +3153,8 @@
         "match": "fox fox",
         "index": 20
       }
-    ]
+    ],
+    "error": null
   },
   "l3-real-email-lookahead": {
     "matches": [
@@ -2951,7 +3170,8 @@
         "match": "Ok@y.io",
         "index": 23
       }
-    ]
+    ],
+    "error": null
   },
   "l3-real-hex-color-named": {
     "matches": [
@@ -2967,7 +3187,8 @@
         "match": "#123456",
         "index": 16
       }
-    ]
+    ],
+    "error": null
   },
   "l3-real-html-attr": {
     "matches": [
@@ -2983,7 +3204,8 @@
         "match": "x=\"z\"",
         "index": 26
       }
-    ]
+    ],
+    "error": null
   },
   "l3-real-ipv4-octet": {
     "matches": [
@@ -2999,7 +3221,8 @@
         "match": "10.0.0.1",
         "index": 22
       }
-    ]
+    ],
+    "error": null
   },
   "l3-real-json-string": {
     "matches": [
@@ -3015,7 +3238,8 @@
         "match": "\"a\\nb\"",
         "index": 21
       }
-    ]
+    ],
+    "error": null
   },
   "l3-real-log-named-groups": {
     "matches": [
@@ -3023,7 +3247,8 @@
         "match": "2024-01-15T10:30:00 ERROR fail",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l3-real-markdown-link": {
     "matches": [
@@ -3035,7 +3260,8 @@
         "match": "[go](y.io)",
         "index": 21
       }
-    ]
+    ],
+    "error": null
   },
   "l3-real-password-strength": {
     "matches": [
@@ -3043,7 +3269,8 @@
         "match": "Str0ng!Pass weakpass S1mple!",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l3-real-phone-intl": {
     "matches": [
@@ -3055,7 +3282,8 @@
         "match": "(020) 555-6789",
         "index": 12
       }
-    ]
+    ],
+    "error": null
   },
   "l3-real-semver": {
     "matches": [
@@ -3071,7 +3299,8 @@
         "match": "7.8.9+build",
         "index": 19
       }
-    ]
+    ],
+    "error": null
   },
   "l3-real-time-12h": {
     "matches": [
@@ -3087,7 +3316,8 @@
         "match": "9:15 AM",
         "index": 16
       }
-    ]
+    ],
+    "error": null
   },
   "l3-real-url-optional": {
     "matches": [
@@ -3099,7 +3329,8 @@
         "match": "bar.io",
         "index": 22
       }
-    ]
+    ],
+    "error": null
   },
   "l3-real-uuid": {
     "matches": [
@@ -3107,7 +3338,8 @@
         "match": "550e8400-e29b-41d4-a716-446655440000",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "l3-real-xml-tag": {
     "matches": [
@@ -3123,7 +3355,8 @@
         "match": "<img src=\"y\"/>",
         "index": 22
       }
-    ]
+    ],
+    "error": null
   },
   "l3-scoped-flag-lookahead-class": {
     "matches": [
@@ -3139,7 +3372,8 @@
         "match": "foo",
         "index": 12
       }
-    ]
+    ],
+    "error": null
   },
   "l3-unicode-prop-lookaround-quantifier": {
     "matches": [
@@ -3155,7 +3389,8 @@
         "match": "6",
         "index": 12
       }
-    ]
+    ],
+    "error": null
   },
   "l3-unicode-script-lookahead-quant": {
     "matches": [
@@ -3171,7 +3406,8 @@
         "match": "café",
         "index": 12
       }
-    ]
+    ],
+    "error": null
   },
   "l3-word-boundary-class-backref": {
     "matches": [
@@ -3187,7 +3423,304 @@
         "match": "fox fox",
         "index": 20
       }
-    ]
+    ],
+    "error": null
+  },
+  "lib-ansi-escape-code": {
+    "matches": [
+      {
+        "match": "\u001b[31m",
+        "index": 0
+      },
+      {
+        "match": "\u001b[0m",
+        "index": 8
+      }
+    ],
+    "error": null
+  },
+  "lib-base64-string": {
+    "matches": [
+      {
+        "match": "SGVsbG8gV29ybGQ=",
+        "index": 0
+      },
+      {
+        "match": "plus",
+        "index": 17
+      }
+    ],
+    "error": null
+  },
+  "lib-blank-or-whitespace-line": {
+    "matches": [
+      {
+        "match": "",
+        "index": 4
+      },
+      {
+        "match": "   ",
+        "index": 5
+      }
+    ],
+    "error": null
+  },
+  "lib-cron-expression": {
+    "matches": [
+      {
+        "match": "*/5 0 * * 1-5",
+        "index": 0
+      }
+    ],
+    "error": null
+  },
+  "lib-data-uri": {
+    "matches": [
+      {
+        "match": "data:image/png;base64,iVBORw0KGgo=",
+        "index": 5
+      }
+    ],
+    "error": null
+  },
+  "lib-file-extension": {
+    "matches": [
+      {
+        "match": ".gz",
+        "index": 11
+      }
+    ],
+    "error": null
+  },
+  "lib-git-commit-sha": {
+    "matches": [
+      {
+        "match": "5aead204",
+        "index": 7
+      },
+      {
+        "match": "c58b423f1efc9d2a4b7e",
+        "index": 20
+      }
+    ],
+    "error": null
+  },
+  "lib-hashtag-and-mention": {
+    "matches": [
+      {
+        "match": "@alice",
+        "index": 3
+      },
+      {
+        "match": "#regex",
+        "index": 16
+      },
+      {
+        "match": "#dev_tools",
+        "index": 27
+      }
+    ],
+    "error": null
+  },
+  "lib-html-comment": {
+    "matches": [
+      {
+        "match": "<!-- hidden -->",
+        "index": 2
+      },
+      {
+        "match": "<!-- two -->",
+        "index": 20
+      }
+    ],
+    "error": null
+  },
+  "lib-iban": {
+    "matches": [
+      {
+        "match": "BE68539007547034",
+        "index": 0
+      },
+      {
+        "match": "DE89370400440532013000",
+        "index": 21
+      }
+    ],
+    "error": null
+  },
+  "lib-isbn-13": {
+    "matches": [
+      {
+        "match": "978-0-13-235088-4",
+        "index": 0
+      },
+      {
+        "match": "9780132350884",
+        "index": 22
+      }
+    ],
+    "error": null
+  },
+  "lib-jwt-token": {
+    "matches": [
+      {
+        "match": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIn0.dBjftJeZ4CVP",
+        "index": 6
+      }
+    ],
+    "error": null
+  },
+  "lib-line-comment-double-slash": {
+    "matches": [
+      {
+        "match": "// set x",
+        "index": 11
+      },
+      {
+        "match": "// and y",
+        "index": 31
+      }
+    ],
+    "error": null
+  },
+  "lib-mac-address": {
+    "matches": [
+      {
+        "match": "00:1B:44:11:3A:B7",
+        "index": 0
+      },
+      {
+        "match": "3D-F2-C9-A6-B3-4F",
+        "index": 22
+      }
+    ],
+    "error": null
+  },
+  "lib-port-number": {
+    "matches": [
+      {
+        "match": ":8080",
+        "index": 9
+      },
+      {
+        "match": ":5432",
+        "index": 17
+      }
+    ],
+    "error": null
+  },
+  "lib-query-string-param": {
+    "matches": [
+      {
+        "match": "?q=regex",
+        "index": 2
+      },
+      {
+        "match": "&page=2",
+        "index": 10
+      },
+      {
+        "match": "&sort=desc",
+        "index": 17
+      }
+    ],
+    "error": null
+  },
+  "lib-scientific-notation": {
+    "matches": [
+      {
+        "match": "6.022e23",
+        "index": 0
+      },
+      {
+        "match": "-1.6E-19",
+        "index": 13
+      }
+    ],
+    "error": null
+  },
+  "lib-snake-case-identifier": {
+    "matches": [
+      {
+        "match": "user_id",
+        "index": 0
+      },
+      {
+        "match": "total_count_2",
+        "index": 12
+      }
+    ],
+    "error": null
+  },
+  "lib-trailing-whitespace": {
+    "matches": [
+      {
+        "match": "   ",
+        "index": 8
+      },
+      {
+        "match": "\t",
+        "index": 20
+      }
+    ],
+    "error": null
+  },
+  "lib-uk-postcode": {
+    "matches": [
+      {
+        "match": "SW1A 1AA",
+        "index": 0
+      },
+      {
+        "match": "EC1A1BB",
+        "index": 13
+      }
+    ],
+    "error": null
+  },
+  "lib-unix-file-path": {
+    "matches": [
+      {
+        "match": "/usr/local/bin/tool",
+        "index": 4
+      },
+      {
+        "match": "/etc/hosts",
+        "index": 28
+      }
+    ],
+    "error": null
+  },
+  "lib-url-slug": {
+    "matches": [
+      {
+        "match": "my-first-blog-post",
+        "index": 0
+      }
+    ],
+    "error": null
+  },
+  "lib-us-zip-code": {
+    "matches": [
+      {
+        "match": "90210",
+        "index": 0
+      },
+      {
+        "match": "12345-6789",
+        "index": 10
+      }
+    ],
+    "error": null
+  },
+  "lib-windows-path": {
+    "matches": [
+      {
+        "match": "C:\\Users\\kris\\notes.txt now",
+        "index": 5
+      }
+    ],
+    "error": null
   },
   "lookahead-negative": {
     "matches": [
@@ -3199,7 +3732,8 @@
         "match": "foo",
         "index": 14
       }
-    ]
+    ],
+    "error": null
   },
   "lookahead-positive": {
     "matches": [
@@ -3207,7 +3741,8 @@
         "match": "foo",
         "index": 0
       }
-    ]
+    ],
+    "error": null
   },
   "lookbehind-negative": {
     "matches": [
@@ -3219,7 +3754,8 @@
         "match": "bar",
         "index": 15
       }
-    ]
+    ],
+    "error": null
   },
   "lookbehind-positive": {
     "matches": [
@@ -3227,7 +3763,8 @@
         "match": "bar",
         "index": 3
       }
-    ]
+    ],
+    "error": null
   },
   "quant-exact": {
     "matches": [
@@ -3239,7 +3776,8 @@
         "match": "aaa",
         "index": 7
       }
-    ]
+    ],
+    "error": null
   },
   "quant-lazy": {
     "matches": [
@@ -3267,7 +3805,8 @@
         "match": "a",
         "index": 7
       }
-    ]
+    ],
+    "error": null
   },
   "quant-min": {
     "matches": [
@@ -3283,7 +3822,8 @@
         "match": "aaaa",
         "index": 9
       }
-    ]
+    ],
+    "error": null
   },
   "quant-optional": {
     "matches": [
@@ -3295,7 +3835,8 @@
         "match": "colour",
         "index": 6
       }
-    ]
+    ],
+    "error": null
   },
   "quant-plus": {
     "matches": [
@@ -3311,7 +3852,8 @@
         "match": "aaa",
         "index": 5
       }
-    ]
+    ],
+    "error": null
   },
   "quant-possessive": {
     "matches": [
@@ -3323,7 +3865,8 @@
         "match": "ab",
         "index": 4
       }
-    ]
+    ],
+    "error": null
   },
   "quant-range": {
     "matches": [
@@ -3343,7 +3886,8 @@
         "match": "aaaa",
         "index": 14
       }
-    ]
+    ],
+    "error": null
   },
   "quant-star": {
     "matches": [
@@ -3363,6 +3907,7 @@
         "match": "baaa",
         "index": 9
       }
-    ]
+    ],
+    "error": null
   }
 }

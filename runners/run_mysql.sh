@@ -11,13 +11,13 @@
 #   docker run --rm -i -v $runnersDir:/runners -w /runners \
 #     mysql:8 sh run_mysql.sh
 #
-# Note: MySQL's REGEXP_INSTR returns 1-based byte offsets (not char
-# offsets) for multi-byte patterns. REGEXP_SUBSTR returns the matched
-# string. To avoid encoding surprises we report the string match and
-# translate to 0-based char offset via REGEXP_INSTR - 1; patterns
-# touching multi-byte boundaries will need the comparator to skip
-# exact offset checks (matches-content-only still catches adapter
-# divergences).
+# Note: MySQL's REGEXP_INSTR returns 1-based CODE POINT offsets, not byte
+# offsets (MEASURED 2026-09-26, Task 10 Step 0, mysql:8 8.4.11:
+# REGEXP_INSTR('😀X','X') is 2, i.e. the astral character counts as ONE
+# code point). This comment used to claim byte offsets; that was wrong,
+# corrected here rather than left to be re-measured. REGEXP_SUBSTR returns
+# the matched string. To avoid encoding surprises we report the string
+# match and translate to 0-based char offset via REGEXP_INSTR - 1.
 set -eu
 
 # mysql:8 is Oracle Linux with microdnf (not Debian/Alpine). Install
@@ -79,9 +79,13 @@ jq -c '.[]' "$INPUT_FILE" > "$ENTRIES_FILE"
 # unescaped quotes.
 run_mysql() {
   sql="$1"
-  # `--raw` suppresses MySQL's default batch-mode escaping of tab and
-  # newline to `\t` / `\n` — we need real tabs for our TSV-to-JSON awk
-  # splitter, and real newlines to iterate rows.
+  # `--raw` is LOAD-BEARING, do not remove it. The queries return one
+  # JSON_OBJECT per row and the output is read back as JSON. In batch mode
+  # (`-B`) the client escapes `\n`, `\t`, `\0` and `\\` in every column value
+  # unless `--raw` is given, so JSON_OBJECT's own `\n`, `\\` and `\"`
+  # escapes would arrive double-escaped (`\\n`, `\\\\`, `\\"`) and decode to
+  # the wrong text. (It used to be here for a TSV/awk splitter; that path is
+  # gone, and this is the reason that remains.)
   # `--default-character-set=utf8mb4` ensures the client sends UTF-8 bytes
   # to the server intact (without it, the system default is sometimes
   # latin1 and any non-ASCII test text gets mangled before regex match).
@@ -98,12 +102,15 @@ while IFS= read -r entry; do
   # Map our flag letters to MySQL's match_type:
   #   i → i, m → m, s → n (MySQL's `n` = dot matches newline),
   #   c → c (case-sensitive override), u → u.
+  # The canvas's own MySQL letter for dotall is `n` (not `s`), so `n` maps to
+  # `n` too; without that a trace probe flagged `n` was run WITHOUT dotall and
+  # recorded a wrong ground truth (found 2026-10-13, trace-mysql-n-dotall).
   # No `x` — MySQL's ICU regex doesn't surface verbose-mode as a
   # match_type flag (it's available inside the pattern via `(?x)`).
   match_type=""
   case "$flags" in *i*) match_type="${match_type}i";; esac
   case "$flags" in *m*) match_type="${match_type}m";; esac
-  case "$flags" in *s*) match_type="${match_type}n";; esac
+  case "$flags" in *s*|*n*) match_type="${match_type}n";; esac
   # MySQL's ICU-backed REGEXP_INSTR / REGEXP_SUBSTR is case-insensitive
   # by DEFAULT regardless of column collation — ICU regex ignores
   # collation for case-handling. `c` is the only way to opt into the
@@ -122,7 +129,7 @@ while IFS= read -r entry; do
 
   : > /tmp/err
 
-  # Always emit all matches regardless of 'g' flag — see docs/v1-corpus-fix-spec.md
+  # Always emit all matches regardless of 'g' flag — see docs/archive/task-briefs/v1-corpus-fix-spec.md
   # and matches the bridge's behavior.
   # MySQL 8 supports recursive CTEs — use one to enumerate all matches
   # without needing stored-procedure WHILE loops. Each step starts
@@ -134,7 +141,7 @@ while IFS= read -r entry; do
   # raises "Index out of bounds" when pos > CHAR_LENGTH(text) + 1.
   # The recursive step only runs when the previous match ended
   # strictly before end-of-text.
-  matches_tsv=$(run_mysql "
+  matches_rows=$(run_mysql "
     WITH RECURSIVE steps AS (
       SELECT
         REGEXP_INSTR('${esc_text}', '${esc_pattern}', 1, 1, 0, '${match_type}') AS start_pos,
@@ -155,32 +162,26 @@ while IFS= read -r entry; do
         AND (start_pos + GREATEST(CHAR_LENGTH(match_str), 1)) <= txt_len
         AND depth < 10000
     )
-    SELECT CONCAT(start_pos - 1, '\t', match_str)
+    SELECT JSON_OBJECT('index', start_pos - 1, 'match', match_str)
     FROM steps
     WHERE match_str IS NOT NULL AND start_pos > 0;
   " 2>/tmp/err)
 
   err=$(tr -d '\r' < /tmp/err | head -c 500 || true)
 
-  # Convert TSV rows (index\tmatch per line) to a JSON matches array.
-  # Use jq's -R (raw text input) + split so every character — including
-  # control bytes returned by REGEXP_SUBSTR — is properly escaped
-  # according to the JSON spec. Previous version built JSON by hand in
-  # awk, which dropped control chars below 0x20 and produced payloads
-  # jq's --argjson rejected downstream.
+  # Each row is ONE line of JSON ({"index":N,"match":"..."}) built by MySQL's
+  # JSON_OBJECT, which escapes newline, tab and every other control character
+  # inside the string. The previous version selected CONCAT(index, tab, match)
+  # and split the client output on newlines, so any match containing a
+  # newline was truncated at it (`a.b` on "a\nb" with dotall came back as
+  # "a"). JSON keeps one row per physical line no matter what the match holds.
   if [ -n "$err" ]; then
     jq -nc --arg id "$id" --arg e "$err" '{($id): {matches: [], error: $e}}' >> "$RESULTS_FILE"
   else
-    if [ -z "$matches_tsv" ]; then
+    if [ -z "$matches_rows" ]; then
       matches_json='[]'
     else
-      matches_json=$(printf '%s' "$matches_tsv" | jq -Rsc '
-        split("\n")
-        | map(select(length > 0))
-        | map(split("\t"))
-        | map(select(length >= 2))
-        | map({match: (.[1:] | join("\t")), index: (.[0] | tonumber)})
-      ')
+      matches_json=$(printf '%s\n' "$matches_rows" | jq -sc 'map({match: .match, index: .index})')
     fi
     jq -nc --arg id "$id" --argjson m "$matches_json" '{($id): {matches: $m, error: null}}' >> "$RESULTS_FILE"
   fi

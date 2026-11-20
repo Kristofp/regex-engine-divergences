@@ -1,0 +1,2061 @@
+{
+  "anchor-boundary-nonword": {
+    "matches": [
+      {
+        "match": "word",
+        "index": -1
+      },
+      {
+        "match": "word",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "anchor-boundary-word": {
+    "matches": [],
+    "error": null
+  },
+  "anchor-end": {
+    "matches": [
+      {
+        "match": "world",
+        "index": -1
+      },
+      {
+        "match": "world",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "anchor-end-string": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\Z' is not a known regexp operator"
+  },
+  "anchor-end-string-only": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\z' is not a known regexp operator"
+  },
+  "anchor-match-reset": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\K' is not a known regexp operator"
+  },
+  "anchor-match-start": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\G' is not a known regexp operator"
+  },
+  "anchor-start": {
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "hello",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "anchor-start-string": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\A' is not a known regexp operator"
+  },
+  "backref-named": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\k' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<ch>a|b)\\k<ch>/"
+  },
+  "backref-numbered": {
+    "matches": [],
+    "error": null
+  },
+  "char-class-negated": {
+    "matches": [
+      {
+        "match": "abc",
+        "index": -1
+      },
+      {
+        "match": "def",
+        "index": -1
+      },
+      {
+        "match": "ghi",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "char-class-range": {
+    "matches": [
+      {
+        "match": "ello",
+        "index": -1
+      },
+      {
+        "match": "orld",
+        "index": -1
+      },
+      {
+        "match": "foo",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "char-dot": {
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "hallo",
+        "index": -1
+      },
+      {
+        "match": "hxllo",
+        "index": -1
+      },
+      {
+        "match": "h llo",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "char-escape-D": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\D' is not a known regexp operator"
+  },
+  "char-escape-R": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\R' is not a known regexp operator"
+  },
+  "char-escape-S": {
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "world",
+        "index": -1
+      },
+      {
+        "match": "123",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "char-escape-W": {
+    "matches": [
+      {
+        "match": " ",
+        "index": -1
+      },
+      {
+        "match": "! ",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "char-escape-X": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\X' is not a known regexp operator"
+  },
+  "char-escape-d": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator"
+  },
+  "char-escape-s": {
+    "matches": [
+      {
+        "match": " ",
+        "index": -1
+      },
+      {
+        "match": "\t",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "char-escape-w": {
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "world",
+        "index": -1
+      },
+      {
+        "match": "123",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "char-literal": {
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "hello",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "char-unicode-prop": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\p' is not a known regexp operator"
+  },
+  "char-unicode-prop-neg": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\P' is not a known regexp operator"
+  },
+  "choice-simple": {
+    "matches": [
+      {
+        "match": "cat",
+        "index": -1
+      },
+      {
+        "match": "dog",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "choice-triple": {
+    "matches": [
+      {
+        "match": "red",
+        "index": -1
+      },
+      {
+        "match": "blue",
+        "index": -1
+      },
+      {
+        "match": "green",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "group-atomic": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?>ab|a)b/"
+  },
+  "group-capturing": {
+    "matches": [
+      {
+        "match": "foobar",
+        "index": -1
+      },
+      {
+        "match": "foobar",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "group-named": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<word>\\w+)/"
+  },
+  "group-noncapturing": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:foo|bar)baz/"
+  },
+  "group-scoped-flags": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?i:hello) world/"
+  },
+  "l2-alternation-capture-star": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator"
+  },
+  "l2-alternation-different-lengths": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:January|Feb|March|Apr)/"
+  },
+  "l2-alternation-in-group": {
+    "matches": [
+      {
+        "match": "cat food",
+        "index": -1
+      },
+      {
+        "match": "dog food",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-alternation-in-lookbehind": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<=cat|dog)\\w+/"
+  },
+  "l2-anchor-alternation": {
+    "matches": [
+      {
+        "match": "foo",
+        "index": -1
+      },
+      {
+        "match": "bar",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-anchor-backref": {
+    "matches": [],
+    "error": null
+  },
+  "l2-anchor-class-quantifier": {
+    "matches": [
+      {
+        "match": "Hello",
+        "index": -1
+      },
+      {
+        "match": "Test",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-anchor-group": {
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "foo",
+        "index": -1
+      },
+      {
+        "match": "baz",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-anchor-lookahead": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /^(?=.*\\d)(\\w+)/"
+  },
+  "l2-anchor-lookbehind": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<=\\d)\\w*$/"
+  },
+  "l2-anchor-neg-lookahead": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /^(?!#)(.+)$/"
+  },
+  "l2-atomic-quantifier": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?>a+)b/"
+  },
+  "l2-backref-alternation-group": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(\\w)(?:\\1{2}|\\w{2})/"
+  },
+  "l2-backref-in-alternation": {
+    "matches": [],
+    "error": null
+  },
+  "l2-backref-in-quantified-group": {
+    "matches": [],
+    "error": null
+  },
+  "l2-boundary-alternation-capture": {
+    "matches": [],
+    "error": null
+  },
+  "l2-boundary-capture-quantifier": {
+    "matches": [],
+    "error": null
+  },
+  "l2-boundary-neg-lookahead": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /\\b(?!the\\b)\\w+\\b/"
+  },
+  "l2-capture-class-range-lazy": {
+    "matches": [
+      {
+        "match": "ab",
+        "index": -1
+      },
+      {
+        "match": "cd",
+        "index": -1
+      },
+      {
+        "match": "ef",
+        "index": -1
+      },
+      {
+        "match": "gh",
+        "index": -1
+      },
+      {
+        "match": "ij",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-capture-lazy-range": {
+    "matches": [
+      {
+        "match": "<div>",
+        "index": -1
+      },
+      {
+        "match": "<span>",
+        "index": -1
+      },
+      {
+        "match": "<a>",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-capture-unicode-named": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\p' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<letters>\\p{L}+)(?<digits>\\p{N}+)/"
+  },
+  "l2-capturing-alternation-backref": {
+    "matches": [],
+    "error": null
+  },
+  "l2-capturing-optional": {
+    "matches": [
+      {
+        "match": "Mr. Smith",
+        "index": -1
+      },
+      {
+        "match": " Mrs",
+        "index": -1
+      },
+      {
+        "match": ". Jones",
+        "index": -1
+      },
+      {
+        "match": " Alice",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-capturing-star": {
+    "matches": [
+      {
+        "match": "c",
+        "index": -1
+      },
+      {
+        "match": "abc",
+        "index": -1
+      },
+      {
+        "match": "ababc",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-class-dot-alternation-quantifier": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:[a-z]+\\.)+(?:com|org|net)/"
+  },
+  "l2-class-escape-in-class": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator"
+  },
+  "l2-class-literal-special": {
+    "matches": [
+      {
+        "match": "]--^",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-class-negated-quantifier-anchor": {
+    "matches": [
+      {
+        "match": "code line",
+        "index": -1
+      },
+      {
+        "match": "more code",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-class-special-chars": {
+    "matches": [],
+    "error": null
+  },
+  "l2-class-union": {
+    "matches": [
+      {
+        "match": "deadBEEF",
+        "index": -1
+      },
+      {
+        "match": "0",
+        "index": -1
+      },
+      {
+        "match": "1A3F",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-complex-email": {
+    "matches": [],
+    "error": null
+  },
+  "l2-csv-field": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:\"([^\"]*)\"|([^,]+))/"
+  },
+  "l2-digit-boundary": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator"
+  },
+  "l2-digit-boundary-group": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator"
+  },
+  "l2-digit-class-quantifier-group": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator"
+  },
+  "l2-dot-class-alternation": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:.+@[\\w.]+|\\bN/A\\b)/"
+  },
+  "l2-dot-greedy": {
+    "matches": [
+      {
+        "match": "axyzb axxb ab",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-dot-lazy": {
+    "matches": [
+      {
+        "match": "axb",
+        "index": -1
+      },
+      {
+        "match": "axxb",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-dot-star-group-anchor": {
+    "matches": [
+      {
+        "match": "hello world",
+        "index": -1
+      },
+      {
+        "match": "foo bar",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-dotall-multiline": {
+    "matches": [
+      {
+        "match": "line1",
+        "index": -1
+      },
+      {
+        "match": "line2",
+        "index": -1
+      },
+      {
+        "match": "line3",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-double-lookahead": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?=.*[A-Z])(?=.*\\d)\\w+/"
+  },
+  "l2-double-negated-class": {
+    "matches": [
+      {
+        "match": "hello world! 123",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-escape-sequence-in-class": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator"
+  },
+  "l2-escaped-special": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator"
+  },
+  "l2-flag-combo-im": {
+    "matches": [
+      {
+        "match": "HELLO",
+        "index": -1
+      },
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "HeLLo",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-flag-combo-is": {
+    "matches": [],
+    "error": null
+  },
+  "l2-greedy-vs-lazy-star": {
+    "matches": [
+      {
+        "match": "<div class=\"x\">",
+        "index": -1
+      },
+      {
+        "match": "<span>",
+        "index": -1
+      },
+      {
+        "match": "</div>",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-group-alternation-quantifier": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:ab|cd){2}/"
+  },
+  "l2-group-backref": {
+    "matches": [],
+    "error": null
+  },
+  "l2-group-backref-named": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\k' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<quote>['\"]).*?\\k<quote>/"
+  },
+  "l2-group-star-anchor-end": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:\\d+\\.)+\\d+$/"
+  },
+  "l2-hex-color": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /#(?:[0-9a-f]{6}|[0-9a-f]{3})/"
+  },
+  "l2-html-tag-pair": {
+    "matches": [],
+    "error": null
+  },
+  "l2-log-line": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator"
+  },
+  "l2-lookahead-alternation": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?=foo|bar)\\w+/"
+  },
+  "l2-lookahead-anchor-end": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /\\w+(?!\\.)$/"
+  },
+  "l2-lookahead-backref": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?=(\\w+)).*\\1/"
+  },
+  "l2-lookahead-boundary": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /\\b(?=\\w{5,})(\\w+)\\b/"
+  },
+  "l2-lookahead-capture": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(\\w+)(?=\\s)/"
+  },
+  "l2-lookahead-capture-backref": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?=(\\w{3}))\\w/"
+  },
+  "l2-lookahead-class-quantifier": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?=.*\\d)[\\w]{8,}/"
+  },
+  "l2-lookahead-lookahead": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).{6,}/"
+  },
+  "l2-lookahead-optional-capture": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?=(\\d+)?)\\w+/"
+  },
+  "l2-lookahead-quantified-group": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?=\\d)(?:\\d{3}-?){2}\\d{4}/"
+  },
+  "l2-lookbehind-alternation": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<=Mr\\.|Mrs\\.)\\s*\\w+/"
+  },
+  "l2-lookbehind-anchor-start": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /^(?<=^)(\\w+)/"
+  },
+  "l2-lookbehind-capture": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<=\\s)(\\w+)/"
+  },
+  "l2-lookbehind-class": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<=[A-Z])\\w+/"
+  },
+  "l2-lookbehind-lookahead": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<=\\[)\\w+(?=\\])/"
+  },
+  "l2-lookbehind-neg-class": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<=[a-z])[^a-z]+/"
+  },
+  "l2-lookbehind-quantifier": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<=\\d{2})\\w+/"
+  },
+  "l2-match-reset-capture": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\K' is not a known regexp operator"
+  },
+  "l2-multiline-anchor-group": {
+    "matches": [
+      {
+        "match": "key1 = value1",
+        "index": -1
+      },
+      {
+        "match": "key2 = value2",
+        "index": -1
+      },
+      {
+        "match": "key3=value3",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-multiple-backrefs": {
+    "matches": [],
+    "error": null
+  },
+  "l2-multiple-captures": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator"
+  },
+  "l2-multiple-flag-scopes": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?i:hello)\\s+(?i:world)/"
+  },
+  "l2-multiple-named-groups": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<first>\\w+)\\s+(?<last>\\w+)/"
+  },
+  "l2-named-group-alternation-backref": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\k' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<delim>[|/])\\w+\\k<delim>/"
+  },
+  "l2-named-group-quantifier": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<hex>[0-9a-f]){2,4}/"
+  },
+  "l2-named-group-star": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<seg>[a-z]+\\.)*(?<tld>[a-z]+)/"
+  },
+  "l2-named-groups-alternation": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:(?<year>\\d{4})-(?<month>\\d{2})|(?<month2>\\d{2})/(?<year2>\\d{4}))/"
+  },
+  "l2-neg-lookahead-class": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /\\d+(?![\\d.])/"
+  },
+  "l2-neg-lookahead-neg-lookbehind": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<!\\d)\\w+(?!\\d)/"
+  },
+  "l2-neg-lookbehind-capture": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<!\\d)(\\w+)/"
+  },
+  "l2-negated-class-quantifier": {
+    "matches": [
+      {
+        "match": "h",
+        "index": -1
+      },
+      {
+        "match": "ll",
+        "index": -1
+      },
+      {
+        "match": " w",
+        "index": -1
+      },
+      {
+        "match": "rld",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-nested-alternation": {
+    "matches": [
+      {
+        "match": "ae",
+        "index": -1
+      },
+      {
+        "match": "bce",
+        "index": -1
+      },
+      {
+        "match": "bde",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-nested-groups": {
+    "matches": [
+      {
+        "match": "abc",
+        "index": -1
+      },
+      {
+        "match": "abc",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-nested-lookaround": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?=.*(?<=\\d))\\w+/"
+  },
+  "l2-nested-named-groups": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<outer>(?<inner>\\d+)\\w+)/"
+  },
+  "l2-nested-quantifier-class": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator"
+  },
+  "l2-nested-quantifiers": {
+    "matches": [
+      {
+        "match": "aab",
+        "index": -1
+      },
+      {
+        "match": "ab",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-nested-three-groups": {
+    "matches": [
+      {
+        "match": "abc",
+        "index": -1
+      },
+      {
+        "match": "abc",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-non-backtracking-group": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?>\\d+)\\./"
+  },
+  "l2-noncapturing-exact": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:ha){3}/"
+  },
+  "l2-noncapturing-lazy": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:ab)+?x/"
+  },
+  "l2-noncapturing-nested-alternation": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:(?:un|re)(?:do|make))/"
+  },
+  "l2-noncapturing-optional": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /https?://(?:www\\.)?\\w+\\.\\w+/"
+  },
+  "l2-noncapturing-plus": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:ab)+/"
+  },
+  "l2-noncapturing-range": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:ab){2,4}/"
+  },
+  "l2-nongreedy-in-group": {
+    "matches": [
+      {
+        "match": "<a>",
+        "index": -1
+      },
+      {
+        "match": "<br>",
+        "index": -1
+      },
+      {
+        "match": "<div>",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-optional-capture-in-sequence": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(\\w+)\\s*(=)\\s*(\\w+)(?:\\s*;)?/"
+  },
+  "l2-possessive-class": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator"
+  },
+  "l2-possessive-group-class": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?>\\w+)\\s/"
+  },
+  "l2-possessive-in-group": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?>a+)b/"
+  },
+  "l2-quantified-class": {
+    "matches": [
+      {
+        "match": "abc",
+        "index": -1
+      },
+      {
+        "match": "abcde",
+        "index": -1
+      },
+      {
+        "match": "abcde",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-quantified-group": {
+    "matches": [
+      {
+        "match": "abcabc",
+        "index": -1
+      },
+      {
+        "match": "abcabcabc",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-quantifier-zero-max": {
+    "matches": [
+      {
+        "match": "b",
+        "index": -1
+      },
+      {
+        "match": "ab",
+        "index": -1
+      },
+      {
+        "match": "aab",
+        "index": -1
+      },
+      {
+        "match": "aaab",
+        "index": -1
+      },
+      {
+        "match": "aaab",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-scoped-flag-i-alternation": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?i:yes|no|maybe)/"
+  },
+  "l2-scoped-flags-class": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?i:[a-z])+/"
+  },
+  "l2-scoped-flags-dot": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?s:a.b)/"
+  },
+  "l2-space-boundary-class": {
+    "matches": [
+      {
+        "match": "hello world",
+        "index": -1
+      },
+      {
+        "match": "foo bar",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-time-pattern": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(\\d{1,2}):(\\d{2})(?::(\\d{2}))?/"
+  },
+  "l2-triple-capture-backref": {
+    "matches": [],
+    "error": null
+  },
+  "l2-unicode-case-insensitive": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\p' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?i)\\p{L}+/"
+  },
+  "l2-unicode-category-number": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\p' is not a known regexp operator"
+  },
+  "l2-unicode-digit-boundary": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\p' is not a known regexp operator"
+  },
+  "l2-unicode-group": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\p' is not a known regexp operator"
+  },
+  "l2-unicode-group-boundary": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\p' is not a known regexp operator"
+  },
+  "l2-unicode-prop-anchor": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\p' is not a known regexp operator"
+  },
+  "l2-unicode-prop-quantifier": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\p' is not a known regexp operator"
+  },
+  "l2-unicode-script": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\p' is not a known regexp operator"
+  },
+  "l2-url-parts": {
+    "matches": [
+      {
+        "match": "https://www.",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l2-version-number": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(\\d+)\\.(\\d+)(?:\\.(\\d+))?/"
+  },
+  "l2-word-boundary-group": {
+    "matches": [],
+    "error": null
+  },
+  "l2-word-nonword-alternation": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:\\w+|\\W+)/"
+  },
+  "l3-alternation-anchor-escape": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:^\\d+$|^\\w+\\s\\w+$)/"
+  },
+  "l3-alternation-backref-lazy": {
+    "matches": [],
+    "error": null
+  },
+  "l3-atomic-alternation-quantifier": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?>(?:ab|cd)+)ef/"
+  },
+  "l3-atomic-backref-anchor": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /^(?>(.))\\1$/"
+  },
+  "l3-backref-alternation-anchor": {
+    "matches": [],
+    "error": null
+  },
+  "l3-capture-inside-lookahead-reuse": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?=(cat|dog))\\w+s/"
+  },
+  "l3-capture-lazy-alternation": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /((?:foo|bar)+?)(baz)/"
+  },
+  "l3-capture-nested-quantifiers": {
+    "matches": [
+      {
+        "match": "hello world foo",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-class-boundary-group-quantifier": {
+    "matches": [],
+    "error": null
+  },
+  "l3-conditional-named-group-quant": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<tag><)?\\w+(?(tag)>)/"
+  },
+  "l3-dot-flag-group-quant": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?s:(.{3,5})\\s)/"
+  },
+  "l3-edge-K-with-captures": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\K' is not a known regexp operator"
+  },
+  "l3-edge-alternation-capture-counts": {
+    "matches": [
+      {
+        "match": "ab",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-edge-atomic-no-backtrack": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?>a+)ab/"
+  },
+  "l3-edge-backref-in-class-literal": {
+    "matches": [
+      {
+        "match": "\u0001",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-edge-backref-nonparticipating": {
+    "matches": [],
+    "error": null
+  },
+  "l3-edge-case-folding-eszett": {
+    "matches": [
+      {
+        "match": "strasse",
+        "index": -1
+      },
+      {
+        "match": "straße",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-edge-catastrophic-avoided": {
+    "matches": [
+      {
+        "match": "xxxy",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-edge-empty-capture-backref": {
+    "matches": [],
+    "error": null
+  },
+  "l3-edge-greedy-vs-lazy-capture": {
+    "matches": [
+      {
+        "match": "\"first\" and \"second\"",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-edge-lookahead-at-end": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /\\w+(?=\\s*$)/"
+  },
+  "l3-edge-multiline-first-line": {
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "world",
+        "index": -1
+      },
+      {
+        "match": "foo",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-edge-nested-class-escape": {
+    "matches": [
+      {
+        "match": "]",
+        "index": -1
+      },
+      {
+        "match": "[",
+        "index": -1
+      },
+      {
+        "match": "^",
+        "index": -1
+      },
+      {
+        "match": "-",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-edge-nested-quantifier": {
+    "matches": [
+      {
+        "match": "aab",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-edge-overlapping-capture": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?=(a+))\\1b/"
+  },
+  "l3-edge-possessive-no-backtrack": {
+    "matches": [
+      {
+        "match": "\"hello\"x",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-edge-unicode-boundary": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\p' is not a known regexp operator"
+  },
+  "l3-edge-variable-lookbehind": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<=\\w{1,10})x/"
+  },
+  "l3-edge-zero-width-quantified": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:(?=\\d))+\\d+/"
+  },
+  "l3-escape-quant-group-anchor": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator"
+  },
+  "l3-flag-multiline-lookahead": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /^(?=\\S)\\w+/"
+  },
+  "l3-flag-x-comment-group": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?x: (\\d+) \\s+ (\\w+) )/"
+  },
+  "l3-group-alternation-escape": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\k' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<sep>\\t|\\s)\\w+\\k<sep>/"
+  },
+  "l3-lookahead-backref-group": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?=(\\w+))\\1\\s(\\w+)/"
+  },
+  "l3-lookahead-boundary-quantifier": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /\\b(?=[A-Z])\\w{3,}\\b/"
+  },
+  "l3-lookahead-capture-quantified": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?=(\\d{2,4}))\\d+/"
+  },
+  "l3-lookahead-lazy-quant-class": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?=[A-Z])\\w+?\\d/"
+  },
+  "l3-lookahead-lookbehind-capture": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<=\\()([^)]+)(?=\\))/"
+  },
+  "l3-lookahead-negated-class-escape": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?=.*\\d)[^\\s]+/"
+  },
+  "l3-lookbehind-dot-quantifier": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<=\\.).{1,5}(?=\\.)/"
+  },
+  "l3-lookbehind-negated-class-anchor": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<=@)[^.]+$/"
+  },
+  "l3-lookbehind-unicode-capture": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\p' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<=\\p{Lu})(\\p{Ll}+)/"
+  },
+  "l3-multiple-lookaround": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<=\\d)(?=\\w)(?!_)\\w+/"
+  },
+  "l3-multiple-named-groups-backref": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\k' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<first>\\w+):(?<second>\\w+)=\\k<first>-\\k<second>/"
+  },
+  "l3-named-alt-quantifier-anchor": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /^(?<proto>https?|ftp)://\\S+$/"
+  },
+  "l3-named-group-flag-backref": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\k' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<w>(?i:\\w+))\\s+\\k<w>/"
+  },
+  "l3-negated-lookahead-class-quant": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /\\b(?!un)[a-z]+ed\\b/"
+  },
+  "l3-negated-lookbehind-class-boundary": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<!\\d)[a-z]+\\b/"
+  },
+  "l3-nested-groups-multi-capture": {
+    "matches": [],
+    "error": null
+  },
+  "l3-nested-lookaround-capture": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<=(?=\\d)\\w)x/"
+  },
+  "l3-nested-noncap-quant-lazy": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:(?:\\w+?)\\s){2,3}/"
+  },
+  "l3-nested-quantifiers-group": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /^(?:\\w+\\s?)+$/"
+  },
+  "l3-noncap-nested-alternation": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:(?:(?:a|b)c|de)f|gh)/"
+  },
+  "l3-possessive-class-anchor": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator"
+  },
+  "l3-quantified-alt-lookbehind": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<=(?:Mr|Mrs|Dr)\\.\\s)\\w+/"
+  },
+  "l3-real-camel-to-words": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<=[a-z])(?=[A-Z])/"
+  },
+  "l3-real-content-type": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(\\w+/\\w+)(?:;\\s*charset=([\\w-]+))?/"
+  },
+  "l3-real-css-color": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /#(?:[0-9a-fA-F]{3}){1,2}\\b/"
+  },
+  "l3-real-csv-quoted": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:\"(?:[^\"]|\"\")*\"|[^,\"\\r\\n]*)/"
+  },
+  "l3-real-date-validation": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:0[1-9]|[12]\\d|3[01])[-/](?:0[1-9]|1[0-2])[-/](?:19|20)\\d{2}/"
+  },
+  "l3-real-duplicate-words": {
+    "matches": [],
+    "error": null
+  },
+  "l3-real-email-lookahead": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?=[^@]*[A-Z])[\\w.+-]+@[\\w-]+\\.[\\w.]+/"
+  },
+  "l3-real-hex-color-named": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /#(?<r>[0-9a-f]{2})(?<g>[0-9a-f]{2})(?<b>[0-9a-f]{2})\\b/"
+  },
+  "l3-real-html-attr": {
+    "matches": [
+      {
+        "match": "class=\"foo\"",
+        "index": -1
+      },
+      {
+        "match": "id='bar'",
+        "index": -1
+      },
+      {
+        "match": "x=\"z\"",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-real-ipv4-octet": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:(?:25[0-5]|2[0-4]\\d|[01]?\\d?\\d)\\.){3}(?:25[0-5]|2[0-4]\\d|[01]?\\d?\\d)/"
+  },
+  "l3-real-json-string": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /\"(?:[^\"\\\\]|\\\\.)*\"/"
+  },
+  "l3-real-log-named-groups": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<ts>\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2})\\s+(?<level>INFO|WARN|ERROR)\\s+(?<msg>.+)/"
+  },
+  "l3-real-markdown-link": {
+    "matches": [
+      {
+        "match": "[click](http://x.co)",
+        "index": -1
+      },
+      {
+        "match": "[go](y.io)",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-real-password-strength": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?=.*[A-Z])(?=.*[a-z])(?=.*\\d)(?=.*[!@#$%]).{8,}/"
+  },
+  "l3-real-phone-intl": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:\\+\\d{1,3}[-.\\s]?)?(?:\\(\\d{1,4}\\)[-.\\s]?)?\\d{3,4}[-.\\s]?\\d{3,4}/"
+  },
+  "l3-real-semver": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(\\d+)\\.(\\d+)\\.(\\d+)(?:-(\\w+(?:\\.\\w+)*))?(?:\\+(\\w+(?:\\.\\w+)*))?/"
+  },
+  "l3-real-time-12h": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:0?[1-9]|1[0-2]):[0-5]\\d\\s?(?:AM|PM|am|pm)/"
+  },
+  "l3-real-url-optional": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:https?://)?(?:[\\w-]+\\.)+[a-z]{2,}(?:/[\\w./-]*)?(?:\\?[\\w=&]*)?/"
+  },
+  "l3-real-uuid": {
+    "matches": [
+      {
+        "match": "550e8400-e29b-41d4-a716-446655440000",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-real-xml-tag": {
+    "matches": [
+      {
+        "match": "<div class=\"x\">",
+        "index": -1
+      },
+      {
+        "match": "<br/>",
+        "index": -1
+      },
+      {
+        "match": "<img src=\"y\"/>",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "l3-scoped-flag-lookahead-class": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?i:(?=[a-z])\\w+)/"
+  },
+  "l3-unicode-prop-lookaround-quantifier": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\p' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<=\\p{L})\\d+(?=\\p{L})/"
+  },
+  "l3-unicode-script-lookahead-quant": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\p' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /\\p{Script=Latin}+(?=\\s)/"
+  },
+  "l3-word-boundary-class-backref": {
+    "matches": [],
+    "error": null
+  },
+  "lib-ansi-escape-code": {
+    "matches": [
+      {
+        "match": "\u001b[31m",
+        "index": -1
+      },
+      {
+        "match": "\u001b[0m",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-apache-nginx-common-log-line-split": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator"
+  },
+  "lib-awk-field-separator-csv-field-no-embedded-commas": {
+    "matches": [
+      {
+        "match": "alice",
+        "index": -1
+      },
+      {
+        "match": "30",
+        "index": -1
+      },
+      {
+        "match": "engineer",
+        "index": -1
+      },
+      {
+        "match": "bob",
+        "index": -1
+      },
+      {
+        "match": "25",
+        "index": -1
+      },
+      {
+        "match": "designer",
+        "index": -1
+      },
+      {
+        "match": "charlie",
+        "index": -1
+      },
+      {
+        "match": "40",
+        "index": -1
+      },
+      {
+        "match": "manager",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-base64-string": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:[A-Za-z0-9+/]{4})+(?:[A-Za-z0-9+/]{2}==|[A-Za-z0-9+/]{3}=)?/"
+  },
+  "lib-blank-or-whitespace-line": {
+    "matches": [
+      {
+        "match": "   ",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-bre-backslash-grouping-extract-filename": {
+    "matches": [],
+    "error": null
+  },
+  "lib-cron-expression": {
+    "matches": [
+      {
+        "match": "*/5 0 * * 1-5",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-data-uri": {
+    "matches": [],
+    "error": null
+  },
+  "lib-file-extension": {
+    "matches": [
+      {
+        "match": ".gz",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-find-compatible-hidden-file-filter-ere": {
+    "matches": [
+      {
+        "match": "/.bashrc",
+        "index": -1
+      },
+      {
+        "match": ".gitignore",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-git-commit-sha": {
+    "matches": [],
+    "error": null
+  },
+  "lib-gnu-and-word-boundaries-grep-extension": {
+    "matches": [
+      {
+        "match": "error",
+        "index": -1
+      },
+      {
+        "match": "error",
+        "index": -1
+      },
+      {
+        "match": "error",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-hashtag-and-mention": {
+    "matches": [
+      {
+        "match": "@alice",
+        "index": -1
+      },
+      {
+        "match": "#regex",
+        "index": -1
+      },
+      {
+        "match": "#dev_tools",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-html-comment": {
+    "matches": [],
+    "error": null
+  },
+  "lib-iban": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator"
+  },
+  "lib-isbn-13": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /97[89](?:-?\\d){10}/"
+  },
+  "lib-jwt-token": {
+    "matches": [
+      {
+        "match": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIn0.dBjftJeZ4CVP",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-line-comment-double-slash": {
+    "matches": [
+      {
+        "match": "// set x",
+        "index": -1
+      },
+      {
+        "match": "// and y",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-mac-address": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?:[0-9A-Fa-f]{2}[:-]){5}[0-9A-Fa-f]{2}/"
+  },
+  "lib-port-number": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /:(?:6553[0-5]|655[0-2]\\d|65[0-4]\\d{2}|6[0-4]\\d{3}|[1-5]\\d{4}|[1-9]\\d{0,3})\\b/"
+  },
+  "lib-query-string-param": {
+    "matches": [
+      {
+        "match": "?q=regex",
+        "index": -1
+      },
+      {
+        "match": "&page=2",
+        "index": -1
+      },
+      {
+        "match": "&sort=desc",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-quoted-string-sed-replace-swap-single-double-quotes": {
+    "matches": [],
+    "error": null
+  },
+  "lib-scientific-notation": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /-?\\d+(?:\\.\\d+)?[eE][+-]?\\d+/"
+  },
+  "lib-snake-case-identifier": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /\\b[a-z]+(?:_[a-z0-9]+)+\\b/"
+  },
+  "lib-trailing-whitespace": {
+    "matches": [
+      {
+        "match": "   ",
+        "index": -1
+      },
+      {
+        "match": "\t",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-uk-postcode": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator"
+  },
+  "lib-unix-file-path": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: //(?:[\\w.-]+/)*[\\w.-]+/"
+  },
+  "lib-url-slug": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /^[a-z0-9]+(?:-[a-z0-9]+)*$/"
+  },
+  "lib-us-zip-code": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) warning: regexp escape sequence `\\d' is not a known regexp operator\ngawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /\\b\\d{5}(?:-\\d{4})?\\b/"
+  },
+  "lib-windows-path": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /[A-Za-z]:\\\\(?:[^\\\\/:*?\"<>|\\r\\n]+\\\\)*[^\\\\/:*?\"<>|\\r\\n]*/"
+  },
+  "lookahead-negative": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /foo(?!bar)/"
+  },
+  "lookahead-positive": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /foo(?=bar)/"
+  },
+  "lookbehind-negative": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<!foo)bar/"
+  },
+  "lookbehind-positive": {
+    "matches": [],
+    "error": "gawk: cmd. line: (FILENAME=- FNR=1) fatal: invalid regexp: ? * + or {interval} not preceded by valid subpattern: /(?<=foo)bar/"
+  },
+  "quant-exact": {
+    "matches": [
+      {
+        "match": "aaa",
+        "index": -1
+      },
+      {
+        "match": "aaa",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "quant-lazy": {
+    "matches": [
+      {
+        "match": "a",
+        "index": -1
+      },
+      {
+        "match": "a",
+        "index": -1
+      },
+      {
+        "match": "a",
+        "index": -1
+      },
+      {
+        "match": "a",
+        "index": -1
+      },
+      {
+        "match": "a",
+        "index": -1
+      },
+      {
+        "match": "a",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "quant-min": {
+    "matches": [
+      {
+        "match": "aa",
+        "index": -1
+      },
+      {
+        "match": "aaa",
+        "index": -1
+      },
+      {
+        "match": "aaaa",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "quant-optional": {
+    "matches": [
+      {
+        "match": "color",
+        "index": -1
+      },
+      {
+        "match": "colour",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "quant-plus": {
+    "matches": [
+      {
+        "match": "a",
+        "index": -1
+      },
+      {
+        "match": "aa",
+        "index": -1
+      },
+      {
+        "match": "aaa",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "quant-possessive": {
+    "matches": [
+      {
+        "match": "aab",
+        "index": -1
+      },
+      {
+        "match": "ab",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "quant-range": {
+    "matches": [
+      {
+        "match": "aa",
+        "index": -1
+      },
+      {
+        "match": "aaa",
+        "index": -1
+      },
+      {
+        "match": "aaaa",
+        "index": -1
+      },
+      {
+        "match": "aaaa",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "quant-star": {
+    "matches": [
+      {
+        "match": "b",
+        "index": -1
+      },
+      {
+        "match": "ba",
+        "index": -1
+      },
+      {
+        "match": "baa",
+        "index": -1
+      },
+      {
+        "match": "baaa",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "shell-01-bre-grouping": {
+    "matches": [],
+    "error": null
+  },
+  "shell-02-bre-quantifier-range": {
+    "matches": [],
+    "error": null
+  },
+  "shell-03-bre-plus": {
+    "matches": [],
+    "error": null
+  },
+  "shell-04-bre-optional": {
+    "matches": [],
+    "error": null
+  },
+  "shell-05-bre-alternation": {
+    "matches": [],
+    "error": null
+  },
+  "shell-06-posix-classes": {
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "world",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "shell-07-anchored-line": {
+    "matches": [],
+    "error": null
+  },
+  "shell-08-sed-match-basic": {
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "shell-09-awk-digits": {
+    "matches": [
+      {
+        "match": "123",
+        "index": -1
+      },
+      {
+        "match": "456",
+        "index": -1
+      },
+      {
+        "match": "789",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "shell-10-csv-split": {
+    "matches": [
+      {
+        "match": "field1",
+        "index": -1
+      },
+      {
+        "match": "field2",
+        "index": -1
+      },
+      {
+        "match": "field3",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "shell-11-log-level": {
+    "matches": [],
+    "error": null
+  },
+  "shell-12-gnu-word-boundary": {
+    "matches": [
+      {
+        "match": "word",
+        "index": -1
+      },
+      {
+        "match": "word",
+        "index": -1
+      }
+    ],
+    "error": null
+  }
+}

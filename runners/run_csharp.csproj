@@ -1,0 +1,22 @@
+<!-- Project file for the C# ground-truth runner (run_csharp.cs), built in the `dotnet` engine image by
+     test/corpus/generate-ground-truth.ts. It replaced `dotnet new console` (task E6, 2026-11-20): the engine image
+     ships no project templates, so `dotnet new` failed with "No templates or subcommands found matching: 'console'".
+     It keeps the properties of the shipped sidecar (sidecars/csharp/RegexpilotCsharpEngine.csproj) that change what
+     a regex does: the target framework and InvariantGlobalization (culture-sensitive IgnoreCase). PublishAot is left
+     out on purpose: AOT makes even a plain build restore Microsoft.DotNet.ILCompiler from the network.
+     The target framework is $(RunnerTfm), which run_csharp.sh derives from the image's SDK; there is deliberately
+     no default, so a build that does not pass it fails rather than targeting a stale literal. -->
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>$(RunnerTfm)</TargetFramework>
+    <AssemblyName>run_csharp</AssemblyName>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="run_csharp.cs" />
+  </ItemGroup>
+</Project>

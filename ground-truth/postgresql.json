@@ -1,7 +1,16 @@
 {
   "anchor-end": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "world",
+        "index": -1
+      },
+      {
+        "match": "world",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "anchor-end-string": {
     "matches": [],
@@ -20,8 +29,17 @@
     "error": "ERROR:  invalid regular expression: invalid escape \\ sequence"
   },
   "anchor-start": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "hello",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "anchor-start-string": {
     "matches": [
@@ -37,8 +55,17 @@
     "error": "ERROR:  invalid regular expression: quantifier operand invalid"
   },
   "backref-numbered": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: invalid backreference number"
+    "matches": [
+      {
+        "match": "aa",
+        "index": -1
+      },
+      {
+        "match": "bb",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "char-class-negated": {
     "matches": [
@@ -343,48 +370,150 @@
     "error": null
   },
   "l2-anchor-alternation": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "foo",
+        "index": -1
+      },
+      {
+        "match": "bar",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-anchor-backref": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "abcda",
+        "index": -1
+      },
+      {
+        "match": "xyzzx",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-anchor-class-quantifier": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "Hello",
+        "index": -1
+      },
+      {
+        "match": "Test",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-anchor-group": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "foo",
+        "index": -1
+      },
+      {
+        "match": "baz",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-anchor-lookahead": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "abc123",
+        "index": -1
+      },
+      {
+        "match": "test456",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-anchor-lookbehind": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "23xyz",
+        "index": -1
+      },
+      {
+        "match": "end",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-anchor-neg-lookahead": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "code line",
+        "index": -1
+      },
+      {
+        "match": "more code",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-atomic-quantifier": {
     "matches": [],
     "error": "ERROR:  invalid regular expression: quantifier operand invalid"
   },
   "l2-backref-alternation-group": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: invalid backreference number"
+    "matches": [
+      {
+        "match": "aaa",
+        "index": -1
+      },
+      {
+        "match": "abc",
+        "index": -1
+      },
+      {
+        "match": "bbb",
+        "index": -1
+      },
+      {
+        "match": "xyz",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-backref-in-alternation": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: invalid backreference number"
+    "matches": [
+      {
+        "match": "aa",
+        "index": -1
+      },
+      {
+        "match": "bb",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-backref-in-quantified-group": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: invalid backreference number"
+    "matches": [
+      {
+        "match": "'hello'",
+        "index": -1
+      },
+      {
+        "match": "\"world\"",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-capture-class-range-lazy": {
     "matches": [
@@ -434,7 +563,7 @@
   },
   "l2-capturing-alternation-backref": {
     "matches": [],
-    "error": "ERROR:  invalid regular expression: invalid backreference number"
+    "error": null
   },
   "l2-capturing-optional": {
     "matches": [
@@ -514,8 +643,17 @@
     "error": null
   },
   "l2-class-negated-quantifier-anchor": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "code line",
+        "index": -1
+      },
+      {
+        "match": "more code",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-class-special-chars": {
     "matches": [
@@ -548,8 +686,17 @@
     "error": null
   },
   "l2-complex-email": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "user@example.com",
+        "index": -1
+      },
+      {
+        "match": "test+tag@foo.org",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-csv-field": {
     "matches": [
@@ -621,12 +768,34 @@
     "error": null
   },
   "l2-dot-star-group-anchor": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "hello world",
+        "index": -1
+      },
+      {
+        "match": "foo bar",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-dotall-multiline": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "line1",
+        "index": -1
+      },
+      {
+        "match": "line2",
+        "index": -1
+      },
+      {
+        "match": "line3",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-double-lookahead": {
     "matches": [
@@ -693,12 +862,34 @@
     "error": null
   },
   "l2-flag-combo-im": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "HELLO",
+        "index": -1
+      },
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "HeLLo",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-flag-combo-is": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "hello\nworld",
+        "index": -1
+      },
+      {
+        "match": "HELLO\nWORLD",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-greedy-vs-lazy-star": {
     "matches": [
@@ -739,28 +930,77 @@
     "error": null
   },
   "l2-group-backref": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: invalid backreference number"
+    "matches": [
+      {
+        "match": "aaa",
+        "index": -1
+      },
+      {
+        "match": "bbb",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-group-backref-named": {
     "matches": [],
     "error": "ERROR:  invalid regular expression: quantifier operand invalid"
   },
   "l2-group-star-anchor-end": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "1.2.3.4",
+        "index": -1
+      },
+      {
+        "match": "10.20.30",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-hex-color": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "#ff0000",
+        "index": -1
+      },
+      {
+        "match": "#abc",
+        "index": -1
+      },
+      {
+        "match": "#123",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-html-tag-pair": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: invalid backreference number"
+    "matches": [
+      {
+        "match": "<div>hello</div>",
+        "index": -1
+      },
+      {
+        "match": "<span>world</span>",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-log-line": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "2026-04-12 INFO Starting up",
+        "index": -1
+      },
+      {
+        "match": "2026-04-12 ERROR Something failed",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-lookahead-alternation": {
     "matches": [
@@ -776,8 +1016,13 @@
     "error": null
   },
   "l2-lookahead-anchor-end": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "world",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-lookahead-backref": {
     "matches": [],
@@ -887,8 +1132,17 @@
     "error": null
   },
   "l2-lookbehind-anchor-start": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "world",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-lookbehind-capture": {
     "matches": [
@@ -968,12 +1222,38 @@
     "error": "ERROR:  invalid regular expression: invalid escape \\ sequence"
   },
   "l2-multiline-anchor-group": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "key1 = value1",
+        "index": -1
+      },
+      {
+        "match": "key2 = value2",
+        "index": -1
+      },
+      {
+        "match": "key3=value3",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-multiple-backrefs": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: invalid backreference number"
+    "matches": [
+      {
+        "match": "abba",
+        "index": -1
+      },
+      {
+        "match": "deed",
+        "index": -1
+      },
+      {
+        "match": "noon",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-multiple-captures": {
     "matches": [
@@ -1424,12 +1704,21 @@
     "error": null
   },
   "l2-triple-capture-backref": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: invalid backreference number"
+    "matches": [
+      {
+        "match": "abca",
+        "index": -1
+      },
+      {
+        "match": "deed",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l2-unicode-case-insensitive": {
     "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "error": "ERROR:  invalid regular expression: invalid escape \\ sequence"
   },
   "l2-unicode-category-number": {
     "matches": [],
@@ -1449,7 +1738,7 @@
   },
   "l2-unicode-prop-anchor": {
     "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "error": "ERROR:  invalid regular expression: invalid escape \\ sequence"
   },
   "l2-unicode-prop-quantifier": {
     "matches": [],
@@ -1519,12 +1808,30 @@
     "error": null
   },
   "l3-alternation-anchor-escape": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "12345",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l3-alternation-backref-lazy": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: invalid backreference number"
+    "matches": [
+      {
+        "match": "abba",
+        "index": -1
+      },
+      {
+        "match": "acca",
+        "index": -1
+      },
+      {
+        "match": "bxxb",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l3-atomic-alternation-quantifier": {
     "matches": [],
@@ -1535,8 +1842,13 @@
     "error": "ERROR:  invalid regular expression: quantifier operand invalid"
   },
   "l3-backref-alternation-anchor": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: invalid backreference number"
+    "matches": [
+      {
+        "match": "aa",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l3-capture-inside-lookahead-reuse": {
     "matches": [
@@ -1603,12 +1915,26 @@
     "error": "ERROR:  invalid regular expression: invalid escape \\ sequence"
   },
   "l3-edge-backref-nonparticipating": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: invalid backreference number"
+    "matches": [
+      {
+        "match": "aba",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l3-edge-case-folding-eszett": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "strasse",
+        "index": -1
+      },
+      {
+        "match": "straße",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l3-edge-catastrophic-avoided": {
     "matches": [
@@ -1620,12 +1946,38 @@
     "error": null
   },
   "l3-edge-crlf-multiline": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "line1\r",
+        "index": -1
+      },
+      {
+        "match": "line2\r",
+        "index": -1
+      },
+      {
+        "match": "line3",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l3-edge-empty-capture-backref": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: invalid backreference number"
+    "matches": [
+      {
+        "match": "b",
+        "index": -1
+      },
+      {
+        "match": "b",
+        "index": -1
+      },
+      {
+        "match": "aba",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l3-edge-greedy-vs-lazy-capture": {
     "matches": [
@@ -1646,8 +1998,21 @@
     "error": null
   },
   "l3-edge-multiline-first-line": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "world",
+        "index": -1
+      },
+      {
+        "match": "foo",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l3-edge-nested-class-escape": {
     "matches": [
@@ -1727,8 +2092,17 @@
     "error": null
   },
   "l3-flag-multiline-lookahead": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "foo",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l3-flag-x-comment-group": {
     "matches": [],
@@ -1855,7 +2229,7 @@
   },
   "l3-nested-groups-multi-capture": {
     "matches": [],
-    "error": "ERROR:  invalid regular expression: invalid backreference number"
+    "error": null
   },
   "l3-nested-lookaround-capture": {
     "matches": [
@@ -2008,11 +2382,24 @@
   },
   "l3-real-duplicate-words": {
     "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "error": null
   },
   "l3-real-email-lookahead": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "User@test.com",
+        "index": -1
+      },
+      {
+        "match": "bad@x.co",
+        "index": -1
+      },
+      {
+        "match": "Ok@y.io",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l3-real-hex-color-named": {
     "matches": [],
@@ -2143,12 +2530,26 @@
     "error": null
   },
   "l3-real-url-optional": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "https://foo.com/p?a=1",
+        "index": -1
+      },
+      {
+        "match": "bar.io",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l3-real-uuid": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "550e8400-e29b-41d4-a716-446655440000",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "l3-real-xml-tag": {
     "matches": [
@@ -2237,15 +2638,219 @@
   },
   "l3-word-boundary-class-backref": {
     "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "error": null
+  },
+  "lib-ansi-escape-code": {
+    "matches": [
+      {
+        "match": "\u001b[31m",
+        "index": -1
+      },
+      {
+        "match": "\u001b[0m",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-base64-string": {
+    "matches": [
+      {
+        "match": "SGVsbG8gV29ybGQ=",
+        "index": -1
+      },
+      {
+        "match": "plus",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-blank-or-whitespace-line": {
+    "matches": [
+      {
+        "match": "",
+        "index": -1
+      },
+      {
+        "match": "   ",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-cron-expression": {
+    "matches": [
+      {
+        "match": "*/5 0 * * 1-5",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-data-uri": {
+    "matches": [
+      {
+        "match": "data:image/png;base64,iVBORw0KGgo=",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "lib-embedded-n-newline-sensitive-mode": {
+    "matches": [
+      {
+        "match": "message: hello",
+        "index": -1
+      },
+      {
+        "match": "message: world",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-file-extension": {
+    "matches": [
+      {
+        "match": ".gz",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-git-commit-sha": {
     "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "error": null
+  },
+  "lib-hashtag-and-mention": {
+    "matches": [
+      {
+        "match": "@alice",
+        "index": -1
+      },
+      {
+        "match": "#regex",
+        "index": -1
+      },
+      {
+        "match": "#dev_tools",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-html-comment": {
+    "matches": [
+      {
+        "match": "<!-- hidden -->",
+        "index": -1
+      },
+      {
+        "match": "<!-- two -->",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-iban": {
+    "matches": [
+      {
+        "match": "BE68539007547034",
+        "index": -1
+      },
+      {
+        "match": "DE89370400440532013000",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-isbn-13": {
+    "matches": [
+      {
+        "match": "978-0-13-235088-4",
+        "index": -1
+      },
+      {
+        "match": "9780132350884",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-jwt-token": {
+    "matches": [
+      {
+        "match": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIn0.dBjftJeZ4CVP",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-line-comment-double-slash": {
+    "matches": [
+      {
+        "match": "// set x",
+        "index": -1
+      },
+      {
+        "match": "// and y",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-mac-address": {
+    "matches": [
+      {
+        "match": "00:1B:44:11:3A:B7",
+        "index": -1
+      },
+      {
+        "match": "3D-F2-C9-A6-B3-4F",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-port-number": {
+    "matches": [],
+    "error": null
   },
   "lib-posix-class-alnum-sanitise-identifier": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "user_name",
+        "index": -1
+      },
+      {
+        "match": "_private",
+        "index": -1
+      },
+      {
+        "match": "ok9",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-query-string-param": {
+    "matches": [
+      {
+        "match": "?q=regex",
+        "index": -1
+      },
+      {
+        "match": "&page=2",
+        "index": -1
+      },
+      {
+        "match": "&sort=desc",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "lib-regexp-matches-g-flag-extract-all-tags": {
     "matches": [
@@ -2266,6 +2871,23 @@
         "index": -1
       }
     ],
+    "error": null
+  },
+  "lib-scientific-notation": {
+    "matches": [
+      {
+        "match": "6.022e23",
+        "index": -1
+      },
+      {
+        "match": "-1.6E-19",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-snake-case-identifier": {
+    "matches": [],
     "error": null
   },
   "lib-spencer-a-z-anchors-exact-length-hex-color": {
@@ -2290,9 +2912,75 @@
     ],
     "error": null
   },
-  "lib-uuid-v4-validation-for-where-col": {
+  "lib-trailing-whitespace": {
+    "matches": [
+      {
+        "match": "   ",
+        "index": -1
+      },
+      {
+        "match": "\t",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-uk-postcode": {
+    "matches": [
+      {
+        "match": "SW1A 1AA",
+        "index": -1
+      },
+      {
+        "match": "EC1A1BB",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-unix-file-path": {
+    "matches": [
+      {
+        "match": "/usr/local/bin/tool",
+        "index": -1
+      },
+      {
+        "match": "/etc/hosts",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-url-slug": {
+    "matches": [
+      {
+        "match": "my-first-blog-post",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-us-zip-code": {
     "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "error": null
+  },
+  "lib-uuid-v4-validation-for-where-col": {
+    "matches": [
+      {
+        "match": "550e8400-e29b-41d4-a716-446655440000",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-windows-path": {
+    "matches": [
+      {
+        "match": "C:\\Users\\kris\\notes.txt now",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "lib-y-word-boundary-are-shortcut": {
     "matches": [
@@ -2374,12 +3062,21 @@
     "error": null
   },
   "pgsql-04-embedded-flag-n": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "message:",
+        "index": -1
+      },
+      {
+        "match": "message:",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "pgsql-05-embedded-flag-x": {
     "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "error": null
   },
   "pgsql-06-noncap-group": {
     "matches": [
@@ -2395,20 +3092,60 @@
     "error": null
   },
   "pgsql-07-case-insensitive": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "hello",
+        "index": -1
+      },
+      {
+        "match": "HELLO",
+        "index": -1
+      },
+      {
+        "match": "Hello",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "pgsql-08-email-expanded": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "john.doe@example.com",
+        "index": -1
+      },
+      {
+        "match": "tag@test.co.uk",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "pgsql-09-iso-date": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "2024-12-25",
+        "index": -1
+      },
+      {
+        "match": "2024-01-01",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "pgsql-10-multiline": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "status:",
+        "index": -1
+      },
+      {
+        "match": "status:",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "pgsql-11-posix-classes": {
     "matches": [
@@ -2437,8 +3174,17 @@
     "error": null
   },
   "pgsql-13-log-timestamp": {
-    "matches": [],
-    "error": "ERROR:  invalid regular expression: quantifier operand invalid"
+    "matches": [
+      {
+        "match": "Jan  1 00:00:00",
+        "index": -1
+      },
+      {
+        "match": "Feb 14 12:34:56",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "quant-exact": {
     "matches": [

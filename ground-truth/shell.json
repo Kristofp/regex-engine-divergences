@@ -36,19 +36,19 @@
   },
   "anchor-end-string": {
     "matches": [],
-    "error": "grep: warning: stray \\ before Z"
+    "error": null
   },
   "anchor-end-string-only": {
     "matches": [],
-    "error": "grep: warning: stray \\ before z"
+    "error": null
   },
   "anchor-match-reset": {
     "matches": [],
-    "error": "grep: warning: stray \\ before K"
+    "error": null
   },
   "anchor-match-start": {
     "matches": [],
-    "error": "grep: warning: stray \\ before G"
+    "error": null
   },
   "anchor-start": {
     "matches": [
@@ -65,15 +65,15 @@
   },
   "anchor-start-string": {
     "matches": [],
-    "error": "grep: warning: stray \\ before A"
+    "error": null
   },
   "backref-named": {
     "matches": [],
-    "error": "grep: warning: stray \\ before k"
+    "error": null
   },
   "backref-numbered": {
     "matches": [],
-    "error": "grep: Invalid back reference"
+    "error": "grep: invalid backreference number"
   },
   "char-class-negated": {
     "matches": [],
@@ -106,11 +106,11 @@
   },
   "char-escape-D": {
     "matches": [],
-    "error": "grep: warning: stray \\ before D"
+    "error": null
   },
   "char-escape-R": {
     "matches": [],
-    "error": "grep: warning: stray \\ before R"
+    "error": null
   },
   "char-escape-S": {
     "matches": [],
@@ -122,11 +122,11 @@
   },
   "char-escape-X": {
     "matches": [],
-    "error": "grep: warning: stray \\ before X"
+    "error": null
   },
   "char-escape-d": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "char-escape-s": {
     "matches": [],
@@ -151,11 +151,11 @@
   },
   "char-unicode-prop": {
     "matches": [],
-    "error": "grep: warning: stray \\ before p"
+    "error": null
   },
   "char-unicode-prop-neg": {
     "matches": [],
-    "error": "grep: warning: stray \\ before P"
+    "error": null
   },
   "choice-simple": {
     "matches": [],
@@ -187,7 +187,7 @@
   },
   "l2-alternation-capture-star": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+    "error": null
   },
   "l2-alternation-different-lengths": {
     "matches": [],
@@ -207,7 +207,7 @@
   },
   "l2-anchor-backref": {
     "matches": [],
-    "error": "grep: Invalid back reference"
+    "error": "grep: invalid backreference number"
   },
   "l2-anchor-class-quantifier": {
     "matches": [],
@@ -219,11 +219,11 @@
   },
   "l2-anchor-lookahead": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l2-anchor-lookbehind": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l2-anchor-neg-lookahead": {
     "matches": [],
@@ -235,15 +235,15 @@
   },
   "l2-backref-alternation-group": {
     "matches": [],
-    "error": "grep: Invalid back reference"
+    "error": "grep: invalid backreference number"
   },
   "l2-backref-in-alternation": {
     "matches": [],
-    "error": "grep: Invalid back reference"
+    "error": "grep: invalid backreference number"
   },
   "l2-backref-in-quantified-group": {
     "matches": [],
-    "error": "grep: Invalid back reference"
+    "error": "grep: invalid backreference number"
   },
   "l2-boundary-alternation-capture": {
     "matches": [],
@@ -267,11 +267,11 @@
   },
   "l2-capture-unicode-named": {
     "matches": [],
-    "error": "grep: warning: stray \\ before p\ngrep: warning: stray \\ before p"
+    "error": null
   },
   "l2-capturing-alternation-backref": {
     "matches": [],
-    "error": "grep: Invalid back reference"
+    "error": "grep: invalid backreference number"
   },
   "l2-capturing-optional": {
     "matches": [],
@@ -291,7 +291,7 @@
   },
   "l2-class-literal-special": {
     "matches": [],
-    "error": "grep: warning: stray \\ before -"
+    "error": null
   },
   "l2-class-negated-quantifier-anchor": {
     "matches": [],
@@ -315,15 +315,15 @@
   },
   "l2-digit-boundary": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l2-digit-boundary-group": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l2-digit-class-quantifier-group": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+    "error": null
   },
   "l2-dot-class-alternation": {
     "matches": [],
@@ -347,7 +347,7 @@
   },
   "l2-double-lookahead": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l2-double-negated-class": {
     "matches": [],
@@ -359,7 +359,7 @@
   },
   "l2-escaped-special": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+    "error": null
   },
   "l2-flag-combo-im": {
     "matches": [
@@ -392,15 +392,15 @@
   },
   "l2-group-backref": {
     "matches": [],
-    "error": "grep: Invalid back reference"
+    "error": "grep: invalid backreference number"
   },
   "l2-group-backref-named": {
     "matches": [],
-    "error": "grep: warning: stray \\ before k"
+    "error": null
   },
   "l2-group-star-anchor-end": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+    "error": null
   },
   "l2-hex-color": {
     "matches": [],
@@ -408,11 +408,11 @@
   },
   "l2-html-tag-pair": {
     "matches": [],
-    "error": "grep: Invalid back reference"
+    "error": "grep: invalid backreference number"
   },
   "l2-log-line": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+    "error": null
   },
   "l2-lookahead-alternation": {
     "matches": [],
@@ -424,7 +424,7 @@
   },
   "l2-lookahead-backref": {
     "matches": [],
-    "error": "grep: Invalid back reference"
+    "error": "grep: invalid backreference number"
   },
   "l2-lookahead-boundary": {
     "matches": [],
@@ -440,19 +440,19 @@
   },
   "l2-lookahead-class-quantifier": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l2-lookahead-lookahead": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l2-lookahead-optional-capture": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l2-lookahead-quantified-group": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+    "error": null
   },
   "l2-lookbehind-alternation": {
     "matches": [],
@@ -480,11 +480,11 @@
   },
   "l2-lookbehind-quantifier": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l2-match-reset-capture": {
     "matches": [],
-    "error": "grep: warning: stray \\ before K"
+    "error": null
   },
   "l2-multiline-anchor-group": {
     "matches": [],
@@ -492,11 +492,11 @@
   },
   "l2-multiple-backrefs": {
     "matches": [],
-    "error": "grep: Invalid back reference"
+    "error": "grep: invalid backreference number"
   },
   "l2-multiple-captures": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+    "error": null
   },
   "l2-multiple-flag-scopes": {
     "matches": [],
@@ -508,7 +508,7 @@
   },
   "l2-named-group-alternation-backref": {
     "matches": [],
-    "error": "grep: warning: stray \\ before k"
+    "error": null
   },
   "l2-named-group-quantifier": {
     "matches": [],
@@ -520,19 +520,19 @@
   },
   "l2-named-groups-alternation": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+    "error": null
   },
   "l2-neg-lookahead-class": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l2-neg-lookahead-neg-lookbehind": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+    "error": null
   },
   "l2-neg-lookbehind-capture": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l2-negated-class-quantifier": {
     "matches": [],
@@ -548,15 +548,15 @@
   },
   "l2-nested-lookaround": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l2-nested-named-groups": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l2-nested-quantifier-class": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l2-nested-quantifiers": {
     "matches": [],
@@ -568,7 +568,7 @@
   },
   "l2-non-backtracking-group": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l2-noncapturing-exact": {
     "matches": [],
@@ -604,7 +604,7 @@
   },
   "l2-possessive-class": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l2-possessive-group-class": {
     "matches": [],
@@ -644,43 +644,43 @@
   },
   "l2-time-pattern": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+    "error": null
   },
   "l2-triple-capture-backref": {
     "matches": [],
-    "error": "grep: Invalid back reference"
+    "error": "grep: invalid backreference number"
   },
   "l2-unicode-case-insensitive": {
     "matches": [],
-    "error": "grep: warning: stray \\ before p"
+    "error": null
   },
   "l2-unicode-category-number": {
     "matches": [],
-    "error": "grep: warning: stray \\ before p"
+    "error": null
   },
   "l2-unicode-digit-boundary": {
     "matches": [],
-    "error": "grep: warning: stray \\ before p"
+    "error": null
   },
   "l2-unicode-group": {
     "matches": [],
-    "error": "grep: warning: stray \\ before p\ngrep: warning: stray \\ before p"
+    "error": null
   },
   "l2-unicode-group-boundary": {
     "matches": [],
-    "error": "grep: warning: stray \\ before p"
+    "error": null
   },
   "l2-unicode-prop-anchor": {
     "matches": [],
-    "error": "grep: warning: stray \\ before p"
+    "error": null
   },
   "l2-unicode-prop-quantifier": {
     "matches": [],
-    "error": "grep: warning: stray \\ before p"
+    "error": null
   },
   "l2-unicode-script": {
     "matches": [],
-    "error": "grep: warning: stray \\ before p"
+    "error": null
   },
   "l2-url-parts": {
     "matches": [],
@@ -688,7 +688,7 @@
   },
   "l2-version-number": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+    "error": null
   },
   "l2-word-boundary-group": {
     "matches": [],
@@ -700,11 +700,11 @@
   },
   "l3-alternation-anchor-escape": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l3-alternation-backref-lazy": {
     "matches": [],
-    "error": "grep: Invalid back reference"
+    "error": "grep: invalid backreference number"
   },
   "l3-atomic-alternation-quantifier": {
     "matches": [],
@@ -712,11 +712,11 @@
   },
   "l3-atomic-backref-anchor": {
     "matches": [],
-    "error": "grep: Invalid back reference"
+    "error": "grep: invalid backreference number"
   },
   "l3-backref-alternation-anchor": {
     "matches": [],
-    "error": "grep: Invalid back reference"
+    "error": "grep: invalid backreference number"
   },
   "l3-capture-inside-lookahead-reuse": {
     "matches": [],
@@ -744,7 +744,7 @@
   },
   "l3-edge-K-with-captures": {
     "matches": [],
-    "error": "grep: warning: stray \\ before K"
+    "error": null
   },
   "l3-edge-alternation-capture-counts": {
     "matches": [],
@@ -765,7 +765,7 @@
   },
   "l3-edge-backref-nonparticipating": {
     "matches": [],
-    "error": "grep: Invalid back reference"
+    "error": "grep: invalid backreference number"
   },
   "l3-edge-case-folding-eszett": {
     "matches": [],
@@ -777,7 +777,7 @@
   },
   "l3-edge-empty-capture-backref": {
     "matches": [],
-    "error": "grep: Invalid back reference"
+    "error": "grep: invalid backreference number"
   },
   "l3-edge-greedy-vs-lazy-capture": {
     "matches": [],
@@ -801,7 +801,7 @@
   },
   "l3-edge-overlapping-capture": {
     "matches": [],
-    "error": "grep: Invalid back reference"
+    "error": "grep: invalid backreference number"
   },
   "l3-edge-possessive-no-backtrack": {
     "matches": [],
@@ -809,7 +809,7 @@
   },
   "l3-edge-unicode-boundary": {
     "matches": [],
-    "error": "grep: warning: stray \\ before p"
+    "error": null
   },
   "l3-edge-variable-lookbehind": {
     "matches": [],
@@ -817,11 +817,11 @@
   },
   "l3-edge-zero-width-quantified": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+    "error": null
   },
   "l3-escape-quant-group-anchor": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+    "error": null
   },
   "l3-flag-multiline-lookahead": {
     "matches": [],
@@ -829,15 +829,15 @@
   },
   "l3-flag-x-comment-group": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l3-group-alternation-escape": {
     "matches": [],
-    "error": "grep: warning: stray \\ before t\ngrep: warning: stray \\ before k"
+    "error": null
   },
   "l3-lookahead-backref-group": {
     "matches": [],
-    "error": "grep: Invalid back reference"
+    "error": "grep: invalid backreference number"
   },
   "l3-lookahead-boundary-quantifier": {
     "matches": [],
@@ -845,11 +845,11 @@
   },
   "l3-lookahead-capture-quantified": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+    "error": null
   },
   "l3-lookahead-lazy-quant-class": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l3-lookahead-lookbehind-capture": {
     "matches": [],
@@ -857,7 +857,7 @@
   },
   "l3-lookahead-negated-class-escape": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l3-lookbehind-dot-quantifier": {
     "matches": [],
@@ -869,15 +869,15 @@
   },
   "l3-lookbehind-unicode-capture": {
     "matches": [],
-    "error": "grep: warning: stray \\ before p\ngrep: warning: stray \\ before p"
+    "error": null
   },
   "l3-multiple-lookaround": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l3-multiple-named-groups-backref": {
     "matches": [],
-    "error": "grep: warning: stray \\ before k\ngrep: warning: stray \\ before k"
+    "error": null
   },
   "l3-named-alt-quantifier-anchor": {
     "matches": [],
@@ -885,7 +885,7 @@
   },
   "l3-named-group-flag-backref": {
     "matches": [],
-    "error": "grep: warning: stray \\ before k"
+    "error": null
   },
   "l3-negated-lookahead-class-quant": {
     "matches": [],
@@ -893,15 +893,15 @@
   },
   "l3-negated-lookbehind-class-boundary": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l3-nested-groups-multi-capture": {
     "matches": [],
-    "error": "grep: Invalid back reference"
+    "error": "grep: invalid backreference number"
   },
   "l3-nested-lookaround-capture": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l3-nested-noncap-quant-lazy": {
     "matches": [],
@@ -917,7 +917,7 @@
   },
   "l3-possessive-class-anchor": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l3-quantified-alt-lookbehind": {
     "matches": [],
@@ -941,11 +941,11 @@
   },
   "l3-real-date-validation": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+    "error": null
   },
   "l3-real-duplicate-words": {
     "matches": [],
-    "error": "grep: Invalid back reference"
+    "error": "grep: invalid backreference number"
   },
   "l3-real-email-lookahead": {
     "matches": [],
@@ -961,7 +961,7 @@
   },
   "l3-real-ipv4-octet": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+    "error": null
   },
   "l3-real-json-string": {
     "matches": [],
@@ -969,7 +969,7 @@
   },
   "l3-real-log-named-groups": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+    "error": null
   },
   "l3-real-markdown-link": {
     "matches": [],
@@ -977,19 +977,19 @@
   },
   "l3-real-password-strength": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l3-real-phone-intl": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+    "error": null
   },
   "l3-real-semver": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+    "error": null
   },
   "l3-real-time-12h": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d"
+    "error": null
   },
   "l3-real-url-optional": {
     "matches": [],
@@ -1009,19 +1009,32 @@
   },
   "l3-unicode-prop-lookaround-quantifier": {
     "matches": [],
-    "error": "grep: warning: stray \\ before p\ngrep: warning: stray \\ before d\ngrep: warning: stray \\ before p"
+    "error": null
   },
   "l3-unicode-script-lookahead-quant": {
     "matches": [],
-    "error": "grep: warning: stray \\ before p"
+    "error": null
   },
   "l3-word-boundary-class-backref": {
     "matches": [],
-    "error": "grep: Invalid back reference"
+    "error": "grep: invalid backreference number"
+  },
+  "lib-ansi-escape-code": {
+    "matches": [
+      {
+        "match": "\u001b[31m",
+        "index": -1
+      },
+      {
+        "match": "\u001b[0m",
+        "index": -1
+      }
+    ],
+    "error": null
   },
   "lib-apache-nginx-common-log-line-split": {
     "matches": [],
-    "error": "grep: warning: stray \\ before d\ngrep: warning: stray \\ before d"
+    "error": null
   },
   "lib-awk-field-separator-csv-field-no-embedded-commas": {
     "matches": [
@@ -1064,6 +1077,19 @@
     ],
     "error": null
   },
+  "lib-base64-string": {
+    "matches": [],
+    "error": null
+  },
+  "lib-blank-or-whitespace-line": {
+    "matches": [
+      {
+        "match": "   ",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
   "lib-bre-backslash-grouping-extract-filename": {
     "matches": [
       {
@@ -1077,6 +1103,18 @@
     ],
     "error": null
   },
+  "lib-cron-expression": {
+    "matches": [],
+    "error": null
+  },
+  "lib-data-uri": {
+    "matches": [],
+    "error": null
+  },
+  "lib-file-extension": {
+    "matches": [],
+    "error": null
+  },
   "lib-find-compatible-hidden-file-filter-ere": {
     "matches": [
       {
@@ -1088,6 +1126,10 @@
         "index": -1
       }
     ],
+    "error": null
+  },
+  "lib-git-commit-sha": {
+    "matches": [],
     "error": null
   },
   "lib-gnu-and-word-boundaries-grep-extension": {
@@ -1107,6 +1149,51 @@
     ],
     "error": null
   },
+  "lib-hashtag-and-mention": {
+    "matches": [],
+    "error": null
+  },
+  "lib-html-comment": {
+    "matches": [],
+    "error": null
+  },
+  "lib-iban": {
+    "matches": [],
+    "error": null
+  },
+  "lib-isbn-13": {
+    "matches": [],
+    "error": null
+  },
+  "lib-jwt-token": {
+    "matches": [],
+    "error": null
+  },
+  "lib-line-comment-double-slash": {
+    "matches": [
+      {
+        "match": "// set x",
+        "index": -1
+      },
+      {
+        "match": "// a",
+        "index": -1
+      }
+    ],
+    "error": null
+  },
+  "lib-mac-address": {
+    "matches": [],
+    "error": null
+  },
+  "lib-port-number": {
+    "matches": [],
+    "error": null
+  },
+  "lib-query-string-param": {
+    "matches": [],
+    "error": null
+  },
   "lib-quoted-string-sed-replace-swap-single-double-quotes": {
     "matches": [
       {
@@ -1122,6 +1209,38 @@
         "index": -1
       }
     ],
+    "error": null
+  },
+  "lib-scientific-notation": {
+    "matches": [],
+    "error": null
+  },
+  "lib-snake-case-identifier": {
+    "matches": [],
+    "error": null
+  },
+  "lib-trailing-whitespace": {
+    "matches": [],
+    "error": null
+  },
+  "lib-uk-postcode": {
+    "matches": [],
+    "error": null
+  },
+  "lib-unix-file-path": {
+    "matches": [],
+    "error": null
+  },
+  "lib-url-slug": {
+    "matches": [],
+    "error": null
+  },
+  "lib-us-zip-code": {
+    "matches": [],
+    "error": null
+  },
+  "lib-windows-path": {
+    "matches": [],
     "error": null
   },
   "lookahead-negative": {
